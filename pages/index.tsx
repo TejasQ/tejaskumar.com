@@ -87,7 +87,11 @@ const App = ({ name, numberOfTejass }) => {
             </A>
           </li>
           <li>
-            <A color="red" target="_blank" href="https://github.com/tejasq">
+            <A
+              color="red"
+              target="_blank"
+              href="https://github.com/TejasQ/tejaskumar.com/edit/master/pages/index.tsx#L107"
+            >
               ADD A COOL VARIANT OF MY NAME
             </A>
           </li>
@@ -104,7 +108,7 @@ const App = ({ name, numberOfTejass }) => {
 
 App.getInitialProps = () => {
   const numberOfTejass = 12;
-  const names = ["ASKUMAR", "MEISTER", "MAN", "ERINO", "IKISTAN", "ANITOR", "UICE", "U", "AREDPALMER", "AX"];
+  const names = /* TEJ */ ["ASKUMAR", "MEISTER", "MAN", "ERINO", "IKISTAN", "ANITOR", "UICE", "U", "AREDPALMER", "AX"];
   const name = names[Math.floor(Math.random() * names.length)];
 
   return { name, numberOfTejass };
