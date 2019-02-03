@@ -78,11 +78,6 @@ const App = ({ name, numberOfTejass }) => {
             </A>
           </li>
           <li>
-            <A target="_blank" href="https://zeit.co/profile/tejask">
-              ZEIT
-            </A>
-          </li>
-          <li>
             <A target="_blank" href="https://github.com/tejasq">
               GITHUB
             </A>
