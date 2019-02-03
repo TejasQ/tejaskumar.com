@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@now/next@canary" }],
+  "routes": [{ "src": "/static/tejass/.*", "headers": { "cache-control": "s-maxage=31557600" } }],
+  "public": true,
+  "regions": ["all"]
+}
