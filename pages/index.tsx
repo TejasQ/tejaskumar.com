@@ -1,6 +1,7 @@
 import { Global } from "@emotion/core";
 import Head from "next/head";
 import React, { useEffect, useRef, useState } from "react";
+import ReactGA from "react-ga";
 
 import A from "../components/A";
 import Container from "../components/Container";
@@ -32,6 +33,11 @@ const App = ({ name, numberOfTejass }) => {
 
     return () => clearTimeout(timeout);
   };
+
+  useEffect(() => {
+    ReactGA.initialize("UA-97872345-2");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   useEffect(() => {
     if (!containerElement) {
