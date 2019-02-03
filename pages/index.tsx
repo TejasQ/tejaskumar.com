@@ -6,6 +6,7 @@ import A from "../components/A";
 import Container from "../components/Container";
 import Nav from "../components/Nav";
 import Title from "../components/Title";
+import names from "../util/tej-variants";
 
 const App = ({ name, numberOfTejass }) => {
   const containerElement = useRef(null);
@@ -90,9 +91,9 @@ const App = ({ name, numberOfTejass }) => {
             <A
               color="red"
               target="_blank"
-              href="https://github.com/TejasQ/tejaskumar.com/edit/master/pages/index.tsx#L107"
+              href="https://github.com/TejasQ/tejaskumar.com/edit/master/util/tej-variants.ts"
             >
-              ADD A COOL VARIANT OF MY NAME
+              ADD A TEJ-VARIANT
             </A>
           </li>
         </ul>
@@ -108,7 +109,6 @@ const App = ({ name, numberOfTejass }) => {
 
 App.getInitialProps = () => {
   const numberOfTejass = 12;
-  const names = /* TEJ */ ["ASKUMAR", "MEISTER", "MAN", "ERINO", "IKISTAN", "ANITOR", "UICE", "U", "AREDPALMER", "AX"];
   const name = names[Math.floor(Math.random() * names.length)];
 
   return { name, numberOfTejass };
