@@ -109,7 +109,7 @@ const App = ({ name, numberOfTejass }) => {
 };
 
 App.getInitialProps = () => {
-  const numberOfTejass = 12;
+  const numberOfTejass = 13;
   const name = names[Math.floor(Math.random() * names.length)];
 
   return { name, numberOfTejass };
