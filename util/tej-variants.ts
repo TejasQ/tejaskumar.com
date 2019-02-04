@@ -9,4 +9,5 @@ export default [
   /* TEJ */ "U",
   /* TEJ */ "AREDPALMER",
   /* TEJ */ "AX",
+  /* TEJ */ "ASCRIPT",
 ];
