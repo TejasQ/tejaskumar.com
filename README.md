@@ -20,7 +20,7 @@ As you move your cursor (desktop) or tap (mobile), [you see different pictures o
 
 ![Current Lighthouse Status](https://raw.githubusercontent.com/TejasQ/tejaskumar.com/master/img/audit.png)
 
-If you're into web performance, let's try to get this site to have a 100% lighthouse score together!
+If you're into [lighthouse metrics](https://developers.google.com/web/tools/lighthouse/), let's try to get this site to have a 100% lighthouse score together!
 
 To help improve it:
 
