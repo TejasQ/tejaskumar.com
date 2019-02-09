@@ -21,11 +21,11 @@ To help improve it:
 
 ### Trolling
 
-This website is meant to be _fun_ and _funny_ and all kinds of wonderful. Here are two things that I use to try and keep it ful.
+This website is meant to be _fun_ and _funny_ and all kinds of wonderful. Here are two ways that I try and keep it fun.
 
 #### Tej-variants
 
-On every load of the web page, a different "nickname" of mine is displayed. I call these "Tej-variants". [See for yourself!](https://tejaskumar.com) You could [add your own](https://github.com/TejasQ/tejaskumar.com/edit/master/util/tej-variants.ts) interesting Tej-variant (like Tejackson or something) if you like.
+On every load of the web page, a different "nickname" of mine is displayed. I call these "Tej-variants". [See for yourself!](https://tejaskumar.com) You could [add your own](https://github.com/TejasQ/tejaskumar.com/edit/master/util/tej-variants.ts) interesting Tej-variant (like **Tejackson** or something) if you like.
 
 #### Photos
 
