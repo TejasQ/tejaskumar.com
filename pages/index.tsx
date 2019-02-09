@@ -94,7 +94,7 @@ const App = ({ name, numberOfTejass }) => {
               target="_blank"
               href="https://github.com/TejasQ/tejaskumar.com#trolling"
             >
-              CONTRIBUTE
+              TROLL/LEARN
             </A>
           </li>
         </ul>
