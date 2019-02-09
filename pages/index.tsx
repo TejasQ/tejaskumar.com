@@ -92,9 +92,9 @@ const App = ({ name, numberOfTejass }) => {
             <A
               color="red"
               target="_blank"
-              href="https://github.com/TejasQ/tejaskumar.com/edit/master/util/tej-variants.ts"
+              href="https://github.com/TejasQ/tejaskumar.com#trolling"
             >
-              ADD A TEJ-VARIANT
+              CONTRIBUTE
             </A>
           </li>
         </ul>
