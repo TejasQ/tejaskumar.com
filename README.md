@@ -6,7 +6,7 @@ Just my personal website, nbd.
 
 ### Tej-variants
 
-On every load of the web page, a different "nickname" of mine is displayed. I call these "Tej-variants". [See for yourself!](https://tejaskumar.com).
+On every load of the web page, a different "nickname" of mine is displayed. I call these "Tej-variants". [See for yourself!](https://tejaskumar.com) You could [add your own](https://github.com/TejasQ/tejaskumar.com/edit/master/util/tej-variants.ts) interesting Tej-variant (like Tejackson or something) if you like.
 
 ### Photos
 
