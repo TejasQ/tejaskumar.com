@@ -16,7 +16,7 @@ You could add a picture of me as weird as you'd like [like this](https://github.
 
 ## Contributing 🚀
 
-<center>![Current Lighthouse Status](https://raw.githubusercontent.com/TejasQ/tejaskumar.com/master/img/audit.png)</center>
+![Current Lighthouse Status](https://raw.githubusercontent.com/TejasQ/tejaskumar.com/master/img/audit.png)
 
 If you're more into performance, let's try to get this site to have a 100% lighthouse score together!
 
