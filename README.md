@@ -10,7 +10,7 @@ On every load of the web page, a different "nickname" of mine is displayed. I ca
 
 ### Photos
 
-As you move your cursor (desktop) or tap (mobile), you see different pictures of me. Including [me as a flower 🌷](https://github.com/TejasQ/tejaskumar.com/blob/master/static/tejass/13.png). You could add a picture of me as weird as you'd like [like this](https://github.com/TejasQ/tejaskumar.com/pull/2/files) and we can have some fun.
+As you move your cursor (desktop) or tap (mobile), [you see different pictures of me](https://tejaskumar.com) Including [me as a flower 🌷](https://github.com/TejasQ/tejaskumar.com/blob/master/static/tejass/13.png). You could add a picture of me as weird as you'd like [like this](https://github.com/TejasQ/tejaskumar.com/pull/2/files) and we can have some fun.
 
 ## Contributing 🚀
 
