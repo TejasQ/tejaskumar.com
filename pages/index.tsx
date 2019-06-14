@@ -89,11 +89,7 @@ const App = ({ name, numberOfTejass }) => {
             </A>
           </li>
           <li>
-            <A
-              color="red"
-              target="_blank"
-              href="https://github.com/TejasQ/tejaskumar.com#trolling"
-            >
+            <A color="red" target="_blank" href="https://github.com/TejasQ/tejaskumar.com#trolling">
               TROLL/LEARN
             </A>
           </li>
@@ -109,7 +105,7 @@ const App = ({ name, numberOfTejass }) => {
 };
 
 App.getInitialProps = () => {
-  const numberOfTejass = 13;
+  const numberOfTejass = 14;
   const name = names[Math.floor(Math.random() * names.length)];
 
   return { name, numberOfTejass };
