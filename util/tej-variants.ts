@@ -11,4 +11,5 @@ export default [
   /* TEJ */ "AX",
   /* TEJ */ "ASCRIPT",
   /* TEJ */ "स कुमार",
+  /* TEJ */ "ANIEVÄKALLIO",
 ];
