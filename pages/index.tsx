@@ -62,6 +62,18 @@ const App = ({ name, numberOfTejass }) => {
             <link key={index} rel="preload" as="image" href={`/static/tejass/${index + 1}.png`} />
           ))}
         <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97872345-2" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-97872345-2');
+`,
+          }}
+        />
       </Head>
       <Global
         styles={{
