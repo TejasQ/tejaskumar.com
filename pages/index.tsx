@@ -61,6 +61,7 @@ const App = ({ name, numberOfTejass }) => {
           .map((_, index) => (
             <link key={index} rel="preload" as="image" href={`/static/tejass/${index + 1}.png`} />
           ))}
+        <meta name="Description" content="This website is meant to be fun and funny and all kinds of wonderful. Here are two ways that I try and keep it fun: photos and Tej-variants" />
         <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97872345-2" />
         <script
