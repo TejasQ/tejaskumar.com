@@ -92,17 +92,17 @@ const App = ({ name, numberOfTejass }) => {
         <ul>
           {/* <li><a href="">TALKS</a></li> */}
           <li>
-            <A color="#38A1F3" target="_blank" href="https://twitter.com/tejaskumar_">
+            <A color="#38A1F3" target="_blank" href="https://twitter.com/tejaskumar_" rel="noopener">
               TWITTER
             </A>
           </li>
           <li>
-            <A target="_blank" href="https://github.com/tejasq">
+            <A target="_blank" href="https://github.com/tejasq" rel="noopener">
               GITHUB
             </A>
           </li>
           <li>
-            <A color="red" target="_blank" href="https://github.com/TejasQ/tejaskumar.com#trolling">
+            <A color="red" target="_blank" href="https://github.com/TejasQ/tejaskumar.com#trolling" rel="noopener">
               TROLL/LEARN
             </A>
           </li>
