@@ -20,8 +20,9 @@ For context, here are a few things you need to know about me:
   today.
 - These mental gymnastics of swinging between _"OMG IM DYING!!!"_ and _"heh, life is pretty great 👍🏾"_ have given me
   prominent [bipolar disorder](https://en.wikipedia.org/wiki/Bipolar_disorder).
-- The nearly dying on and off has given me PTSD. I sometimes panic and think I'm dying even though I'm more or less fine
-  nowadays.
+- The nearly dying on and off has given me
+  [PTSD](https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/symptoms-causes/syc-20355967). I
+  sometimes panic and think I'm dying even though I'm more or less fine nowadays.
 
 ## The Incident
 
