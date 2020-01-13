@@ -104,8 +104,8 @@ dude who threw me off my bike:
 
    The _actual_ solution? Truth.
 
-   I publicly acknowlege that **I probably fall short** in one way or another, either technically or physically or
-   whatever. I'm a flawed human. It is what it is. I'm trying to improve, but it's kind of a
+   I publicly acknowlege that **I fail** in one way or another, either technically or physically or whatever. I'm a
+   flawed human. It is what it is. I'm trying to improve, but it's kind of a
    _[gradient descent](https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html)_ kind of thing. There will
    be error. It's unavoidable and that is okay.
 
