@@ -9,6 +9,7 @@ import { title } from "case";
 
 type Post = {
   content: string;
+  slug: string
 };
 
 const BlogPostPage = ({ post, slug }: { post: Post; slug: string }) => {
@@ -22,7 +23,7 @@ const BlogPostPage = ({ post, slug }: { post: Post; slug: string }) => {
           <meta name="description" content={post.content.split("\n")[2]} />
         </Head>
         <Breadcrumb
-          path={[{ label: "tejaskumar.com", link: "/" }, { label: "blog", link: "/blog" }, { label: slug }]}
+          path={[{ label: "tejaskumar.com", link: "/" }, { label: "blog", link: "/blog" }, { label: post.slug }]}
         ></Breadcrumb>
         <ReactMarkdown escapeHtml={false} source={post.content}></ReactMarkdown>
       </BlogPost>
