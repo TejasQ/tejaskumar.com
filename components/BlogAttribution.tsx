@@ -29,7 +29,7 @@ const BlogAttribution = ({ url }: { url: string }) => (
     </div>
     <div>
       <p>
-        Tejas has a special love humans and code that sometimes finds its way onto this blog and other parts of the
+        Tejas has a special love for humans and code that sometimes finds its way onto this blog and other parts of the
         internet. Say hi on{" "}
         <a href="https://twitter.com/tejaskumar_" rel="noopener" target="_blank">
           twitter
