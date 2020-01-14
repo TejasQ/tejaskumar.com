@@ -1,5 +1,8 @@
 # What I Learned From Getting Pushed Off My Bicycle
 
+This post is about things I learned after being randomly attacked on the streets of Berlin when a stranger pushed me off
+my bicycle.
+
 Last week, [I tweeted](https://twitter.com/TejasKumar_/status/1214970326695710721) about being at my end when someone
 pushed me off my bicycle. I was _genuinely confused_ because I've never experienced such an act of random aggression.
 This, coupled with my mental issues, led me down a depressive spiral wherein I questioned life, humanity, and our
