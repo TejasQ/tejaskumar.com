@@ -16,6 +16,7 @@ const Card = styled.div<{ center?: boolean }>`
     if (center) {
       return `display: grid; align-items: center; justify-content: center;text-align: center;`;
     }
+    return "";
   }}
   :hover {
     transform: translateY(-4px);

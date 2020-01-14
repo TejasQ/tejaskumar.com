@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 type Posts = {
   title: string;
@@ -38,7 +38,7 @@ export const useBlog = () => {
       .then(r => r.json())
       .then(r =>
         setPosts(
-          r.data.repository.object.entries.reverse().map(e => ({
+          r.data.repository.object.entries.reverse().map((e: {name:string,object:{text:string}}) => ({
             title: e.name.replace(".md", ""),
             excerpt:
               e.object.text

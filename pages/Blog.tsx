@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import { title } from "case";
@@ -20,7 +20,7 @@ const Container = styled.div`
   }
 `;
 
-const Blog = ({ blogPosts }) => {
+const Blog = () => {
   const posts = useBlog();
 
   return (
