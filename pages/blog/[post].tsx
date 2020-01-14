@@ -12,7 +12,7 @@ type Post = {
   slug: string
 };
 
-const BlogPostPage = ({ post, slug }: { post: Post; slug: string }) => {
+const BlogPostPage = ({ post }: { post: Post; }) => {
   return (
     post && (
       <BlogPost>

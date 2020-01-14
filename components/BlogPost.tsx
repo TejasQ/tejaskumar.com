@@ -36,6 +36,10 @@ const BlogPost = styled.div`
       background: #fff2;
     }
   }
+
+  @media (min-width: 768px) and (prefers-color-scheme: dark) {
+    margin: 114px auto 0;
+  }
 `;
 
 export default BlogPost;
