@@ -43,7 +43,13 @@ const BlogList = styled.div`
   }
 `;
 
-const App = ({ name, numberOfTejass }: { name: string; numberOfTejass: number }) => {
+const App = ({
+  name,
+  numberOfTejass
+}: {
+  name: string;
+  numberOfTejass: number;
+}) => {
   const posts = useBlog();
   const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
@@ -87,7 +93,10 @@ const App = ({ name, numberOfTejass }: { name: string; numberOfTejass: number })
       if (!containerElement.current) {
         return;
       }
-      containerElement.current.removeEventListener("mousemove", handleMouseMove);
+      containerElement.current.removeEventListener(
+        "mousemove",
+        handleMouseMove
+      );
       window.removeEventListener("shake", handleMouseMove);
     };
   });

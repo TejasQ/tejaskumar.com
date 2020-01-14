@@ -15,7 +15,9 @@ const Separator = styled.span`
   margin: 0 8px;
 `;
 
-const Breadcrumb: FC<{ path: Array<{ label: string; link?: string }> }> = ({ path }) => {
+const Breadcrumb: FC<{ path: Array<{ label: string; link?: string }> }> = ({
+  path
+}) => {
   return (
     <Container>
       {path.map((part, index) =>
@@ -26,7 +28,7 @@ const Breadcrumb: FC<{ path: Array<{ label: string; link?: string }> }> = ({ pat
           </Fragment>
         ) : (
           part.label
-        ),
+        )
       )}
     </Container>
   );

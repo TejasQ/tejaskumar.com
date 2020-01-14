@@ -6,7 +6,8 @@ const Card = styled.div<{ center?: boolean }>`
   box-shadow: 0 6px 8px #0001;
   padding: 24px;
   backdrop-filter: blur(20px);
-  transition: box-shadow 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease,
+    transform 0.3s ease;
   cursor: pointer;
   z-index: 2;
   background-color: #fff;
