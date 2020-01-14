@@ -1,16 +1,11 @@
 import styled from "@emotion/styled";
 
-import { navHeight } from "./Nav";
-
 const BlogPost = styled.div`
   margin: 0 auto;
   max-width: 768px;
   padding: 0 16px;
   font-family: Georgia, serif;
   font-size: 18px;
-  height: calc(100vh - ${navHeight}px);
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
   backdrop-filter: blur(20px);
   border-top: 1px solid #fff2;
   border-left: 1px solid #fff2;
