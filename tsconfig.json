@@ -1,12 +1,26 @@
 {
-  "exclude": ["node_modules", "dist", "lib", "__tests__", "**/*.test*", "**/*.spec*"],
-  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    "__tests__",
+    "**/*.test*",
+    "**/*.spec*"
+  ],
+  "include": [
+    "src"
+  ],
   "compilerOptions": {
     "skipLibCheck": true,
     "target": "es5",
     "module": "esnext",
-    "lib": ["es2015", "dom", "es2016.array.include", "es2017.object", ],
-    "jsx": "react",
+    "lib": [
+      "es2015",
+      "dom",
+      "es2016.array.include",
+      "es2017.object"
+    ],
+    "jsx": "preserve",
     "declaration": true,
     "declarationMap": true,
     "rootDir": "./src",
@@ -20,6 +34,11 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
   }
 }

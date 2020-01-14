@@ -1,8 +1,13 @@
 {
   "version": 2,
   "builds": [{ "src": "package.json", "use": "@now/next@canary" }],
-  "routes": [{ "src": "/static/tejass/.*", "headers": { "cache-control": "s-maxage=31557600" } }],
+  "routes": [{ "src": "/public/tejass/.*", "headers": { "cache-control": "s-maxage=31557600" } }],
   "public": true,
   "regions": ["all"],
-  "alias": ["tejaskumar.com", "www.tejaskumar.com", "xn--pn8hl7g.ws"]
+  "alias": ["tejaskumar.com", "www.tejaskumar.com", "xn--pn8hl7g.ws"],
+  "build": {
+    "env": {
+      "GITHUB_TOKEN": "@github-token"
+    }
+  }
 }
