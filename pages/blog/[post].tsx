@@ -21,7 +21,6 @@ const BlogPostPage = ({ post, slug }: { post: Post; slug: string }) => {
           </title>
           <meta name="description" content={post.content.split("\n")[2]} />
         </Head>
-        {post.content.split("\n")[2]}
         <Breadcrumb
           path={[{ label: "tejaskumar.com", link: "/" }, { label: "blog", link: "/blog" }, { label: slug }]}
         ></Breadcrumb>
