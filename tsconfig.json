@@ -7,9 +7,6 @@
     "**/*.test*",
     "**/*.spec*"
   ],
-  "include": [
-    "src"
-  ],
   "compilerOptions": {
     "skipLibCheck": true,
     "target": "es5",
