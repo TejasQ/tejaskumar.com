@@ -5,11 +5,11 @@ import Link from "next/link";
 import Head from "next/head";
 
 import Title from "../components/Title";
-import { useBlog } from "../hooks/useBlog";
 import names from "../util/tej-variants";
 import Card from "../components/Card";
 import styled from "@emotion/styled";
 import SectionHeading from "../components/SectionHeading";
+import { getInitialBlogPosts, Posts } from "../util/getInitialBlogPosts";
 
 const Container = styled.div`
   width: 100vw;
@@ -43,8 +43,7 @@ const BlogList = styled.div`
   }
 `;
 
-const App = ({ name, numberOfTejass }: { name: string; numberOfTejass: number }) => {
-  const posts = useBlog();
+const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: number; posts: Posts }) => {
   const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
   const [shouldWaitToUpdateTejas, setShouldWaitToUpdateTejas] = useState(false);
@@ -136,11 +135,11 @@ const App = ({ name, numberOfTejass }: { name: string; numberOfTejass: number })
   );
 };
 
-App.getInitialProps = () => {
+App.getInitialProps = async () => {
   const numberOfTejass = 14;
   const name = names[Math.floor(Math.random() * names.length)];
 
-  return { name, numberOfTejass };
+  return { name, numberOfTejass, ...(await getInitialBlogPosts()) };
 };
 
 export default App;
