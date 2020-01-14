@@ -43,7 +43,15 @@ const BlogList = styled.div`
   }
 `;
 
-const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: number; posts: Posts }) => {
+const App = ({
+  name,
+  numberOfTejass,
+  posts
+}: {
+  name: string;
+  numberOfTejass: number;
+  posts: Posts;
+}) => {
   const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
   const [shouldWaitToUpdateTejas, setShouldWaitToUpdateTejas] = useState(false);
@@ -86,7 +94,10 @@ const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: nu
       if (!containerElement.current) {
         return;
       }
-      containerElement.current.removeEventListener("mousemove", handleMouseMove);
+      containerElement.current.removeEventListener(
+        "mousemove",
+        handleMouseMove
+      );
       window.removeEventListener("shake", handleMouseMove);
     };
   });

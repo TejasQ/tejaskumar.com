@@ -21,13 +21,22 @@ class MyDocument extends Document {
       <Html lang="en">
         <Global styles={globalStyles} />
         <Head>
-          <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,900"
+            rel="stylesheet"
+          />
           <link
             href="https://fonts.googleapis.com/css?family=DM+Sans:400,700|Gloria+Hallelujah|Inria+Serif&display=swap"
             rel="stylesheet"
           />
-          <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97872345-2" />
+          <meta
+            name="viewport"
+            content="width=device-width, user-scalable=0, initial-scale=1"
+          />
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-97872345-2"
+          />
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -36,7 +45,7 @@ class MyDocument extends Document {
   gtag('js', new Date());
 
   gtag('config', 'UA-97872345-2');
-`,
+`
             }}
           />
         </Head>
@@ -54,17 +63,31 @@ class MyDocument extends Document {
                 </A>
               </li>
               <li>
-                <A color="#38A1F3" target="_blank" href="https://twitter.com/tejaskumar_" rel="noopener">
+                <A
+                  color="#38A1F3"
+                  target="_blank"
+                  href="https://twitter.com/tejaskumar_"
+                  rel="noopener"
+                >
                   TWITTER
                 </A>
               </li>
               <li>
-                <A target="_blank" href="https://github.com/tejasq" rel="noopener">
+                <A
+                  target="_blank"
+                  href="https://github.com/tejasq"
+                  rel="noopener"
+                >
                   GITHUB
                 </A>
               </li>
               <li>
-                <A color="red" target="_blank" href="https://github.com/TejasQ/tejaskumar.com#trolling" rel="noopener">
+                <A
+                  color="red"
+                  target="_blank"
+                  href="https://github.com/TejasQ/tejaskumar.com#trolling"
+                  rel="noopener"
+                >
                   TROLL/LEARN
                 </A>
               </li>
