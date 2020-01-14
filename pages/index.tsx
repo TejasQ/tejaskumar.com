@@ -97,7 +97,7 @@ const App = ({ name, numberOfTejass }: { name: string; numberOfTejass: number })
       <Head>
         <title>Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
         <meta
-          name="Description"
+          name="description"
           content="Personal website of Tejas Kumar, an award-winning web developer and international speaker."
         />
       </Head>
