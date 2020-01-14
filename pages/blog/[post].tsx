@@ -5,6 +5,7 @@ import Head from "next/head";
 
 import BlogPost from "../../components/BlogPost";
 import Breadcrumb from "../../components/Breadcrumb";
+import { title } from "case";
 
 type Post = {
   content: string;
@@ -31,7 +32,9 @@ const BlogPostPage = () => {
     post && (
       <BlogPost>
         <Head>
-          <title>{post.content.slice(0).replace("# ", "")} : Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
+          <title>
+            {title(post.content.split("\n")[0].replace("# ", ""))} : Tejas Kumar | Speaker, Engineer, JavaScript, Love
+          </title>
         </Head>
         <Breadcrumb
           path={[
