@@ -43,13 +43,7 @@ const BlogList = styled.div`
   }
 `;
 
-const App = ({
-  name,
-  numberOfTejass
-}: {
-  name: string;
-  numberOfTejass: number;
-}) => {
+const App = ({ name, numberOfTejass }: { name: string; numberOfTejass: number }) => {
   const posts = useBlog();
   const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
@@ -93,10 +87,7 @@ const App = ({
       if (!containerElement.current) {
         return;
       }
-      containerElement.current.removeEventListener(
-        "mousemove",
-        handleMouseMove
-      );
+      containerElement.current.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("shake", handleMouseMove);
     };
   });
@@ -105,6 +96,10 @@ const App = ({
     <Container ref={containerElement}>
       <Head>
         <title>Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
+        <meta
+          name="Description"
+          content="Personal website of Tejas Kumar, an award-winning web developer and international speaker."
+        />
       </Head>
       <section className="intro">
         <Title length={name.length}>

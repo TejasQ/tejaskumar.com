@@ -27,6 +27,11 @@ const Blog = () => {
     <>
       <Head>
         <title>Blog : Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
+
+        <meta
+          name="Description"
+          content="Personal blog of Tejas Kumar – an award-winning web developer and international speaker."
+        />
       </Head>
       <Title color="#0002" length={4}>
         BLOG BLOG BLOG BLOG
