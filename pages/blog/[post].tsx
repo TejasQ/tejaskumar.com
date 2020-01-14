@@ -1,7 +1,7 @@
-import { useRouter } from "next/router";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ReactMarkdown from "react-markdown";
 import Head from "next/head";
+import fetch from "node-fetch";
 
 import BlogPost from "../../components/BlogPost";
 import Breadcrumb from "../../components/Breadcrumb";
@@ -11,23 +11,7 @@ type Post = {
   content: string;
 };
 
-const BlogPostPage = () => {
-  const [post, setPost] = useState<Post | null>(null);
-  const router = useRouter();
-
-  useEffect(() => {
-    if (!router.query.post) {
-      return;
-    }
-    fetch(`https://raw.githubusercontent.com/TejasQ/tejaskumar.com/master/blog/${router.query.post}.md`)
-      .then(r => r.text())
-      .then(content =>
-        setPost({
-          content,
-        }),
-      );
-  }, [router.query.post]);
-
+const BlogPostPage = ({ post, slug }: { post: Post; slug: string }) => {
   return (
     post && (
       <BlogPost>
@@ -37,17 +21,22 @@ const BlogPostPage = () => {
           </title>
           <meta name="description" content={post.content.split("\n")[2]} />
         </Head>
+        {post.content.split("\n")[2]}
         <Breadcrumb
-          path={[
-            { label: "tejaskumar.com", link: "/" },
-            { label: "blog", link: "/blog" },
-            { label: String(router.query.post) },
-          ]}
+          path={[{ label: "tejaskumar.com", link: "/" }, { label: "blog", link: "/blog" }, { label: slug }]}
         ></Breadcrumb>
         <ReactMarkdown escapeHtml={false} source={post.content}></ReactMarkdown>
       </BlogPost>
     )
   );
+};
+
+BlogPostPage.getInitialProps = async ({ query }: any) => {
+  const content = await fetch(
+    `https://raw.githubusercontent.com/TejasQ/tejaskumar.com/master/blog/${query.post}.md`,
+  ).then(r => r.text());
+
+  return { post: { content, slug: query.post } };
 };
 
 export default BlogPostPage;
