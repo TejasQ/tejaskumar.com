@@ -1,16 +1,51 @@
-import { Global } from "@emotion/core";
-import Head from "next/head";
 import React, { useEffect, useRef, useState } from "react";
+import { title } from "case";
 import ReactGA from "react-ga";
+import Link from "next/link";
+import Head from "next/head";
 
-import A from "../components/A";
-import Container from "../components/Container";
-import Nav from "../components/Nav";
 import Title from "../components/Title";
+import { useBlog } from "../hooks/useBlog";
 import names from "../util/tej-variants";
+import Card from "../components/Card";
+import styled from "@emotion/styled";
+import SectionHeading from "../components/SectionHeading";
 
-const App = ({ name, numberOfTejass }) => {
-  const containerElement = useRef(null);
+const Container = styled.div`
+  width: 100vw;
+  min-height: 100vh;
+  overflow: auto;
+
+  img {
+    max-width: 100vw;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blog {
+    display: grid;
+    grid-template-rows: min-content auto;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+`;
+
+const BlogList = styled.div`
+  display: grid;
+  gap: 16px;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`;
+
+const App = ({ name, numberOfTejass }: { name: string; numberOfTejass: number }) => {
+  const posts = useBlog();
+  const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
   const [shouldWaitToUpdateTejas, setShouldWaitToUpdateTejas] = useState(false);
 
@@ -43,9 +78,15 @@ const App = ({ name, numberOfTejass }) => {
     if (!containerElement) {
       return;
     }
+    if (!containerElement.current) {
+      return;
+    }
     containerElement.current.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("shake", handleMouseMove);
     return () => {
+      if (!containerElement.current) {
+        return;
+      }
       containerElement.current.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("shake", handleMouseMove);
     };
@@ -55,64 +96,38 @@ const App = ({ name, numberOfTejass }) => {
     <Container ref={containerElement}>
       <Head>
         <title>Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet" />
-        {Array(numberOfTejass)
-          .fill(null)
-          .map((_, index) => (
-            <link key={index} rel="preload" as="image" href={`/static/tejass/${index + 1}.png`} />
-          ))}
-        <meta name="Description" content="This website is meant to be fun and funny and all kinds of wonderful. Here are two ways that I try and keep it fun: photos and Tej-variants" />
-        <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97872345-2" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-97872345-2');
-`,
-          }}
-        />
       </Head>
-      <Global
-        styles={{
-          "html, body": {
-            padding: 0,
-            margin: 0,
-            textRendering: "optimizeLegibility",
-            fontFamily: "Roboto, sans-serif",
-            fontWeight: 400,
-            overflow: "hidden",
-          },
-        }}
-      />
-      <Nav>
-        <ul>
-          {/* <li><a href="">TALKS</a></li> */}
-          <li>
-            <A color="#38A1F3" target="_blank" href="https://twitter.com/tejaskumar_" rel="noopener">
-              TWITTER
-            </A>
-          </li>
-          <li>
-            <A target="_blank" href="https://github.com/tejasq" rel="noopener">
-              GITHUB
-            </A>
-          </li>
-          <li>
-            <A color="red" target="_blank" href="https://github.com/TejasQ/tejaskumar.com#trolling" rel="noopener">
-              TROLL/LEARN
-            </A>
-          </li>
-        </ul>
-      </Nav>
-      <Title length={name.length}>
-        <b>TEJ</b>
-        {name}
-      </Title>
-      <img alt={`Tejas ${currentTejas}`} src={`/static/tejass/${currentTejas}.png`} />
+      <section className="intro">
+        <Title length={name.length}>
+          <b>TEJ</b>
+          {name}
+        </Title>
+        <img
+          style={{ zIndex: 1, background: "transparent" }}
+          alt={`Tejas ${currentTejas}`}
+          src={`/tejass/${currentTejas}.png`}
+        />
+      </section>
+      {posts && (
+        <section className="blog">
+          <SectionHeading>Latest From the Blog</SectionHeading>
+          <BlogList>
+            {posts.slice(0, 1).map(post => (
+              <Link href={`/blog/${post.title}`} key={post.title}>
+                <Card>
+                  <h2>{title(post.title)}&nbsp;&nbsp;👉🏾</h2>
+                </Card>
+              </Link>
+            ))}
+            <Link href={`/blog`}>
+              <Card center>
+                <h2>🚀</h2>
+                <h2>MOAR BLOG POSTS</h2>
+              </Card>
+            </Link>
+          </BlogList>
+        </section>
+      )}
     </Container>
   );
 };
