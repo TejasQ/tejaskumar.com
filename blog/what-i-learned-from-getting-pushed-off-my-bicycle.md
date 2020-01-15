@@ -84,7 +84,7 @@ depressive episodes, in the valleys, where I go looking for hope, truth, meaning
 Here's what came out of my depressive episode, triggered by my hemophilic-bipolar disorder, and amplified by a random
 dude who threw me off my bike:
 
-0. **I should start a blog to collect my thoughts** and share things LOL ![party parrot](https://emojis.slackmojis.com/emojis/images/1471119458/990/party_parrot.gif)
+0. **I should start a blog to collect my thoughts** and share things LOL&nbsp;&nbsp;![party parrot](https://emojis.slackmojis.com/emojis/images/1471119458/990/party_parrot.gif)
 
 1. **I am _thankful_ to have a community of friends who care for my well being.** I have received
    [so](https://twitter.com/gethackteam/status/1215170952876756992)
