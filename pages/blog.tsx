@@ -6,8 +6,10 @@ import styled from "@emotion/styled";
 import Head from "next/head";
 
 import Card from "../components/Card";
+import BlogMeta from "../components/BlogMeta";
 import Title from "../components/Title";
 import { Posts, getInitialBlogPosts } from "../util/getInitialBlogPosts";
+import ReadingTime from "../components/ReadingTime";
 
 const Container = styled.div`
   max-width: 768px;
@@ -17,6 +19,12 @@ const Container = styled.div`
 
   @media (min-width: 768px) {
     margin: 100px auto;
+  }
+`;
+
+const BlogCard = styled(Card)`
+  p {
+    font-family: Georgia, serif;
   }
 `;
 
@@ -36,11 +44,14 @@ const Blog = ({ posts }: { posts: Posts }) => (
       {posts &&
         posts.map(post => (
           <Link key={post.title} href={`/blog/${post.title}`}>
-            <Card>
+            <BlogCard>
               <h2>{title(post.title)}</h2>
+              <BlogMeta>
+                <ReadingTime text={post.body} />
+              </BlogMeta>
               <ReactMarkdown source={post.excerpt} />
               <a href={`/blog/${post.title}`}>Keep reading... 👉🏾</a>
-            </Card>
+            </BlogCard>
           </Link>
         ))}
     </Container>

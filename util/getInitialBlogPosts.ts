@@ -3,6 +3,7 @@ import fetch from "node-fetch";
 export type Posts = {
   title: string;
   excerpt: string;
+  body: string;
 }[];
 
 export const getInitialBlogPosts = async () => {
@@ -36,6 +37,7 @@ export const getInitialBlogPosts = async () => {
     .then(r =>
       r.data.repository.object.entries.reverse().map((e: { name: string; object: { text: string } }) => ({
         title: e.name.replace(".md", ""),
+        body: e.object.text,
         excerpt:
           e.object.text
             .split("\n")

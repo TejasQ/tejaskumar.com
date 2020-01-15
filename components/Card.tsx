@@ -6,12 +6,12 @@ const Card = styled.div<{ center?: boolean }>`
   box-shadow: 0 6px 8px #0001;
   padding: 24px;
   backdrop-filter: blur(20px);
-  transition: box-shadow 0.3s ease, background-color 0.3s ease,
-    transform 0.3s ease;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
   cursor: pointer;
   z-index: 2;
   background-color: #fff;
   border: 1px solid #0002;
+  color: #444;
 
   ${({ center }) => {
     if (center) {
@@ -34,6 +34,7 @@ const Card = styled.div<{ center?: boolean }>`
     background-color: #0002;
     border: 1px solid #fff2;
     box-shadow: 0 6px 8px #0003;
+    color: white;
     :hover {
       box-shadow: 0 12px 32px #0006;
     }

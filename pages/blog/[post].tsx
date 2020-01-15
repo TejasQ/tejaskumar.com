@@ -4,10 +4,12 @@ import Head from "next/head";
 import fetch from "node-fetch";
 
 import BlogPost from "../../components/BlogPost";
+import BlogMeta from "../../components/BlogMeta";
 import Breadcrumb from "../../components/Breadcrumb";
 import { title } from "case";
 import ContentSeparator from "../../components/ContentSeparator";
 import BlogAttribution from "../../components/BlogAttribution";
+import ReadingTime from "../../components/ReadingTime";
 
 type Post = {
   content: string;
@@ -15,6 +17,9 @@ type Post = {
 };
 
 const BlogPostPage = ({ post, blogPostUrl }: { post: Post; blogPostUrl: string }) => {
+  const heading = post.content.split('\n')[0].replace('# ', '')
+  const body = post.content.split('\n').slice(1).join('\n')
+
   return (
     post && (
       <BlogPost>
@@ -27,7 +32,11 @@ const BlogPostPage = ({ post, blogPostUrl }: { post: Post; blogPostUrl: string }
         <Breadcrumb
           path={[{ label: "tejaskumar.com", link: "/" }, { label: "blog", link: "/blog" }, { label: post.slug }]}
         ></Breadcrumb>
-        <ReactMarkdown escapeHtml={false} source={post.content}></ReactMarkdown>
+        <h1>{heading}</h1>
+        <BlogMeta>
+          <ReadingTime text={body} />
+        </BlogMeta>
+        <ReactMarkdown escapeHtml={false} source={body}></ReactMarkdown>
         <ContentSeparator />
         <BlogAttribution url={blogPostUrl} />
       </BlogPost>

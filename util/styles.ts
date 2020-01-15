@@ -37,6 +37,7 @@ export const globalStyles = css`
   h1 {
     font-size: 40px;
     font-weight: bold;
+    margin-bottom: 0;
   }
 
   h3 {
