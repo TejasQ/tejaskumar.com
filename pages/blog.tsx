@@ -43,7 +43,7 @@ const Blog = ({ posts }: { posts: Posts }) => (
     <Container>
       {posts &&
         posts.map(post => (
-          <Link key={post.title} href={`/blog/${post.title}`}>
+          <Link key={post.title} href={`/blog/${post.slug}`}>
             <BlogCard>
               <h2>{title(post.title)}</h2>
               <BlogMeta>
