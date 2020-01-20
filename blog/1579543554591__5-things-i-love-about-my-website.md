@@ -43,7 +43,7 @@ I've tried to keep this website playful and _whimsical_, with the [silly photos 
 |--------|-------|
 | ![An example of the Mac Doc effect](/img/blog/5-things-post/real-dock.gif) | ![An example of a copy of the Mac Doc effect](/img/blog/5-things-post/dock.gif) |
 
-I even created a mouseover effect to mimic the [Mac OSX dock](https://support.apple.com/guide/mac-help/dock-mh35859/mac) in CSS just for fun because _why not_. Let's make it playful and fun. If you have ideas for ways we can continue to boost the whimsy of this website, [let me know on twitter](https://twitter.com/TejasKumar_) and it could be a cool collaboration between us! 😄
+I even created a mouseover effect to mimic the [macOS dock](https://support.apple.com/guide/mac-help/dock-mh35859/mac) in CSS just for fun because _why not_. Let's make it playful and fun. If you have ideas for ways we can continue to boost the whimsy of this website, [let me know on twitter](https://twitter.com/TejasKumar_) and it could be a cool collaboration between us! 😄
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Working on a &lt;ConfettiGeyser&gt; component for my React Europe Whimsy Workshop :D this one&#39;ll be a ton of fun to build. <a href="https://t.co/JlTMUWaxad">pic.twitter.com/JlTMUWaxad</a></p>&mdash; 🌈 Josh (@JoshWComeau) <a href="https://twitter.com/JoshWComeau/status/1126575908754788354?ref_src=twsrc%5Etfw">May 9, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
