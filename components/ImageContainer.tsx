@@ -6,6 +6,8 @@ const ImageContainer = styled.figure`
   border: 1px solid;
   border-color: #0002;
   text-align: center;
+  margin: 0;
+  width: 100%;
 
   figcaption {
     font-size: 13px;
