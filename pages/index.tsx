@@ -43,15 +43,7 @@ const BlogList = styled.div`
   }
 `;
 
-const App = ({
-  name,
-  numberOfTejass,
-  posts
-}: {
-  name: string;
-  numberOfTejass: number;
-  posts: Posts;
-}) => {
+const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: number; posts: Posts }) => {
   const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
   const [shouldWaitToUpdateTejas, setShouldWaitToUpdateTejas] = useState(false);
@@ -94,10 +86,7 @@ const App = ({
       if (!containerElement.current) {
         return;
       }
-      containerElement.current.removeEventListener(
-        "mousemove",
-        handleMouseMove
-      );
+      containerElement.current.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("shake", handleMouseMove);
     };
   });
@@ -127,7 +116,7 @@ const App = ({
           <SectionHeading>Latest From the Blog</SectionHeading>
           <BlogList>
             {posts.slice(0, 1).map(post => (
-              <Link href={`/blog/${post.title}`} key={post.title}>
+              <Link href={`/blog/${post.slug}`} key={post.title}>
                 <Card>
                   <h2>{title(post.title)}&nbsp;&nbsp;👉🏾</h2>
                 </Card>

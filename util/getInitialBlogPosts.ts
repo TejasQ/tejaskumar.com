@@ -4,6 +4,7 @@ export type Posts = {
   title: string;
   excerpt: string;
   body: string;
+  slug: string;
 }[];
 
 export const getInitialBlogPosts = async () => {
@@ -16,7 +17,7 @@ export const getInitialBlogPosts = async () => {
     body: JSON.stringify({
       query: `{
             repository(name: "tejaskumar.com", owner: "TejasQ") {
-                object(expression: "master:blog") {
+                object(expression: "${process.env.BRANCH || "master"}:blog") {
                 ... on Tree {
                     entries {
                     name
@@ -36,8 +37,9 @@ export const getInitialBlogPosts = async () => {
     .then(r => r.json())
     .then(r =>
       r.data.repository.object.entries.reverse().map((e: { name: string; object: { text: string } }) => ({
-        title: e.name.replace(".md", ""),
+        title: e.name.split("__")[1].replace(".md", ""),
         body: e.object.text,
+        slug: e.name.replace(".md", ""),
         excerpt:
           e.object.text
             .split("\n")
