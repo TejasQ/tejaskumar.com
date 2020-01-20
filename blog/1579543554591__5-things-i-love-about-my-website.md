@@ -71,15 +71,17 @@ There are a number of different backends I could use. I could even go _"backendl
 
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Curious: what are y&#39;all&#39;s thoughts on using a static site generator (maybe like <a href="https://twitter.com/gatsbyjs?ref_src=twsrc%5Etfw">@gatsbyjs</a>?) at scale? <br><br>Say for example I have a project with 150k-200k articles. <br><br>What are your thoughts, concerns, etc. about this in terms of build time and deployment?</p>&mdash; Tejas Kumar (@TejasKumar_) <a href="https://twitter.com/TejasKumar_/status/1128028814829936645?ref_src=twsrc%5Etfw">May 13, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    In this case, a static site _could theoretically_ take a [looooooong time](https://twitter.com/monicalent/status/1128030476780937217) to build, which could be problematic. **This is the reason I have not chosen a static site generator.** I love client/server because it scales better and allows more clearly defined, non-blocking boundaries between actors.
+    In this case, a static site _could theoretically_ take a [looooooong time](https://twitter.com/monicalent/status/1128030476780937217) to build, which could be problematic. **This is the reason I have not chosen a static site generator.** I love client/server because it scales better and allows more clearly defined, non-blocking boundaries between components.
 
 3. **Enforced transferrable writing.** Realistically, GitHub has a rate limit. I think it caps out at 5K requests per hour (please don't [DDoS](https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/) me). At some point, I might have to move my blog post writings out of this GitHub repository and somewhere else. How hard will this migration be?
 
     Copy. Paste.
 
-    It's _all text_. Literally, it's [_all markdown_](https://github.com/TejasQ/tejaskumar.com/tree/master/blog). Nothing more, nothing less. The images are externally hosted and can be polyfilled, but besides that, it's text. I can copy these files to any other backend that supports, well, _text_, and nobody will be able to tell anything changed. Having GitHub as my API enforces me writing this way (transferably) and I love it!
+    It's _all text_. Literally, it's [_all markdown_](https://github.com/TejasQ/tejaskumar.com/blob/master/blog/1579543554591__5-things-i-love-about-my-website.md). The images are externally hosted and can be polyfilled, but besides that, it's text. I can copy these files to any other backend that supports, well, _text_, and nobody will be able to tell anything changed. Having GitHub as my API enforces me writing this way (transferably) and I love it!
 
-    In case I outgrow the GitHub backend, I'd consider [Fauna](https://fauna.com/) or similar as a DB. It supports text.
+    In case I outgrow the GitHub backend, I'd consider [Fauna](https://fauna.com/) or similar as a DB. 
+    
+    It supports text.
 
 ## 5. It is community driven
 
