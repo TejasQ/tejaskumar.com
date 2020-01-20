@@ -13,6 +13,24 @@ const BlogPost = styled.div`
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 
+  img {
+    max-width: 100%;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  th {
+    background: #fff;
+  }
+
+  th,
+  td {
+    border: 1px solid #0003;
+    padding: 8px;
+  }
+
   h2 {
     margin-top: 40px;
     ::after {
@@ -34,6 +52,14 @@ const BlogPost = styled.div`
 
     h2::after {
       background: #fff2;
+    }
+    th {
+      background: #0005;
+    }
+
+    th,
+    td {
+      border: 1px solid #0005;
     }
   }
 
