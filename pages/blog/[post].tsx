@@ -52,7 +52,17 @@ const BlogPostPage = ({ post, blogPostUrl }: { post: Post; blogPostUrl: string }
   );
 };
 
-BlogPostPage.getInitialProps = async ({ query, req }: any) => {
+BlogPostPage.getInitialProps = async ({ query, req, res }: any) => {
+  if (!query.post.includes("__")) { 
+    if(query.post.includes("bicycle")) {
+      // It's the first blog post that isn't a placeholder. Redirect.
+      res.writeHead(301, { Location: "/blog/1579078596000__what-i-learned-from-getting-pushed-off-my-bicycle" });
+      res.end()
+      return;
+    }
+
+    res.writeHead(302, { Location: "/blog"})
+}
   const content = await fetch(
     `https://raw.githubusercontent.com/TejasQ/tejaskumar.com/${process.env.BRANCH || "master"}/blog/${query.post}.md`,
   ).then(r => r.text());
