@@ -1,10 +1,10 @@
 # 5 things I love about my website (and how they're built)
 
-This website is home to certain tech and web dev goodies that make me very happy. This post is about what they are, and how they work. 
+This site is home to certain tech and web dev goodies that make me very happy. This post is about what they are, and how they work. 
 
 ## 1. It follows light/dark mode based on your preference
 
-While most websites these days come with some type of dark/light mode toggle switch, this website serves you content based on the setting that you've set on your system: if you use your phone/computer in dark mode, you get dark mode. If you use it in light mode, you get light mode.
+While most websites these days come with some type of dark/light mode toggle switch, I serve you content based on the setting that you've set on your system: if you use your phone/computer in dark mode, you get dark mode. If you use it in light mode, you get light mode.
 
 ![An example of dark mode switching on macOS](/img/blog/5-things-post/darkmode.gif)
 
@@ -12,13 +12,13 @@ This is made possible by the powerful [`prefers-color-scheme` media query in CSS
 
 ## 2. It is a dream to develop
 
-This website is built with [React](https://reactjs.org/) and [ZEIT](https://zeit.co/)'s popular framework [Next.js](https://nextjs.org/), which honestly is such a dream to work with. 😍 Next.js' opinionated-ness as a framework takes a lot of the mental overhead of structuring my website away from me and, in many ways, _"just works"_. What's even better, is it's all magically ✨ server-rendered out-of-the-box, without extra work from me so search engines can pick it up and people can find it!
+This website is built with [React](https://reactjs.org/) and [ZEIT](https://zeit.co/)'s popular framework [Next.js](https://nextjs.org/), which honestly is such a dream to work with. 😍 Next.js' opinionated-ness as a framework takes a lot of the mental overhead of structuring things away from me and, in many ways, _"just works"_. What's even better, is it's all magically ✨ server-rendered out-of-the-box, without extra work from me so search engines can pick it up and people can find it!
 
 ![An example of NON-server rendering](/img/blog/5-things-post/clientrender.gif)
 
 ### Server Rendering
 
-What is server rendering? It's when a website is _"rendered"_ (think, _drawn_) on the server and then delivered to a browser. This way, you get the content _immediately_ from a _server_. This is a bit different than how many websites work on the web today. If you've ever opened up a website and seen spinners immediately before your content, it's quite likely that that website was _not_ server rendered: it was _"drawn"_ (or _rendered_) in your browser (AKA the client, AKA _not_ a server).
+What is server rendering? It's when a site is _"rendered"_ (think, _drawn_) on the server and then delivered to a browser. This way, you get the content _immediately_ from a _server_. This is a bit different than how many websites work on the web today. If you've ever opened up a website and seen spinners immediately before your content, it's quite likely that it was _not_ server rendered: it was _"drawn"_ (or _rendered_) in your browser (AKA the client, AKA _not_ a server).
 
 The benefit of server-rendering for me is:
 - You get your content immediately, instead of spinners
@@ -39,7 +39,7 @@ What a time to be alive. 😍
 
 I've tried to keep this website playful and _whimsical_, with the [silly photos of me](https://github.com/TejasQ/tejaskumar.com/blob/master/public/tejass/13.png) and [odd nicknames](https://github.com/TejasQ/tejaskumar.com/blob/master/util/tej-variants.ts). I feel like we can all sometimes get too serious. I'd like my little corner of the internet to be fun and not so [_langweilig_](https://www.google.com/search?rlz=1C5CHFA_enDE756DE756&ei=6PMlXt-LAoH6kwXZp5zoBQ&q=langweilig+in+english).
 
-| Real Mac Dock | This website |
+| Real Mac Dock | My Dock |
 |--------|-------|
 | ![An example of the Mac Doc effect](/img/blog/5-things-post/real-dock.gif) | ![An example of a copy of the Mac Doc effect](/img/blog/5-things-post/dock.gif) |
 
@@ -57,7 +57,7 @@ I've had a number of conversations that go like this:
 
 I've had this conversation with myself often. As with most things, I'd like to employ the KISS (Keep It Simple and Spectacular) principle.
 
-I'm a huge fan of the [JAMStack](https://jamstack.org/): the **JavaScript**, **APIs**, **Markup** stack. That's entirely how this website works:
+I'm a huge fan of the [JAMStack](https://jamstack.org/): the **JavaScript**, **APIs**, **Markup** stack. That's entirely how this site works:
 
 - the interactivity of this page is provided by **JavaScript**,
 - via [GitHub's GraphQL **API**](https://github.com/TejasQ/tejaskumar.com/blob/111ae18633d2fd16aab9fdfaf9ccdba127d86302/util/getInitialBlogPosts.ts#L10), it retrieves [blog posts contained in this repo](https://github.com/TejasQ/tejaskumar.com/tree/master/blog) written in [markdown](https://en.wikipedia.org/wiki/Markdown), and finally
@@ -85,7 +85,7 @@ There are a number of different backends I could use. I could even go _"backendl
 
 ## 5. It is community driven
 
-Did Tejas build this website? Kind of. Tejas built this website with [these wonderful people](https://github.com/TejasQ/tejaskumar.com/graphs/contributors). It's a team effort! This website is community driven.
+Did Tejas build this site? Kind of. Tejas built this with [these wonderful people](https://github.com/TejasQ/tejaskumar.com/graphs/contributors). It's a team effort! This website is community driven.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">📣 I have some stuff I want to add to my website. <br><br>I would like to help underrep’d people in tech and/or newcomers. Let’s build these together! 🙌🏾<br><br>1) 🍔 Burger menu for mobile<br>2) 🎙 Talks section<br><br>👨🏾‍💻 If you want to learn to code, please reach out.<br><br>I want to help you succeed.</p>&mdash; Tejas Kumar (@TejasKumar_) <a href="https://twitter.com/TejasKumar_/status/1217839590213660673?ref_src=twsrc%5Etfw">January 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
