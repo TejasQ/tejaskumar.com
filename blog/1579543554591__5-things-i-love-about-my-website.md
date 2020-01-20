@@ -8,7 +8,7 @@ While most websites these days come with some type of dark/light mode toggle swi
 
 ![An example of dark mode switching on macOS](/img/blog/5-things-post/darkmode.gif)
 
-This is made possible by the powerful [`prefers-color-scheme` media query in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme). Here's a code sample that makes that possible.
+This is made possible by the powerful [`prefers-color-scheme` media query in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme). [Here's a code sample that makes that possible](https://github.com/TejasQ/tejaskumar.com/blob/d96da38f6fbb32c4b1be760d95d5226f4f482fe7/components/BlogPost.tsx#L49-L64).
 
 ## 2. It is a dream to develop
 

@@ -1,4 +1,5 @@
 import fetch from "node-fetch";
+import { getBlogPostTitleFromFileName } from "./getBlogPostTitleFromFileName";
 
 export type Posts = {
   title: string;
@@ -37,7 +38,7 @@ export const getInitialBlogPosts = async () => {
     .then(r => r.json())
     .then(r =>
       r.data.repository.object.entries.reverse().map((e: { name: string; object: { text: string } }) => ({
-        title: e.name.split("__")[1].replace(".md", ""),
+        title: getBlogPostTitleFromFileName(e.name),
         body: e.object.text,
         slug: e.name.replace(".md", ""),
         excerpt:
