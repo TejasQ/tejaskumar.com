@@ -117,7 +117,7 @@ const App = ({ name, numberOfTejass }) => {
   );
 };
 
-App.getInitialProps = () => {
+App.getInitialProps = async () => {
   const numberOfTejass = 15;
   const name = names[Math.floor(Math.random() * names.length)];
 
