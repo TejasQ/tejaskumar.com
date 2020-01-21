@@ -8,7 +8,6 @@ import Container from "../components/Container";
 import Nav from "../components/Nav";
 import Title from "../components/Title";
 import names from "../util/tej-variants";
-import attributions from "../util/tej-attributions"
 
 const App = ({ name, numberOfTejass }) => {
   const containerElement = useRef(null);
@@ -113,7 +112,7 @@ const App = ({ name, numberOfTejass }) => {
         <b>TEJ</b>
         {name}
       </Title>
-      <img alt={`Tejas ${currentTejas} ${attributions[currentTejas] || ""}`} src={`/static/tejass/${currentTejas}.png`} />
+      <img alt={`Tejas ${currentTejas}`} src={`/static/tejass/${currentTejas}.png`} />
     </Container>
   );
 };
