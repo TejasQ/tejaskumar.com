@@ -136,7 +136,7 @@ const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: nu
 };
 
 App.getInitialProps = async () => {
-  const numberOfTejass = 14;
+  const numberOfTejass = 15;
   const name = names[Math.floor(Math.random() * names.length)];
 
   return { name, numberOfTejass, ...(await getInitialBlogPosts()) };
