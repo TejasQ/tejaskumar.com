@@ -37,6 +37,8 @@ To put it succinctly, my experience working on-site looked a lot like this:
 
 I should say that this isn’t targeted to one specific employer or work environment. This is pretty much the pattern I’ve seen in most working environments that were bound to an office location.
 
+Sure, there weren't planning meetings _every day_, and some days, I was able to get a satisfying amount of work done, but by and large, interruptions happened far more than I would have preferred and finding focus was often quite challenging.
+
 ## Remote work in a nutshell 
 
 What does remote work look like, expressed as bullet points? How does it compare? This is what I’ve experienced over the last 2 months:
