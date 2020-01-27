@@ -56,7 +56,9 @@ What does remote work look like? How does it compare? This is what I’ve experi
 * Go to bed satisfied. 
 * Repeat. 
 
-To be clear, I find meetings _good_, especially pair programming and mentorship. I especially appreciate them
+To be clear, I find meetings _good_, especially pair programming and mentorship. I especially appreciate them because they bring us _together_ and give us a shared sense of responsibility. What I find a little hard are _spontaneous_ meetings: I've often worked in open offices and got summoned quite a lot either directly (hey there!) or indirectly (people talking and my ears following). 
+
+_"Just get noise-cancelling headphones"_ doesn't help in this case because there are more environmental factors than auditory ones.
 
 ## Remote work: the not-so-incredible parts
 
