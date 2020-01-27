@@ -89,14 +89,14 @@ To combat this, I've resolved to wake up at 7am every day – no matter what. My
 - fall asleep at 11pm
 - repeat
 
-With this, my body seems to be happy and I get the benefits of regular daily exercise, while also meeting my work goals. This appears to be some type of golden ratio that I've found recently and I think things are more or less _pretty freaking great_ around now.
+With this, my body seems to be happy and I get the benefits of regular daily exercise, while also meeting my work goals. This appears to be some type of golden ratio that I've found recently. Things are more or less _pretty freaking great_ these days.
 
 Do you have any other tips for me? [Let me know!](https://twitter.com/tejaskumar_)
 
 ## It’s not binary 
 
-I must add, all of what I've said so far is speaking only of _my experience_ (and my experience _so far_) with remote work. I have never worked a remote job before in my life and these are preliminary findings. I wouldn’t be surprised if there’s a whole other side to this coin that I have not yet seen. 
+I must add &mdash; all of what I've said is speaking only of _my experience_ (and my experience _so far_) with remote work. I have never worked a remote job before in my life and these are preliminary findings. I'm sure there's a lot more nuance to it that I have yet to discover.
 
-I’m sure it’s not entirely binary, but a spectrum of good and bad. 
+I’m sure it’s not entirely binary, but a spectrum of tradeoffs, as are most things in life.
 
 What do you think? Do you agree with me? Do you disagree? What was your experience like? I’d love to hear your perspective. Let me know on [twitter](https://twitter.com/tejaskumar_). 
