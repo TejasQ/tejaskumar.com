@@ -4,7 +4,7 @@ Two months ago, I started a new job at [G2i](https://g2i.co/) that is fully remo
 
 ## Prior Art
 
-In all my on-site desk jobs, I’ve often struggled with self care: I rarely had the chance to get enough sleep, and when I did, it was seldom stress-free. Morning meetings would ruin the night before, and location-sensitive events would interrupt the regular working day. The result? Less-than-happy Tejas. 
+In my previous on-site desk jobs, I’ve often struggled with self care: I rarely had the chance to get enough sleep, and when I did, it was seldom stress-free. Morning meetings would ruin the night before, and location-sensitive events would interrupt the regular working day. The result? Less-than-happy Tejas. 
 
 ## On-site work in a nutshell
 
@@ -41,7 +41,7 @@ Sure, there weren't planning meetings _every day_, and some days, I was able to 
 
 ## Remote work in a nutshell 
 
-What does remote work look like, expressed as bullet points? How does it compare? This is what I’ve experienced over the last 2 months:
+What does remote work look like? How does it compare? This is what I’ve experienced over the last 2 months:
 
 * Wake up, all my coworkers are asleep.
 * Make coffee just the way I like it at home. ☕️😌
@@ -55,6 +55,8 @@ What does remote work look like, expressed as bullet points? How does it compare
 * Encourage some of them to go about their day well. 
 * Go to bed satisfied. 
 * Repeat. 
+
+To be clear, I find meetings _good_, especially pair programming and mentorship. I especially appreciate them
 
 ## Remote work: the not-so-incredible parts
 
