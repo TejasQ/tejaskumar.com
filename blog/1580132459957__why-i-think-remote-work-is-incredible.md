@@ -66,7 +66,7 @@ While it's been mostly positives, I've also struggled with remote work in some p
 
 - hmmm I bet I can do this
 - _get focused_
-_ _get in the zone_
+- _get in the zone_
 - it's 3am?!
 - sleep
 - wake up at noon
