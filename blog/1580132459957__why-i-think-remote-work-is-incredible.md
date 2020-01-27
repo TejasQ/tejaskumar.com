@@ -56,12 +56,39 @@ What does remote work look like, expressed as bullet points? How does it compare
 
 ## Remote work: the not-so-incredible parts
 
-While it's been mostly positives, I've also struggled with 
+While it's been mostly positives, I've also struggled with remote work in some places: for example,
 
+- hmmm I bet I can do this
+- _get focused_
+- it's 3am?!
+- sleep
+- wake up at noon
+- struggle to sleep at 10pm or a more "reasonable" time
+- lose sight of a normal lifestyle
+- insomnia
+- (unhealthy) weight gain
+- etc.
+
+It all centers around losing some type of rhythm. It seems to me we have an internal clock that _reeeeeally_ doesn't like to be disturbed. Kind of like how taking long flights _wrecks_ us even though we don't do much but sit around on a plane ✈️ for 14 hours.
+
+To combat this, I've resolved to wake up at 7am every day – no matter what. My routine for the past few days has been:
+
+- wake up at 7am
+- work out
+- start work around 10am
+- stop work around 7pm
+- enjoy my evening
+- go to bed and chill with netflix or something around 9pm
+- fall asleep at 11pm
+- repeat
+
+With this, my body seems to be happy and I get the benefits of regular daily exercise, while also meeting my work goals. This appears to be some type of golden ratio that I've found recently and I think things are more or less _pretty freaking great_ around now.
+
+Do you have any other tips for me? [Let me know!](https://twitter.com/tejaskumar_)
 
 ## It’s not binary 
 
-This is speaking only of my experience (and my experience _so far_) with remote work. I have never worked a remote job before in my life and these are preliminary findings. I wouldn’t be surprised if there’s a whole other side to this coin that I have not yet seen. 
+I must add, all of what I've said so far is speaking only of _my experience_ (and my experience _so far_) with remote work. I have never worked a remote job before in my life and these are preliminary findings. I wouldn’t be surprised if there’s a whole other side to this coin that I have not yet seen. 
 
 I’m sure it’s not entirely binary, but a spectrum of good and bad. 
 
