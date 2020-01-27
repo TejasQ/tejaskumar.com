@@ -4,22 +4,20 @@ Two months ago, I started a new job at [G2i](https://g2i.co/) that is fully remo
 
 ## Prior Art
 
-In all my on-site desk jobs, I’ve often struggled with self care: I rarely had the chance to get enough sleep, and when I did, it was seldom stress-free. 
-
-Morning meetings would ruin the night before, and location-sensitive events would interrupt the regular working day. The result? Less-than-happy Tejas. 
+In all my on-site desk jobs, I’ve often struggled with self care: I rarely had the chance to get enough sleep, and when I did, it was seldom stress-free. Morning meetings would ruin the night before, and location-sensitive events would interrupt the regular working day. The result? Less-than-happy Tejas. 
 
 ## On-site work in a nutshell
 
-To put it succinctly, my experience working on-site was so:
+To put it succinctly, my experience working on-site looked a lot like this:
 
-* Go to bed stressing out about waking up on time and making the morning Standup
+* Go to bed stressing out about waking up on time and making the morning standup
 * Can’t sleep because I REALLY WANT TO FALL ASLEEP right now
 * Wake up unrested, continue to stress out about being on time
 * Get to the office on time to find out the morning meeting moved
-* Ok, at least there’s free coffee 
+* Ok, at least there’s free coffee ☕️
 * Start coding 
-* Ah, it’s time for the [probably unneeded] meeting
-* *talk talk talk^
+* Ah, it’s time for the (probably unneeded) meeting
+* _talk talk talk_
 * Okay where was I 
 * Start coding 
 * Oh it’s time for lunch
@@ -43,20 +41,22 @@ I should say that this isn’t targeted to one specific employer or work environ
 
 What does remote work look like, expressed as bullet points? How does it compare? This is what I’ve experienced over the last 2 months:
 
-* Wake up, all my coworkers are asleep
-* Make coffee just the way I like it at home 😌
-* Focused, uninterrupted work because it’s like 4am where most of my coworkers are 
-* OK things are green. Time to commit. 
-* Hm. It’s beautiful outside. Let’s go to the gym. 
+* Wake up, all my coworkers are asleep.
+* Make coffee just the way I like it at home. ☕️😌
+* Focused, uninterrupted work because it’s like 4am where most of my coworkers are. 
+* OK things are green. ✅ Time to commit and push. 🚀 
+* Hm. It’s beautiful outside. Let’s go to the gym. 💪🏾🚴🏾‍♂️
 * Ok, back to work. 
 * Focused, quality work time. 
-* Around 5pm: time for meetings!
+* Around 5pm, people have woken up and are working. It's time for meetings!
 * Finish the day talking to people I appreciate after feeling like I contributed meaningful code.
 * Encourage some of them to go about their day well. 
 * Go to bed satisfied. 
 * Repeat. 
 
 ## Remote work: the not-so-incredible parts
+
+While it's been mostly positives, I've also struggled with 
 
 
 ## It’s not binary 
