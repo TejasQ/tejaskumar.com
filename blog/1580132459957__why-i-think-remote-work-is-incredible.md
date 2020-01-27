@@ -62,10 +62,11 @@ _"Just get noise-cancelling headphones"_ doesn't help in this case because there
 
 ## Remote work: the not-so-incredible parts
 
-While it's been mostly positives, I've also struggled with remote work in some places: for example,
+While it's been mostly positives, I've also struggled with remote work in some places. For example,
 
 - hmmm I bet I can do this
 - _get focused_
+_ _get in the zone_
 - it's 3am?!
 - sleep
 - wake up at noon
