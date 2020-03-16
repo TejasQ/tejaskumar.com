@@ -25,7 +25,7 @@ Making hard calls, conference organisers are opting to do the [right thing](http
 prevent the spread of this novel coronavirus: from outright cancelling conferences for the foreseeable future, to moving
 to a _remote model_ where speakers present via video conferencing.
 
-> So Tejas, would you speak at [insert name of remote conference]?
+> So Tejas, would you speak at {{insert name of remote conference}}?
 
 After asking around on Twitter to see what people generally think, there are a number of differing opinions on the
 matter. All valid, all good.
