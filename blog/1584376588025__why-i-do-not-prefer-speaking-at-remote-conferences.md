@@ -24,7 +24,7 @@ to disrupt the world and shut down travel, education, and economy.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🧐 2019 in review, geographically.<br><br>🚩12 countries<br>🚶🏾 705km walked<br>🚲 675km bicycled<br>🚞 4,092km on trains/cars <br><br>Total travel distance: 62,007km, or<br>🌏 1.5x around the Earth<br><br>🙏🏾 Thankful every day for the gift that is my life. 🔥❤️ <a href="https://t.co/7GSutezjAl">pic.twitter.com/7GSutezjAl</a></p>&mdash; tejas (@TejasKumar_) <a href="https://twitter.com/TejasKumar_/status/1214955885254103040?ref_src=twsrc%5Etfw">January 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Making hard calls, conference organisers are opting to do the [right thing](https://staythefuckhome.com/) in order to
+Making hard calls, conference organizers are opting to do the [right thing](https://staythefuckhome.com/) in order to
 prevent the spread of this novel coronavirus: from outright cancelling conferences for the foreseeable future, to moving
 to a _remote model_ where speakers present via video conferencing.
 
