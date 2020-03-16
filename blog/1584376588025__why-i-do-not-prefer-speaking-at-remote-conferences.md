@@ -18,7 +18,7 @@ I travel a lot. I speak at a lot of conferences [all](https://www.youtube.com/wa
 [technology](https://www.youtube.com/watch?v=f2mMOiCSj5c&feature=youtu.be),
 [management](https://www.youtube.com/watch?v=rdiUFma8QJU), [health](https://www.youtube.com/watch?v=TUIcTl9Hto4) and
 other topics. At the time of writing, I have around 20 speaking engagements planned in about 16 different cities across
-the globe. I had every intention to speak at all of them this until
+the globe. I had every intention to speak at all of them until
 [something so small](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) that we can't even _see_ started
 to disrupt the world and shut down travel, education, and economy.
 
