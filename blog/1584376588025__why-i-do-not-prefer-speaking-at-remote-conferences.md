@@ -52,7 +52,7 @@ hanging back at the venue; topics ranging from hope, webpack, pair programming, 
 
 I really enjoyed hearing [Deshi](https://twitter.com/deshiknaves)'s story of how he grew up in third-culture
 circumstances as I did, or [Jan](https://twitter.com/jansche)'s incredible story of
-[how we turned himself into a cyborg](https://www.youtube.com/watch?v=Sm9BjqfgPNM) for an optimal quality of life.
+[how he turned himself into a cyborg](https://www.youtube.com/watch?v=Sm9BjqfgPNM) for an optimal quality of life.
 
 Whether you want to admit it or not, there's something of a human soul in and around these personal interactions that is
 somehow lost on video calls. I am here for this personal connection more than much else.
