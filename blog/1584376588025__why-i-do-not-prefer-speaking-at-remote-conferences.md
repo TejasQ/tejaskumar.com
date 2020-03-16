@@ -3,9 +3,6 @@
 I have spoken at a number of international conferences. In the wake of COVID-19 and the novel coronavirus (SARS-CoV-2),
 this blog post outlines my thoughts on remote speaking engagements held over video-conferencing platforms.
 
-<meta name="og:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" />
-<meta name="twitter:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" />
-
 I've got to start by saying – I love you.
 
 You, the person reading this.
@@ -79,3 +76,6 @@ video-conferencing ever. I will evaluate each engagement on a case-by-case basis
 I really look forward to this pandemic being over and things going back to normal – where physical, _real_ human faces,
 voices, stories, and experiences are able to be exchanged once again. I truly believe these interactions make all
 parties involved far richer than they were prior.
+
+<meta name="og:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" />
+<meta name="twitter:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" />
