@@ -3,6 +3,9 @@
 I have spoken at a number of international conferences. In the wake of COVID-19 and the novel coronavirus (SARS-CoV-2),
 this blog post outlines my thoughts on remote speaking engagements held over video-conferencing platforms.
 
+<meta name="og:image" content="https://pbs.twimg.com/media/ETM2WEAU4AAh_Gu?format=jpg&name=900x900" />
+<meta name="twitter:image" content="https://pbs.twimg.com/media/ETM2WEAU4AAh_Gu?format=jpg&name=900x900" />
+
 I've got to start by saying – I love you.
 
 You, the person reading this.
