@@ -27,6 +27,9 @@ const BlogPostPage = ({ post, blogPostUrl }: { post: Post; blogPostUrl: string }
       <BlogPost>
         <Head>
           <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@tejaskumar_" />
+          <meta name="twitter:title" content={title(post.content.split("\n")[0].replace("# ", ""))} />
+          <meta name="twitter:description" content={post.content.split("\n")[2]} />
           {body.match(/<meta name="(.*)" content="(.*)" \/>/gmi)?.map(r => r.match(/<meta name="(.*)" content="(.*)" \/>/mi)).map((m) => m&& (<meta name={m[1]} content={m[2]} />) ) ?? null}
           <title>
             {title(post.content.split("\n")[0].replace("# ", ""))} : Tejas Kumar | Speaker, Engineer, JavaScript, Love
