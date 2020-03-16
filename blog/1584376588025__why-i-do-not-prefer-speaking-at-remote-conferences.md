@@ -77,5 +77,5 @@ I really look forward to this pandemic being over and things going back to norma
 voices, stories, and experiences are able to be exchanged once again. I truly believe these interactions make all
 parties involved far richer than they were prior.
 
-<meta name="og:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" />
-<meta name="twitter:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" />
+<!-- <meta name="og:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" />
+<meta name="twitter:image" content="https://pbs.twimg.com/media/ES8jOiCWsAA4iDy?format=jpg&name=medium" /> -->
