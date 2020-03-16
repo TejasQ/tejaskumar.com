@@ -26,6 +26,7 @@ const BlogPostPage = ({ post, blogPostUrl }: { post: Post; blogPostUrl: string }
     post && (
       <BlogPost>
         <Head>
+          {body.match(/<meta name="(.*)" content="(.*)" \/>/gmi)?.map(r => r.match(/<meta name="(.*)" content="(.*)" \/>/mi)).map((m) => m&& (<meta name={m[1]} content={m[2]} />) ) ?? null}
           <title>
             {title(post.content.split("\n")[0].replace("# ", ""))} : Tejas Kumar | Speaker, Engineer, JavaScript, Love
           </title>
