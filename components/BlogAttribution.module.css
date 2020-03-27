@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 150px auto;
+    gap: 32px;
+  }
+}
+
+.container img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container img {
+    width: 100%;
+  }
+}

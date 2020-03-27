@@ -1,10 +1,5 @@
 {
   "version": 2,
   "public": true,
-  "alias": ["tejaskumar.com", "www.tejaskumar.com", "xn--pn8hl7g.ws"],
-  "build": {
-    "env": {
-      "GITHUB_TOKEN": "@github-token"
-    }
-  }
+  "alias": ["tejaskumar.com", "www.tejaskumar.com", "xn--pn8hl7g.ws"]
 }

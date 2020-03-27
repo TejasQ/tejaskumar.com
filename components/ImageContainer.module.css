@@ -1,0 +1,25 @@
+.figure {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #0002;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.figure figcaption {
+  font-size: 13px;
+  font-style: italic;
+  color: #555;
+  margin-top: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .figure {
+    border-color: #fff1;
+  }
+  .figure figcaption {
+    color: #ccc;
+  }
+}

@@ -1,0 +1,45 @@
+.card {
+  max-width: 768px;
+  border-radius: 4px;
+  box-shadow: 0 6px 8px #0001;
+  padding: 24px;
+  backdrop-filter: blur(20px);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease,
+    transform 0.3s ease;
+  cursor: pointer;
+  z-index: 2;
+  background-color: #fff;
+  border: 1px solid #0002;
+  color: #444;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  background-color: #fff1;
+  box-shadow: 0 12px 32px #0003;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #0002;
+    border: 1px solid #fff2;
+    box-shadow: 0 6px 8px #0003;
+    color: white;
+  }
+
+  .card:hover {
+    box-shadow: 0 12px 32px #0006;
+  }
+}
+
+.card.center {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,49 +1,27 @@
-import React, { useEffect, useRef, useState } from "react";
 import { title } from "case";
-import ReactGA from "react-ga";
-import Link from "next/link";
+import fs from "fs";
 import Head from "next/head";
-
-import Title from "../components/Title";
-import names from "../util/tej-variants";
+import Link from "next/link";
+import React, { useEffect, useRef, useState } from "react";
 import Card from "../components/Card";
-import styled from "@emotion/styled";
 import SectionHeading from "../components/SectionHeading";
-import { getInitialBlogPosts, Posts } from "../util/getInitialBlogPosts";
+import Title from "../components/Title";
+import styles from "../styles/home.module.css";
+import { getInitialBlogPosts, Post } from "../util/getInitialBlogPosts";
+import names from "../util/tej-variants";
 
-const Container = styled.div`
-  width: 100vw;
-  min-height: 100vh;
-  overflow: auto;
+// @ts-ignore
+const path = __non_webpack_require__("path");
 
-  img {
-    max-width: 100vw;
-  }
-
-  .intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .blog {
-    display: grid;
-    grid-template-rows: min-content auto;
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 16px;
-  }
-`;
-
-const BlogList = styled.div`
-  display: grid;
-  gap: 16px;
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-`;
-
-const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: number; posts: Posts }) => {
+const App = ({
+  name,
+  numberOfTejass,
+  firstPost,
+}: {
+  name: string;
+  numberOfTejass: number;
+  firstPost: Post;
+}) => {
   const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
   const [shouldWaitToUpdateTejas, setShouldWaitToUpdateTejas] = useState(false);
@@ -69,11 +47,6 @@ const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: nu
   };
 
   useEffect(() => {
-    ReactGA.initialize("UA-97872345-2");
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
-
-  useEffect(() => {
     if (!containerElement) {
       return;
     }
@@ -86,13 +59,16 @@ const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: nu
       if (!containerElement.current) {
         return;
       }
-      containerElement.current.removeEventListener("mousemove", handleMouseMove);
+      containerElement.current.removeEventListener(
+        "mousemove",
+        handleMouseMove
+      );
       window.removeEventListener("shake", handleMouseMove);
     };
   });
 
   return (
-    <Container ref={containerElement}>
+    <div className={styles.container} ref={containerElement}>
       <Head>
         <title>Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
         <meta
@@ -106,40 +82,56 @@ const App = ({ name, numberOfTejass, posts }: { name: string; numberOfTejass: nu
           {name}
         </Title>
         <img
+          width={408}
+          height={612}
           style={{ zIndex: 1, background: "transparent" }}
           alt={`Tejas ${currentTejas}`}
           src={`/tejass/${currentTejas}.png`}
         />
       </section>
-      {posts && (
+      {firstPost && (
         <section className="blog">
           <SectionHeading>Latest From the Blog</SectionHeading>
-          <BlogList>
-            {posts.slice(0, 1).map(post => (
-              <Link href={`/blog/${post.slug}`} key={post.title}>
-                <Card>
-                  <h2>{title(post.title)}&nbsp;&nbsp;👉🏾</h2>
-                </Card>
-              </Link>
-            ))}
+          <div className={styles.blogList}>
+            <Link
+              href="/blog/[post]"
+              as={`/blog/${firstPost.slug}`}
+              key={firstPost.title}
+            >
+              <Card>
+                <h2>{title(firstPost.title)}&nbsp;&nbsp;👉🏾</h2>
+              </Card>
+            </Link>
+
             <Link href={`/blog`}>
               <Card center>
                 <h2>🚀</h2>
                 <h2>MOAR BLOG POSTS</h2>
               </Card>
             </Link>
-          </BlogList>
+          </div>
         </section>
       )}
-    </Container>
+    </div>
   );
 };
 
-App.getInitialProps = async () => {
-  const numberOfTejass = 15;
+export async function getStaticProps() {
+  const numberOfTejass = fs
+    .readdirSync(path.resolve("./public/tejass/"))
+    .filter(entry => entry.endsWith(".png")).length;
+
   const name = names[Math.floor(Math.random() * names.length)];
 
-  return { name, numberOfTejass, ...(await getInitialBlogPosts()) };
-};
+  const { posts } = await getInitialBlogPosts();
+  return {
+    props: { name, numberOfTejass, firstPost: posts[0] },
+    // 🤫 shhh... this is Next.js' incremental SSG feature. It's still in beta,
+    // please don't share 😄.
+    // We are incrementally rebuilding this page so that the random name seen
+    // by the visiting user changes.
+    revalidate: true,
+  };
+}
 
 export default App;

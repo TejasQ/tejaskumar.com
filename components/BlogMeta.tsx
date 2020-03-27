@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
-import styles from "./BlogPost.module.css";
+import styles from "./BlogMeta.module.css";
 
-export default function BlogPost({
+export default function BlogMeta({
   children,
   ...rest
 }: React.DetailedHTMLProps<

@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
-import styles from "./SectionHeading.module.css";
+import styles from "./EmojiContainer.module.css";
 
-export default function SectionHeading({
+export default function EmojiContainer({
   children,
   ...rest
 }: React.DetailedHTMLProps<
@@ -9,7 +9,7 @@ export default function SectionHeading({
   HTMLSpanElement
 > & { children?: ReactNode }) {
   return (
-    <span {...rest} className={styles.span}>
+    <span {...rest} className={styles.container}>
       {children}
     </span>
   );

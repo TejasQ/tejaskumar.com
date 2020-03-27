@@ -152,3 +152,5 @@ ext/.deps
 ext/libtool
 
 # End of https://www.gitignore.io/api/macos,node,visualstudiocode,zephir
+
+.now

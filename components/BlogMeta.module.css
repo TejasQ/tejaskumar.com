@@ -1,6 +1,4 @@
-import styled from "@emotion/styled";
-
-const Meta = styled.div`
+.div {
   font-size: 15px;
   margin: 8px 0;
   font-family: Georgia, serif;
@@ -9,10 +7,10 @@ const Meta = styled.div`
   gap: 8px;
   align-items: center;
   color: #545959;
+}
 
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
+  .div {
     color: #b0b4b5;
   }
-`;
-
-export default Meta;
+}

@@ -1,0 +1,20 @@
+a.a {
+  display: block;
+  text-decoration: none !important;
+  transition: 0.3s transform ease, 0.3s margin ease;
+  color: black;
+}
+
+@media (hover: hover) {
+  a.a:hover {
+    text-decoration: underline;
+    transform: translateY(8px) scale(1.5);
+    margin: 0 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  a.a {
+    color: white;
+  }
+}
