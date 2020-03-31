@@ -1,0 +1,36 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.container img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.container :global(.intro) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container :global(.blog) {
+  display: grid;
+  grid-template-rows: min-content auto;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.blogList {
+  display: grid;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .blogList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

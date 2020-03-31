@@ -1,34 +1,16 @@
-import React from "react";
-import Link from "next/link";
-import ReactMarkdown from "react-markdown";
 import { title } from "case";
-import styled from "@emotion/styled";
 import Head from "next/head";
-
-import Card from "../components/Card";
+import Link from "next/link";
+import React from "react";
+import ReactMarkdown from "react-markdown";
 import BlogMeta from "../components/BlogMeta";
-import Title from "../components/Title";
-import { Posts, getInitialBlogPosts } from "../util/getInitialBlogPosts";
+import Card from "../components/Card";
 import ReadingTime from "../components/ReadingTime";
+import Title from "../components/Title";
+import styles from "../styles/blog.module.css";
+import { getInitialBlogPosts, Post } from "../util/getInitialBlogPosts";
 
-const Container = styled.div`
-  max-width: 768px;
-  display: grid;
-  gap: 16px;
-  padding: 16px;
-
-  @media (min-width: 768px) {
-    margin: 100px auto;
-  }
-`;
-
-const BlogCard = styled(Card)`
-  p {
-    font-family: Georgia, serif;
-  }
-`;
-
-const Blog = ({ posts }: { posts: Posts }) => (
+const Blog = ({ posts }: { posts: Post[] }) => (
   <>
     <Head>
       <title>Blog : Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
@@ -40,24 +22,30 @@ const Blog = ({ posts }: { posts: Posts }) => (
     <Title color="#0002" length={4}>
       BLOG BLOG BLOG BLOG
     </Title>
-    <Container>
+    <div className={styles.container}>
       {posts &&
         posts.map(post => (
-          <Link key={post.title} href={`/blog/${post.slug}`}>
-            <BlogCard>
+          <Link
+            key={post.title}
+            href="/blog/[post]"
+            as={`/blog/${encodeURI(post.slug)}`}
+          >
+            <Card className={styles.blogCard}>
               <h2>{title(post.title)}</h2>
               <BlogMeta>
                 <ReadingTime text={post.body} />
               </BlogMeta>
               <ReactMarkdown source={post.excerpt} />
-              <a href={`/blog/${post.title}`}>Keep reading... 👉🏾</a>
-            </BlogCard>
+              <a href={`/blog/${encodeURI(post.slug)}`}>Keep reading... 👉🏾</a>
+            </Card>
           </Link>
         ))}
-    </Container>
+    </div>
   </>
 );
 
-Blog.getInitialProps = getInitialBlogPosts;
+export async function getStaticProps() {
+  return { props: await getInitialBlogPosts() };
+}
 
 export default Blog;

@@ -1,18 +1,29 @@
-import styled from "@emotion/styled";
+import React, { ReactNode } from "react";
+import styles from "./Title.module.css";
 
-const Title = styled.h1<{ length: number; color?: string }>`
-  font-size: ${({ length }) => (length > 9 ? 12 : 17)}vw;
-  font-weight: 400;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  line-height: 1;
-  width: 100%;
-  text-align: center;
-  color: ${({ color }) => color || "inherit"};
-`;
-
-export default Title;
+export default function Title({
+  length,
+  color,
+  children,
+  ...rest
+}: React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLHeadingElement>,
+  HTMLHeadingElement
+> & {
+  length: number;
+  color?: string;
+  children?: ReactNode;
+}) {
+  return (
+    <h1
+      {...rest}
+      className={styles.title}
+      style={{
+        fontSize: `${length > 9 ? 12 : 17}vw`,
+        color: color || "inherit",
+      }}
+    >
+      {children}
+    </h1>
+  );
+}

@@ -1,27 +1,15 @@
-import styled from "@emotion/styled";
+import React, { ReactNode } from "react";
+import styles from "./ImageContainer.module.css";
 
-const ImageContainer = styled.figure`
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid;
-  border-color: #0002;
-  text-align: center;
-  margin: 0;
-  width: 100%;
-
-  figcaption {
-    font-size: 13px;
-    font-style: italic;
-    color: #555;
-    margin-top: 4px;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    border-color: #fff1;
-    figcaption {
-      color: #ccc;
-    }
-  }
-`;
-
-export default ImageContainer;
+export default function ImageContainer({
+  children,
+  ...rest
+}: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
+  children?: ReactNode;
+}) {
+  return (
+    <figure {...rest} className={styles.figure}>
+      {children}
+    </figure>
+  );
+}

@@ -1,0 +1,25 @@
+.div {
+  display: grid;
+  grid-template-columns: auto max-content auto;
+  gap: 16px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  margin: 32px auto;
+}
+
+.div::before,
+.div::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #0003;
+}
+
+@media (prefers-color-scheme: dark) {
+  .div::before,
+  .div::after {
+    background: #fff3;
+  }
+}

@@ -1,36 +1,32 @@
+import Link from "next/link";
 import React, { FC, Fragment } from "react";
-import styled from "@emotion/styled";
+import styles from "./Breadcrumb.module.css";
 
-const Container = styled.div`
-  display: none;
-
-  @media (min-width: 768px) {
-    display: flex;
-    font-size: 14px;
-    letter-spacing: 1px;
-  }
-`;
-
-const Separator = styled.span`
-  margin: 0 8px;
-`;
-
-const Breadcrumb: FC<{ path: Array<{ label: string; link?: string }> }> = ({
-  path
-}) => {
+const Breadcrumb: FC<React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> & {
+  path: Array<
+    { label: string } | { label: string; link: string; local: boolean }
+  >;
+}> = ({ path, ...rest }) => {
   return (
-    <Container>
+    <div {...rest} className={styles.container}>
       {path.map((part, index) =>
-        part.link ? (
+        "link" in part ? (
           <Fragment key={part.link}>
-            <a href={part.link}>{part.label}</a>
-            {index < path.length - 1 && <Separator>/</Separator>}
+            <Link href={part.link}>
+              <a>{part.label}</a>
+            </Link>
+            {index < path.length - 1 && (
+              <span className={styles.separator}>/</span>
+            )}
           </Fragment>
         ) : (
           part.label
         )
       )}
-    </Container>
+    </div>
   );
 };
 

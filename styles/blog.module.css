@@ -1,0 +1,16 @@
+.container {
+  max-width: 768px;
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 100px auto;
+  }
+}
+
+.blogCard p {
+  font-family: Georgia, serif;
+}
