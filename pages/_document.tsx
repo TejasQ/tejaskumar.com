@@ -14,7 +14,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link
-            href="https://tejaskumar.com/rss"
+            href="https://tejaskumar.com/api/rss"
             rel="alternate"
             type="application/rss+xml"
             title="RSS for blog posts"
