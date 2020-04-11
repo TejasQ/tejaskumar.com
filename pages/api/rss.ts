@@ -7,16 +7,16 @@ const getRssXml = (blogPosts: Post[]) => {
   const rssItemsXml = blogPosts.map(post => {
     const permalink = `https://tejaskumar.com/blog/${post.slug}`;
       return `
-      <item>
-        <title>${title(post.body.split("\n")[0].replace("# ", ""))}</title>
-        <link>${permalink}</link>
+        <item>
+          <title>${title(post.body.split("\n")[0].replace("# ", ""))}</title>
+          <link>${permalink}</link>
 
-        <description>
-        <![CDATA[${post.body}]]>
-        </description>
-        <author>tejas@tejas.qa (Tejas Kumar)</author>
-        <guid>${permalink}</guid>
-    </item>`;
+          <description>
+          <![CDATA[${post.body}]]>
+          </description>
+          <author>tejas@tejas.qa (Tejas Kumar)</author>
+          <guid>${permalink}</guid>
+      </item>`;
   });
 
   return `<?xml version="1.0" ?>
@@ -27,7 +27,7 @@ const getRssXml = (blogPosts: Post[]) => {
           <description>Personal blog of Tejas Kumar – an award-winning web developer and international speaker.</description>
           <language>en</language>
           <atom:link href="https://tejaskumar.com/rss" rel="self" type="application/rss+xml" />
-          ${rssItemsXml}
+          ${rssItemsXml.join('')}
       </channel>
     </rss>`;
 };
