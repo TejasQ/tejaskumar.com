@@ -13,6 +13,6 @@ export default [
   /* TEJ */ "स कुमार",
   /* TEJ */ "ANIEVÄKALLIO",
   /* TEJ */ "AVASCRIPT",
-  /* TEJ */ "À-VU"
+  /* TEJ */ "À-VU",
   /* TEJ */ "OMIZER"
 ];

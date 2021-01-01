@@ -100,6 +100,7 @@ const App = ({
             >
               <Card>
                 <h2>{title(firstPost.title)}&nbsp;&nbsp;👉🏾</h2>
+                <p>{firstPost.excerpt}</p>
               </Card>
             </Link>
 

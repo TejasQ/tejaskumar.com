@@ -30,6 +30,7 @@
 
 .div table {
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 .div th {
@@ -40,6 +41,7 @@
 .div td {
   border: 1px solid #0003;
   padding: 8px;
+  width: 2%;
 }
 
 .div h2 {

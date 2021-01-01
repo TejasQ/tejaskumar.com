@@ -10,10 +10,7 @@ const BlogAttribution = ({
 > & { url: string }) => (
   <div {...rest} className={styles.container}>
     <div>
-      <img
-        alt="Tejas' Face"
-        src="https://pbs.twimg.com/profile_images/1210680744407908353/5bTFS_QO_400x400.jpg"
-      />
+      <img alt="Tejas' Face" src="https://github.com/tejasq.png" />
     </div>
     <div>
       <p>

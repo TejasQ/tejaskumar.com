@@ -21,16 +21,15 @@ export async function getInitialBlogPosts(): Promise<{ posts: Post[] }> {
   return {
     posts: blogPosts.map(name => {
       const content = fs.readFileSync(path.resolve("./blog/", name), "utf8");
+      const excerpt = content
+      .split("\n")[2];
       return {
         title: getBlogPostTitleFromFileName(name),
         body: content,
         slug: name.replace(/\.md$/, ""),
         excerpt:
-          content
-            .split("\n")
-            .slice(1)
-            .join("\n")
-            .slice(0, 260) + "...",
+          excerpt.length > 260 ? excerpt
+          .slice(0, 260) + "..." : excerpt,
       };
     }),
   };
