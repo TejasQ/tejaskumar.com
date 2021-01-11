@@ -24,7 +24,7 @@ Thing is, people tend to only post green grass. Fertilized with bullshit.
 
 ### Too much to do, too little time
 
-Based on conversations I have with _real people in real life_ (as opposed to WhatsApp), there seems to be a prevailing idea that 24 hours just _isn't enough time in a day_ to get all the things done that I want to get done. I've heard this even _in a lockdown_ &mdash; where there's literally not much else to do than stay at home!
+Based on conversations I have with _real people in real life_ (as opposed to on WhatsApp), there seems to be a prevailing idea that 24 hours just _isn't enough time in a day_ to get all the things done that I want to get done. I've heard this even _in a lockdown_ &mdash; where there's literally not much else to do than stay at home!
 
 Now, while social media might not be the only cause of this constant chasing after our goals, the truth is this &mdash; **with every swipe through our timelines, we're trading a moment of our present for someone's past.** At some point, we've got to ask ourselves &mdash; is it worth it?
 
