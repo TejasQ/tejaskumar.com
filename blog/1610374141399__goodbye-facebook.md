@@ -56,7 +56,7 @@ Friends – **the them vs. us narrative is a goldmine for user engagement**. And
 
 Without social media, I don't see how [QAnon](https://en.wikipedia.org/wiki/QAnon) could have become what it has become.
 
-Here' the bottom line: **It is exceedingly clear to me that social media, when driven by a capitalist agenda, is toxic and altogether dangerous, proving to be an echo chamber that catalyzes the radicalization of human beings to the detriment of society.**
+Here' the bottom line: **it is exceedingly clear to me that social media, when driven by a capitalist agenda, is toxic and altogether dangerous, proving to be an echo chamber that catalyzes the radicalization of human beings to the detriment of society.**
 
 The recent [attack on the US Capitol](https://en.wikipedia.org/wiki/2021_storming_of_the_United_States_Capitol) and the incredible momentum of the QAnon conspiracy theory is clear evidence of this.
 
