@@ -54,6 +54,10 @@ const BlogPostPage = ({
             {title(post.content.split("\n")[0].replace("# ", ""))} : Tejas Kumar
             | Speaker, Engineer, JavaScript, Love
           </title>
+          <link
+            rel="canonical"
+            href={`https://tej.as/blog/${post.slug}`}
+          ></link>
           <meta name="description" content={post.content.split("\n")[2]} />
         </Head>
         <Breadcrumb
