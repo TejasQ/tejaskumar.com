@@ -14,5 +14,9 @@ export default [
   /* TEJ */ "ANIEVÄKALLIO",
   /* TEJ */ "AVASCRIPT",
   /* TEJ */ "À-VU",
-  /* TEJ */ "OMIZER"
+  /* TEJ */ "OMIZER",
+  /* TEJ */ "-O-MANIA",
+  /* TEJ */ "IMON",
+  /* TEJ */ "ATHON",
+  /* TEJ */ "ACT"
 ];
