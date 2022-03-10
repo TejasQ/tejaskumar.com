@@ -1,5 +1,7 @@
 # Pillars of Impact for Web Engineers
 
+This blog post about impact web engineers can have was intended to be a reply to a text message.
+
 You might be reading this title and thinking _wat_. It's okay, so am I. Thing is, my friend and ex-coworker [Iris](https://twitter.com/iris_schaffer) asked me for some thoughts about "different ways web engineers can have impact, and how they can grow it over time", and I started writing an answer when I realized it would be way too long for iMessage. This is that answer. But before I answer, maybe I should build some credibility before?
 
 ![Message from Iris](/img/blog/impact/iris.png)
