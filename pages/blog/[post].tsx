@@ -12,7 +12,6 @@ import Breadcrumb from "../../components/Breadcrumb";
 import ContentSeparator from "../../components/ContentSeparator";
 import ImageContainer from "../../components/ImageContainer";
 import ReadingTime from "../../components/ReadingTime";
-import { getBlogPostTitleFromFileName } from "../../util/getBlogPostTitleFromFileName";
 
 type Post = {
   content: string;
@@ -64,7 +63,7 @@ const BlogPostPage = ({
           path={[
             { label: "tejaskumar.com", link: "/", local: true },
             { label: "blog", link: "/blog", local: true },
-            { label: getBlogPostTitleFromFileName(post.slug) },
+            { label: post.slug },
           ]}
         ></Breadcrumb>
         <h1>{title(heading)}</h1>

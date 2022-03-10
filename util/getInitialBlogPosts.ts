@@ -1,5 +1,5 @@
 import fs from "fs";
-import { getBlogPostTitleFromFileName } from "./getBlogPostTitleFromFileName";
+import { getBlogPostTitleFromFileContent } from "./getBlogPostTitleFromFileContent";
 
 export type Post = {
   title: string;
@@ -21,15 +21,12 @@ export async function getInitialBlogPosts(): Promise<{ posts: Post[] }> {
   return {
     posts: blogPosts.map(name => {
       const content = fs.readFileSync(path.resolve("./blog/", name), "utf8");
-      const excerpt = content
-      .split("\n")[2];
+      const excerpt = content.split("\n")[2];
       return {
-        title: getBlogPostTitleFromFileName(name),
+        title: getBlogPostTitleFromFileContent(content),
         body: content,
         slug: name.replace(/\.md$/, ""),
-        excerpt:
-          excerpt.length > 260 ? excerpt
-          .slice(0, 260) + "..." : excerpt,
+        excerpt: excerpt.length > 260 ? excerpt.slice(0, 260) + "..." : excerpt,
       };
     }),
   };
