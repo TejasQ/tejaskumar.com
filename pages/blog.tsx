@@ -35,7 +35,7 @@ const Blog = ({ posts }: { posts: Post[] }) => (
               <BlogMeta>
                 <ReadingTime text={post.body} />
               </BlogMeta>
-              <ReactMarkdown source={post.excerpt} />
+              <ReactMarkdown>{post.excerpt}</ReactMarkdown>
               <a href={`/blog/${encodeURI(post.slug)}`}>Keep reading... 👉🏾</a>
             </Card>
           </Link>

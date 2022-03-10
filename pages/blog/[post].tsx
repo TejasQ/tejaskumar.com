@@ -72,8 +72,11 @@ const BlogPostPage = ({
           <ReadingTime text={body} />
         </BlogMeta>
         <ReactMarkdown
-          renderers={{
-            image: ({ alt, src }: { alt: string; src: string }) => {
+          components={{
+            a: props => (
+              <a {...props} target="_blank" rel="noopener noreferrer" />
+            ),
+            img: ({ alt, src }) => {
               return (
                 <ImageContainer>
                   <img alt={alt} src={src}></img>
@@ -82,9 +85,9 @@ const BlogPostPage = ({
               );
             },
           }}
-          escapeHtml={false}
-          source={body}
-        ></ReactMarkdown>
+        >
+          {body}
+        </ReactMarkdown>
         <ContentSeparator />
         <BlogAttribution url={blogPostUrl} />
       </BlogPost>
