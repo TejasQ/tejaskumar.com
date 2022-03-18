@@ -70,7 +70,7 @@ We rise by lifting others. Web engineers tend to be a relatively privileged eche
 
 [Shruti](https://twitter.com/shrutibalasa) asked me to mentor her and I agreed. Today, she's soaring in success and her joy is my joy. I take great joy in having as much positive social impact as I do, and I grew it by siezing every opportunity to serve people, starting with 1-10 people in like 2015, to many more worldwide today.
 
-- **As a Mentee:** [Lee. Freaking. Johnson.](https://twitter.com/leejohnsonMS) Hands down **the best manager I've ever had**. He has an energy about him that is extremely relaxed, kind, patient, and servant-heared; so much so, I used to feel so free I'd even call him on Saturday for marriage advice and he'd take the time to give me some. 
+- **As a Mentee:** [Lee. Freaking. Johnson.](https://twitter.com/leejohnsonMS) Hands down **the best manager I've ever had**. He has an energy about him that is extremely relaxed, kind, patient, and servant-hearted; so much so, I used to feel so free I'd even call him on Saturday for marriage advice and he'd take the time to give me some. 
 
 I was his report at [G2i](https://g2i.co/), one of the best places I've worked. His mentorship, combined with the executive coaching G2i got me, would go on to have me grow in emotional intelligence and benefit every relationship I have: personally, and professionally. 
 
