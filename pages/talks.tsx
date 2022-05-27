@@ -1,19 +1,18 @@
-import { readFileSync } from "fs";
 import { GetStaticProps } from "next";
-import { tmpdir } from "os";
-import { join } from "path";
 import { FC } from "react";
 import ReactPlayer from "react-player";
 import { Plock } from "react-plock";
 import { Tweet } from "react-static-tweets";
+import { fetchTweetAst } from "static-tweets";
 
 import Title from "../components/Title";
 
 import styles from "../styles/talks.module.scss";
 import { talks } from "../util/talks";
+import { XataClient } from "../util/xata";
 
 type Props = {
-  testimonials: string[];
+  testimonials: { id: string; ast: string }[];
   talks: { name: string; url: string }[];
 };
 
@@ -28,7 +27,7 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
       </h2>
       <div className={styles.talk}>
         {talks.map(t => (
-          <div className={styles.videoPlayer}>
+          <div key={t.url} className={styles.videoPlayer}>
             <ReactPlayer width="100%" height="100%" url={t.url} />
           </div>
         ))}
@@ -39,14 +38,9 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
         </Title>
         <div className={styles.tweets}>
           <Plock>
-            {testimonials.map(url => (
-              <div key={url}>
-                <Tweet
-                  id={url
-                    .split("/")
-                    .slice(-1)
-                    .join("")}
-                />
+            {testimonials.map(t => (
+              <div key={t.id}>
+                <Tweet ast={t.ast} id={t.id} />
               </div>
             ))}
           </Plock>
@@ -56,16 +50,31 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
   );
 };
 
+const client = new XataClient();
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const testimonials = JSON.parse(
-    readFileSync(join(tmpdir(), "twitter-people.json"), "utf-8")
+  const testimonials = await client.db.testimonials.getAll();
+  const tweetIds = await Promise.all(
+    testimonials.map(async (t: any) => {
+      const id = t.tweet_url
+        .split("/")
+        .slice(-1)
+        .join("");
+
+      const ast = await fetchTweetAst(id)
+        .then(ast => ast)
+        .catch(() => {});
+
+      return {
+        ast,
+        id,
+      };
+    })
   );
 
   return {
     props: {
       talks,
-      testimonials: testimonials
-        .map((t: any) => t.tweet)
+      testimonials: tweetIds
         .slice(0, 25)
         .map((value: any) => ({ value, sort: Math.random() }))
         .sort((a: any, b: any) => a.sort - b.sort)
