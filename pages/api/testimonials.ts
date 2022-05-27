@@ -4,6 +4,7 @@ import { fetchTweetAst } from "static-tweets";
 
 import { getIdFromTweetUrl } from "../../util/getIdFromTweetUrl";
 import { XataClient } from "../../util/xata";
+import { randomizeArray } from "../../util/randomizeArray";
 
 dotenv.config();
 const client = new XataClient();
@@ -15,7 +16,7 @@ const handler: NextApiHandler = async (req, res) => {
         .sort("followers", "desc")
         .getMany({ page: { size: 25, offset: parseFloat(String(from)) } });
 
-    res.end(JSON.stringify(testimonials.map(t => {
+    res.end(JSON.stringify(randomizeArray(testimonials.map(t => {
         if (!t.ast) {
             fetchTweetAst(getIdFromTweetUrl(t.id))
                 .then(ast => {
@@ -32,8 +33,7 @@ const handler: NextApiHandler = async (req, res) => {
                 .catch(() => { });
         }
         return ({ id: getIdFromTweetUrl(String(t.tweet_url)), ast: JSON.parse(String(t.ast)) })
-    })))
-
+    }))))
 }
 
 export default handler;

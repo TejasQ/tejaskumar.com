@@ -9,6 +9,7 @@ import Title from "../components/Title";
 
 import styles from "../styles/talks.module.scss";
 import { getIdFromTweetUrl } from "../util/getIdFromTweetUrl";
+import { randomizeArray } from "../util/randomizeArray";
 import { talks } from "../util/talks";
 import { XataClient } from "../util/xata";
 
@@ -113,10 +114,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
   return {
     props: {
       talks,
-      initialTestimonials: tweetIds
-        .map(value => ({ value, sort: Math.random() }))
-        .sort((a, b) => a.sort - b.sort)
-        .map(({ value }) => value),
+      initialTestimonials: randomizeArray(tweetIds),
     },
     revalidate: true,
   };
