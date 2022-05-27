@@ -39,7 +39,7 @@ const main = async () => {
         if (!testimonialsFromXata.find(t => t.tweet_url === testimonials[userIndex])) {
             console.log(`Couldn't find ${users[userIndex]}. Fetching from Twitter...`);
             console.info(`We can do ${howManyMoreCanIDo} more requests at this time.`);
-            fetchFromTwitter(users[userIndex]).then(async (u) => {
+            await fetchFromTwitter(users[userIndex]).then(async (u) => {
                 if (u.errors) {
                     return;
                 }
@@ -48,13 +48,13 @@ const main = async () => {
             })
         } else if (process.env.FORCE_REFRESH) {
             console.log(`Forced refresh of ${users[userIndex]}. Fetching from Twitter...`);
-            fetchFromTwitter(users[userIndex]).then(async (u) => {
+            await fetchFromTwitter(users[userIndex]).then(async (u) => {
                 if (u.errors) {
                     return;
                 }
 
                 return client.db.testimonials.filter({ tweet_url: testimonials[userIndex] }).getOne().then(d => client.db.testimonials.update(d?.id ?? '', { followers: u[0].followers_count }));
-            }).then(console.log)
+            }).then(() => console.log(`Updated ${users[userIndex]}.`))
         }
 
     }
