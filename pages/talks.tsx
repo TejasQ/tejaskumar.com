@@ -17,12 +17,6 @@ type Props = {
 };
 
 const Talks: FC<Props> = ({ testimonials, talks }) => {
-  const [isClient, setIsClient] = useState("false");
-
-  useEffect(() => {
-    setIsClient("true");
-  }, []);
-
   return (
     <div className={styles.talks}>
       <Title length={50}>Talks</Title>
@@ -43,7 +37,7 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
           What People Are Saying
         </Title>
         <div className={styles.tweets}>
-          <Plock key={isClient}>
+          <Plock>
             {testimonials.map(t => (
               <div key={t.id}>
                 <Tweet ast={t.ast} id={t.id} />
