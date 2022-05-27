@@ -7,6 +7,7 @@ export interface Testimonial {
   handle?: string | null;
   followers?: number | null;
   tweet_url?: string | null;
+  ast?: string | null;
 }
 
 export type TestimonialRecord = Testimonial & XataRecord;

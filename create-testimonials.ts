@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 
 import { testimonials } from "./util/talks";
 import { XataClient } from "./util/xata";
+import { getIdFromTweetUrl } from "./util/getIdFromTweetUrl";
+import { fetchTweetAst } from "static-tweets";
 
 dotenv.config();
 
@@ -27,6 +29,8 @@ const main = async () => {
     })
 
     for (const userIndex in users) {
+        const id = getIdFromTweetUrl(testimonials[userIndex])
+
         if (howManyMoreCanIDo <= 1) {
             const howLongToWait = rateLimitResetTime ? differenceInMilliseconds(parseFloat(rateLimitResetTime) * 1000, new Date()) : 900001;
             console.info(`We're about to be rate limited. Waiting ${howLongToWait / 1000} seconds...`);
@@ -43,7 +47,12 @@ const main = async () => {
                     return;
                 }
 
-                await client.db.testimonials.create({ handle: u[0].screen_name, followers: u[0].followers_count, tweet_url: testimonials[userIndex] });
+                let ast = ''
+                try {
+                    ast = await fetchTweetAst(id) ?? '';
+                } catch { }
+
+                await client.db.testimonials.create({ handle: u[0].screen_name, followers: u[0].followers_count, tweet_url: testimonials[userIndex], ast: JSON.stringify(ast) });
             })
         } else if (process.env.FORCE_REFRESH) {
             console.log(`Forced refresh of ${users[userIndex]}. Fetching from Twitter...`);
@@ -52,7 +61,12 @@ const main = async () => {
                     return;
                 }
 
-                return client.db.testimonials.filter({ tweet_url: testimonials[userIndex] }).getOne().then(d => client.db.testimonials.update(d?.id ?? '', { followers: u[0].followers_count }));
+                let ast = ''
+                try {
+                    ast = await fetchTweetAst(id) ?? '';
+                } catch { }
+
+                return client.db.testimonials.filter({ tweet_url: testimonials[userIndex] }).getOne().then(d => client.db.testimonials.update(d?.id ?? '', { ast: JSON.stringify(ast), followers: u[0].followers_count }));
             }).then(() => console.log(`Updated ${users[userIndex]}.`))
         }
 
