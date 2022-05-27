@@ -12,6 +12,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import ContentSeparator from "../../components/ContentSeparator";
 import ImageContainer from "../../components/ImageContainer";
 import ReadingTime from "../../components/ReadingTime";
+import styles from "../../styles/blog.module.css";
 
 type Post = {
   content: string;
@@ -71,6 +72,7 @@ const BlogPostPage = ({
           <ReadingTime text={body} />
         </BlogMeta>
         <ReactMarkdown
+          className={styles.postContent}
           components={{
             a: props => (
               <a {...props} target="_blank" rel="noopener noreferrer" />

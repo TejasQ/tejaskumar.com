@@ -5,7 +5,7 @@ import { join } from "path";
 import { FC } from "react";
 import ReactPlayer from "react-player";
 import { Plock } from "react-plock";
-import { TwitterTweetEmbed } from "react-twitter-embed";
+import { Tweet } from "react-static-tweets";
 
 import Title from "../components/Title";
 
@@ -41,13 +41,8 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
           <Plock>
             {testimonials.map(url => (
               <div key={url}>
-                <TwitterTweetEmbed
-                  options={{
-                    lang: "en",
-                    dnt: true,
-                    conversation: "none",
-                  }}
-                  tweetId={url
+                <Tweet
+                  id={url
                     .split("/")
                     .slice(-1)
                     .join("")}

@@ -15,6 +15,21 @@
   font-family: Georgia, serif;
 }
 
-.twitter-tweet {
+.postContent :global .twitter-tweet {
   margin: 64px auto !important;
+}
+
+.postContent blockquote {
+  font-family: "Gloria Hallelujah";
+  border-left: 4px solid #ddd;
+  padding-left: 32px;
+  margin: 32px 0;
+  font-style: italic;
+  color: #914200;
+}
+
+@media (prefers-color-scheme: dark) {
+  .postContent blockquote {
+    color: #ffa861;
+  }
 }

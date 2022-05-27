@@ -27,7 +27,7 @@
     "react-player": "^2.10.1",
     "react-plock": "^2.0.0",
     "react-responsive-carousel": "^3.2.23",
-    "react-twitter-embed": "^4.0.4",
+    "react-static-tweets": "^0.7.2",
     "reading-time": "^1.2.0"
   },
   "devDependencies": {
