@@ -3,6 +3,7 @@ import { FC, useEffect, useRef, useState } from "react";
 import ReactPlayer from "react-player";
 import { Plock } from "react-plock";
 import { Tweet } from "react-static-tweets";
+import Head from "next/head";
 import { fetchTweetAst } from "static-tweets";
 
 import Title from "../components/Title";
@@ -42,10 +43,35 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
 
   return (
     <div className={styles.talks}>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="https://tejaskumar.com/talks" />
+        <meta name="twitter:title" content="Talks by Tejas Kumar" />
+        <meta
+          name="twitter:description"
+          content="An aggregation of all of Tejas' talks and feedback about them."
+        />
+        <meta name="og:title" content="Talks by Tejas Kumar" />
+        <meta
+          name="og:description"
+          content="An aggregation of all of Tejas' talks and feedback about them."
+        />
+        <meta
+          property="og:image"
+          content="https://tej.as/img/talks-og-image.png"
+        />
+        <title>Talks : Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
+        <link rel="canonical" href={`https://tej.as/talks`}></link>
+        <meta
+          name="description"
+          content="An aggregation of all of Tejas' talks and feedback about them."
+        />
+      </Head>
       <Title length={50}>Talks</Title>
       <h2>
-        So far, I've spoken at {talks.length} conferences over 10 years. Scroll
-        down to see what people are saying. Scroll sideways to see more
+        So far, I've spoken at{" "}
+        <strong>{talks.length} conferences and meetups over 10 years</strong>.
+        Scroll down to see what people are saying. Scroll sideways to see more
         conferences.
       </h2>
       <div className={styles.talkScrollContainer}>
