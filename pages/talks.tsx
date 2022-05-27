@@ -34,7 +34,7 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
       }
     };
     const observer = new IntersectionObserver(onIntersect, {
-      rootMargin: "200px",
+      rootMargin: "0 0 -200px 0",
     });
 
     observer.observe($end.current);
