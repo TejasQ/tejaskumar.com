@@ -58,7 +58,10 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
 
 const client = new XataClient();
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const testimonials = await client.db.testimonials.getAll();
+  const testimonials = await client.db.testimonials
+    .sort("followers", "desc")
+    .getMany({ page: { size: 25 } });
+
   const tweetIds = await Promise.all(
     testimonials.map(async (t: any) => {
       const id = t.tweet_url
@@ -81,10 +84,9 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
     props: {
       talks,
       testimonials: tweetIds
-        .slice(0, 25)
-        .map((value: any) => ({ value, sort: Math.random() }))
-        .sort((a: any, b: any) => a.sort - b.sort)
-        .map(({ value }: any) => value),
+        .map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value),
     },
     revalidate: true,
   };
