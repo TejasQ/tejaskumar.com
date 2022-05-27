@@ -30,7 +30,7 @@ const main = async () => {
         console.info(`Fetching user ${users[userIndex]}`);
         await fetch('https://api.twitter.com/1.1/users/lookup.json?screen_name=' + users[userIndex], {
             headers: {
-                Authorization: "Bearer AAAAAAAAAAAAAAAAAAAAAGwR%2FQAAAAAAFPXhP47I33hLyzFXebSpZ0JHdjM%3D2kEVckt76keXYqNQG2R97qoPBRiwtWX1jcO1huKVnTysfw6zuh"
+                Authorization: "Bearer " + process.env.TWITTER_TOKEN
             },
         }).then(r => {
             howManyMoreCanIDo = parseFloat(r.headers.get('x-rate-limit-remaining')!);
