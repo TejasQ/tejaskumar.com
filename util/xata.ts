@@ -1,4 +1,7 @@
 import { buildClient, BaseClientOptions, XataRecord } from "@xata.io/client";
+import dotenv from "dotenv";
+
+dotenv.config()
 
 export interface Testimonial {
   handle?: string | null;
