@@ -9,10 +9,10 @@ import uniqBy from "lodash/uniqBy"
 
 import { testimonials } from "./util/talks";
 
+const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 const main = async () => {
     const users = testimonials.map(t => t.split('/')[3]);
     const people: any = []
-    const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
     let howManyMoreCanIDo = 300;
     let rateLimitResetTime = '';
 

@@ -3,6 +3,21 @@
   align-items: center;
   flex-direction: column;
   padding: 5rem 1rem 1rem;
+  gap: 2rem;
+
+  h2 {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+
+    @media (min-width: 768px) {
+      font-weight: 600;
+      font-size: 2rem;
+    }
+    display: block;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
 }
 
 .talk {
@@ -32,6 +47,11 @@
   .static-tweet-body {
     border: 1px solid #ccc;
     border-radius: 4px;
+
+    @media (prefers-color-scheme: dark) {
+      border-color: #0004;
+      background: #0004;
+    }
   }
 
   .static-tweet-body-blockquote {
@@ -64,6 +84,10 @@
   .static-tweet-header-name {
     color: black;
     font-size: 1rem;
+
+    @media (prefers-color-scheme: dark) {
+      color: white;
+    }
   }
 
   .static-tweet-anchor {
@@ -120,6 +144,10 @@
     color: #cc0000;
     font-size: 0.8rem;
     gap: 0.25rem;
+
+    @media (prefers-color-scheme: dark) {
+      color: #ff6666;
+    }
   }
 
   .static-tweet-time {

@@ -20,7 +20,7 @@ type Props = {
 const Talks: FC<Props> = ({ testimonials, talks }) => {
   return (
     <div className={styles.talks}>
-      <Title length={50}>The Talks</Title>
+      <Title length={50}>Talks</Title>
       <h2>
         So far, I've spoken at {talks.length} conferences over 10 years. Scroll
         down to see what people are saying. Scroll sideways to see more
@@ -66,7 +66,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       talks,
       testimonials: testimonials
         .map((t: any) => t.tweet)
-        .slice(0, 100)
+        .slice(0, 25)
         .map((value: any) => ({ value, sort: Math.random() }))
         .sort((a: any, b: any) => a.sort - b.sort)
         .map(({ value }: any) => value),
