@@ -33,10 +33,7 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
           .then(d => setTestimonials([...testimonials, ...d]));
       }
     };
-    const observer = new IntersectionObserver(onIntersect, {
-      rootMargin: "0 0 -200px 0",
-    });
-
+    const observer = new IntersectionObserver(onIntersect);
     observer.observe($end.current);
 
     return () => observer.disconnect();
@@ -69,7 +66,14 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
               </div>
             ))}
           </Plock>
-          <div ref={$end} />
+          <div
+            ref={$end}
+            style={{
+              position: "absolute",
+              top: "50%",
+              transform: "translateY(-50%)",
+            }}
+          />
         </div>
       </div>
     </div>
