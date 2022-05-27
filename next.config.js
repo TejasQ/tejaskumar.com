@@ -1,5 +1,5 @@
 module.exports = {
-  images: { domains: ["twimg.com"] },
+  images: { domains: ["pbs.twimg.com", "abs.twimg.com"] },
   experimental: {
     async redirects() {
       return [
