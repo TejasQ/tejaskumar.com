@@ -1,5 +1,5 @@
 import { GetStaticProps } from "next";
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import { Plock } from "react-plock";
 import { Tweet } from "react-static-tweets";
@@ -17,6 +17,12 @@ type Props = {
 };
 
 const Talks: FC<Props> = ({ testimonials, talks }) => {
+  const [isClient, setIsClient] = useState("false");
+
+  useEffect(() => {
+    setIsClient("true");
+  }, []);
+
   return (
     <div className={styles.talks}>
       <Title length={50}>Talks</Title>
@@ -37,7 +43,7 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
           What People Are Saying
         </Title>
         <div className={styles.tweets}>
-          <Plock>
+          <Plock key={isClient}>
             {testimonials.map(t => (
               <div key={t.id}>
                 <Tweet ast={t.ast} id={t.id} />
