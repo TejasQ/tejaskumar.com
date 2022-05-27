@@ -1,5 +1,5 @@
 import { GetStaticProps } from "next";
-import { FC, useEffect, useState } from "react";
+import { FC } from "react";
 import ReactPlayer from "react-player";
 import { Plock } from "react-plock";
 import { Tweet } from "react-static-tweets";
