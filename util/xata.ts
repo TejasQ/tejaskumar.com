@@ -24,7 +24,9 @@ export class XataClient extends DatabaseClient<DatabaseSchema> {
     super(
       {
         databaseURL: "https://tejas-o860q2.xata.sh/db/tejaskumar-com",
-        ...options,
+        apiKey: process.env.XATA_API_KEY,
+        branch: 'main',
+        ...options
       },
       links
     );
