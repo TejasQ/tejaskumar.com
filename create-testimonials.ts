@@ -13,7 +13,7 @@ const main = async () => {
     const users = testimonials.map(t => t.split('/')[3]);
     const people: any = []
     const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
-    let howManyMoreCanIDo = 900;
+    let howManyMoreCanIDo = 300;
     let rateLimitResetTime = '';
 
     for (const userIndex in users) {
@@ -22,7 +22,7 @@ const main = async () => {
         if (howManyMoreCanIDo <= 1) {
             const howLongToWait = rateLimitResetTime ? differenceInMilliseconds(parseFloat(rateLimitResetTime) * 1000, new Date()) : 900001;
             console.info(`We're about to be rate limited. Waiting ${howLongToWait / 1000} seconds...`);
-            console.info("Users so far", people);
+            console.info("Users so far", people.length, 'of', users.length);
             await wait(howLongToWait);
             howManyMoreCanIDo = 900;
         }
@@ -37,7 +37,6 @@ const main = async () => {
             rateLimitResetTime = r.headers.get('x-rate-limit-reset')!;
             return r.json()
         }).then((u) => {
-            console.log(u)
             if (u.errors) {
                 return;
             }
