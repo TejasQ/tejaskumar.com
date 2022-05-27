@@ -14,3 +14,7 @@
 .blogCard p {
   font-family: Georgia, serif;
 }
+
+.twitter-tweet {
+  margin: 64px auto !important;
+}

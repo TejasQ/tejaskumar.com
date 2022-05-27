@@ -1,0 +1,43 @@
+.talks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 1rem 1rem;
+
+}
+
+.talk {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    overflow: auto;
+    max-width: 100vw;
+    padding: 3rem 1rem 5rem;
+}
+
+.videoPlayer {
+    border-radius: 4px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    border: 4px solid white;
+    flex-shrink: 0;
+    width: 60vw;
+    box-shadow: 0 1rem 4rem #0003;
+}
+
+.tweets {
+    padding: 1rem;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 1rem;
+}
+
+.title {
+    position: relative;
+    margin: 4rem auto;
+}
+

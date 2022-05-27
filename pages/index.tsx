@@ -77,7 +77,10 @@ const App = ({
         />
       </Head>
       <section className="intro">
-        <Title length={name.length}>
+        <Title
+          style={{ position: "absolute", transform: "translateY(-50%)" }}
+          length={name.length}
+        >
           <b>TEJ</b>
           {name}
         </Title>
