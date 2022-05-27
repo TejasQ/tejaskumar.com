@@ -37,6 +37,13 @@
   flex-shrink: 0;
   width: 60vw;
   box-shadow: 0 1rem 4rem #0003;
+  transition: transform 0.3s ease;
+
+  @media (min-width: 768px) {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 }
 
 .tweets {
