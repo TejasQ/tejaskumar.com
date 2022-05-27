@@ -25,7 +25,7 @@ const Talks: FC<Props> = ({ testimonials, talks }) => {
         down to see what people are saying. Scroll sideways to see more
         conferences.
       </h2>
-      <div className={styles.talk}>
+      <div className={styles.talkScrollContainer}>
         {talks.map(t => (
           <div key={t.url} className={styles.videoPlayer}>
             <ReactPlayer width="100%" height="100%" url={t.url} />
