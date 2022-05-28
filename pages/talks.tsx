@@ -92,7 +92,7 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
       <div className={styles.talkScrollContainer}>
         {talks.map(t => (
           <div key={t.url} className={styles.videoPlayer}>
-            <ReactPlayer width="100%" height="100%" url={t.url} />
+            <ReactPlayer controls width="100%" height="100%" url={t.url} />
           </div>
         ))}
       </div>
