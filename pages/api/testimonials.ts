@@ -27,15 +27,11 @@ const handler: NextApiHandler = async (req, res) => {
                         return;
                     }
 
-                    return client.db.testimonials
-                        .filter({ tweet_url: t.tweet_url })
-                        .getOne()
-                        .then(result => {
-                            client.db.testimonials.update(result!.id, {
-                                ast: JSON.stringify(ast),
-                            }); console.info("Added.")
-                        }
-                        );
+
+                    return client.db.testimonials.update(t.id, {
+                        ast: JSON.stringify(ast),
+                    }).then(() => { console.info("Added.") });
+
                 })
                 .catch((e) => { console.error(e) });
         }

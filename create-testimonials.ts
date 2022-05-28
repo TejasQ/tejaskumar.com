@@ -1,11 +1,11 @@
 import { differenceInMilliseconds } from "date-fns";
 import fetch from "isomorphic-fetch";
 import dotenv from "dotenv";
+import { fetchTweetAst } from "static-tweets";
 
 import { testimonials } from "./util/talks";
 import { XataClient } from "./util/xata";
 import { getIdFromTweetUrl } from "./util/getIdFromTweetUrl";
-import { fetchTweetAst } from "static-tweets";
 
 dotenv.config();
 

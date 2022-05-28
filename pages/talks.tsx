@@ -61,7 +61,7 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
           content="https://tej.as/img/talks-og-image.png"
         />
         <title>Talks : Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
-        <link rel="canonical" href={`https://tej.as/talks`}></link>
+        <link rel="canonical" href="https://tej.as/talks"></link>
         <meta
           name="description"
           content="An aggregation of all of Tejas' talks and feedback about them."
@@ -124,15 +124,9 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
             console.log("Couldn't get AST");
             return;
           }
-          client.db.testimonials
-            .filter({ tweet_url: t.tweet_url })
-            .getOne()
-            .then(result => {
-              console.log("Done.");
-              client.db.testimonials.update(result!.id, {
-                ast: JSON.stringify(ast),
-              });
-            });
+          client.db.testimonials.update(t.id, {
+            ast: JSON.stringify(ast),
+          });
         })
         .catch(() => {});
     }
