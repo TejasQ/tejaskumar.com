@@ -13,6 +13,7 @@ import { getIdFromTweetUrl } from "../util/getIdFromTweetUrl";
 import { randomizeArray } from "../util/randomizeArray";
 import { talks } from "../util/talks";
 import { XataClient } from "../util/xata";
+import { Button } from "../components/Button";
 
 type Props = {
   initialTestimonials: { id: string; ast: string }[];
@@ -74,6 +75,15 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
         Scroll down to see what people are saying. Scroll sideways to see more
         conferences.
       </h2>
+      <Button
+        onClick={() => {
+          window.open(
+            "mailto:tejas+speaking@tejas.qa?subject=Invitation to speak at my event&body=Hi, I'd love it if you spoke at my event [...]"
+          );
+        }}
+      >
+        Invite me to speak at your event &rarr;
+      </Button>
       <div className={styles.talkScrollContainer}>
         {talks.map(t => (
           <div key={t.url} className={styles.videoPlayer}>

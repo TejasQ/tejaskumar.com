@@ -1,0 +1,25 @@
+.Button {
+  all: unset;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  background: black;
+  color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s transform ease;
+
+  @media (min-width: 1024px) {
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    background: white;
+    color: black;
+  }
+}
