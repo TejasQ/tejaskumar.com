@@ -45,7 +45,6 @@ export const testimonials = [
     "https://twitter.com/DavidAdeola_/status/1507311468764618782",
     "https://twitter.com/iamtjah/status/1507314043257774095",
     "https://twitter.com/LeomOfThings/status/1507310111806607363",
-    "https://twitter.com/ubay_dah17/status/1507310404279623688",
     "https://twitter.com/kupnoh25/status/1362439253750382592",
     "https://twitter.com/olivier06110/status/1362431518577201158",
     "https://twitter.com/ticidesign/status/1233257755302957057",
