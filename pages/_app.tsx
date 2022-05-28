@@ -34,6 +34,11 @@ function MyApp({ Component, pageProps }: AppProps) {
             </Link>
           </li>
           <li>
+            <Link href="/talks" passHref>
+              <A title="Talks">TALKS</A>
+            </Link>
+          </li>
+          <li>
             <Link href="/blog" passHref>
               <A title="Blog">BLOG</A>
             </Link>
@@ -51,16 +56,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           <li>
             <A target="_blank" href="https://github.com/tejasq" rel="noopener">
               GITHUB
-            </A>
-          </li>
-          <li>
-            <A
-              color="red"
-              target="_blank"
-              href="https://github.com/TejasQ/tejaskumar.com#trolling"
-              rel="noopener"
-            >
-              TROLL/LEARN
             </A>
           </li>
         </ul>

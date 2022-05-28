@@ -21,6 +21,7 @@ export default function Title({
       style={{
         fontSize: `${length > 9 ? 12 : 17}vw`,
         color: color || "inherit",
+        ...rest.style,
       }}
     >
       {children}

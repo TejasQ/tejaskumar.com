@@ -19,7 +19,11 @@ const Blog = ({ posts }: { posts: Post[] }) => (
         content="Personal blog of Tejas Kumar – an award-winning web developer and international speaker."
       />
     </Head>
-    <Title color="#0002" length={4}>
+    <Title
+      style={{ position: "absolute", transform: "translateY(-50%)" }}
+      color="#0002"
+      length={4}
+    >
       BLOG BLOG BLOG BLOG
     </Title>
     <div className={styles.container}>

@@ -3,11 +3,13 @@ import fs from "fs";
 import Head from "next/head";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
+import ReactPlayer from "react-player";
 import Card from "../components/Card";
 import SectionHeading from "../components/SectionHeading";
 import Title from "../components/Title";
 import styles from "../styles/home.module.css";
 import { getInitialBlogPosts, Post } from "../util/getInitialBlogPosts";
+import { talks } from "../util/talks";
 import names from "../util/tej-variants";
 
 // @ts-ignore
@@ -17,10 +19,12 @@ const App = ({
   name,
   numberOfTejass,
   firstPost,
+  mostRecentTalk,
 }: {
   name: string;
   numberOfTejass: number;
   firstPost: Post;
+  mostRecentTalk: { url: string; title: string };
 }) => {
   const containerElement = useRef<HTMLDivElement>(null);
   const [currentTejas, setCurrentTejas] = useState(1);
@@ -76,8 +80,11 @@ const App = ({
           content="Personal website of Tejas Kumar, an award-winning web developer and international speaker."
         />
       </Head>
-      <section className="intro">
-        <Title length={name.length}>
+      <section className={styles.intro}>
+        <Title
+          style={{ position: "absolute", transform: "translateY(-50%)" }}
+          length={name.length}
+        >
           <b>TEJ</b>
           {name}
         </Title>
@@ -89,30 +96,43 @@ const App = ({
           src={`/tejass/${currentTejas}.png`}
         />
       </section>
-      {firstPost && (
-        <section className="blog">
-          <SectionHeading>Latest From the Blog</SectionHeading>
-          <div className={styles.blogList}>
-            <Link
-              href="/blog/[post]"
-              as={`/blog/${firstPost.slug}`}
-              key={firstPost.title}
-            >
-              <Card>
-                <h2>{title(firstPost.title)}&nbsp;&nbsp;👉🏾</h2>
-                <p>{firstPost.excerpt}</p>
-              </Card>
-            </Link>
-
-            <Link href={`/blog`}>
-              <Card center>
-                <h2>🚀</h2>
-                <h2>MOAR BLOG POSTS</h2>
-              </Card>
-            </Link>
+      <div className={styles.sectionContainer}>
+        <section className={styles.section}>
+          <SectionHeading>Most Recent Talk</SectionHeading>
+          <div className={styles.mostRecentTalkContainer}>
+            <ReactPlayer width="100%" url={mostRecentTalk.url} />
           </div>
+          <Link href={`/talks`}>
+            <Card center>
+              <strong>View All Talks &rarr;</strong>
+            </Card>
+          </Link>
         </section>
-      )}
+        {firstPost && (
+          <section className={styles.section}>
+            <SectionHeading>Latest From the Blog</SectionHeading>
+            <div className={styles.blogList}>
+              <Link
+                href="/blog/[post]"
+                as={`/blog/${firstPost.slug}`}
+                key={firstPost.title}
+              >
+                <Card>
+                  <h2>{title(firstPost.title)}&nbsp;&nbsp;👉🏾</h2>
+                  <p>{firstPost.excerpt}</p>
+                </Card>
+              </Link>
+
+              <Link href={`/blog`}>
+                <Card center>
+                  <h2>🚀</h2>
+                  <h2>MOAR BLOG POSTS</h2>
+                </Card>
+              </Link>
+            </div>
+          </section>
+        )}
+      </div>
     </div>
   );
 };
@@ -126,7 +146,12 @@ export async function getStaticProps() {
 
   const { posts } = await getInitialBlogPosts();
   return {
-    props: { name, numberOfTejass, firstPost: posts[0] },
+    props: {
+      mostRecentTalk: talks[0],
+      name,
+      numberOfTejass,
+      firstPost: posts[0],
+    },
     // 🤫 shhh... this is Next.js' incremental SSG feature. It's still in beta,
     // please don't share 😄.
     // We are incrementally rebuilding this page so that the random name seen

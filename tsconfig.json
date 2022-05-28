@@ -10,7 +10,7 @@
   "compilerOptions": {
     "skipLibCheck": true,
     "target": "es5",
-    "module": "esnext",
+    "module": "ESNext",
     "lib": [
       "es2015",
       "dom",

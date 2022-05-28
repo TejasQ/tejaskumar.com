@@ -23,10 +23,6 @@ a:hover {
   color: #e00028;
 }
 
-.twitter-tweet {
-  margin: 64px auto !important;
-}
-
 p {
   line-height: 1.9;
 }
@@ -54,22 +50,10 @@ li {
   line-height: 1.6;
 }
 
-blockquote {
-  font-family: "Gloria Hallelujah";
-  border-left: 4px solid #ddd;
-  padding-left: 32px;
-  margin: 32px 0;
-  font-style: italic;
-  color: #914200;
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     background: #292f36;
     color: white;
-  }
-  blockquote {
-    color: #ffa861;
   }
   a:link,
   a:visited {

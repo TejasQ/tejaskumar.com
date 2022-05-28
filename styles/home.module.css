@@ -10,23 +10,36 @@
   height: auto;
 }
 
-.container :global(.intro) {
+.container .intro {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.container :global(.blog) {
+.sectionContainer {
+  display: grid;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 768px;
+  align-items: flex-start;
+}
+
+.section {
   display: grid;
   grid-template-rows: min-content auto;
-  max-width: 768px;
-  margin: 0 auto;
-  padding: 16px;
+  padding: 1rem;
+  gap: 0.5rem;
 }
 
 .blogList {
   display: grid;
   gap: 16px;
+}
+
+.mostRecentTalkContainer {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 6px 8px #0001;
 }
 
 @media (min-width: 768px) {
