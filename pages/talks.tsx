@@ -45,7 +45,7 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
   return (
     <div className={styles.talks}>
       <Head>
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="https://tejaskumar.com/talks" />
         <meta name="twitter:title" content="Talks by Tejas Kumar" />
         <meta
