@@ -110,12 +110,9 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
 const client = new XataClient();
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const sortedTestimonials = client.db.testimonials.sort("followers", "desc");
-
-  const testimonials =
-    process.env.NODE_ENV === "production"
-      ? await sortedTestimonials.getMany({ page: { size: 25 } })
-      : await sortedTestimonials.getAll();
+  const testimonials = await client.db.testimonials
+    .sort("followers", "desc")
+    .getMany({ page: { size: 25 } });
 
   const tweetIds = testimonials.map(t => {
     const id = getIdFromTweetUrl(String(t.tweet_url));
