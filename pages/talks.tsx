@@ -110,24 +110,32 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
 const client = new XataClient();
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const testimonials = await client.db.testimonials
-    .sort("followers", "desc")
-    .getMany({ page: { size: 25 } });
+  const sortedTestimonials = client.db.testimonials.sort("followers", "desc");
+
+  const testimonials =
+    process.env.NODE_ENV === "production"
+      ? await sortedTestimonials.getMany({ page: { size: 25 } })
+      : await sortedTestimonials.getAll();
 
   const tweetIds = testimonials.map(t => {
     const id = getIdFromTweetUrl(String(t.tweet_url));
-    if (!t.ast) {
+    if (t.ast === '""') {
+      console.log("No AST for", t.tweet_url, ". Adding...");
       fetchTweetAst(id)
         .then(ast => {
-          if (!ast) return;
+          if (!ast) {
+            console.log("Couldn't get AST");
+            return;
+          }
           client.db.testimonials
             .filter({ tweet_url: t.tweet_url })
             .getOne()
-            .then(result =>
+            .then(result => {
+              console.log("Done.");
               client.db.testimonials.update(result!.id, {
                 ast: JSON.stringify(ast),
-              })
-            );
+              });
+            });
         })
         .catch(() => {});
     }

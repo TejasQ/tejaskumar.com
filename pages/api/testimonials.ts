@@ -17,22 +17,29 @@ const handler: NextApiHandler = async (req, res) => {
         .getMany({ page: { size: 25, offset: parseFloat(String(from)) } });
 
     res.end(JSON.stringify(randomizeArray(testimonials.map(t => {
-        if (!t.ast) {
-            fetchTweetAst(getIdFromTweetUrl(t.id))
+        const tweetId = getIdFromTweetUrl(String(t.tweet_url));
+        if (t.ast === '""') {
+            console.info("No AST for", t.tweet_url, ". Adding...")
+            fetchTweetAst(getIdFromTweetUrl(tweetId))
                 .then(ast => {
-                    if (!ast) return;
-                    client.db.testimonials
+                    if (!ast) {
+                        console.info("Couldn't get AST")
+                        return;
+                    }
+
+                    return client.db.testimonials
                         .filter({ tweet_url: t.tweet_url })
                         .getOne()
-                        .then(result =>
+                        .then(result => {
                             client.db.testimonials.update(result!.id, {
                                 ast: JSON.stringify(ast),
-                            })
+                            }); console.info("Added.")
+                        }
                         );
                 })
-                .catch(() => { });
+                .catch((e) => { console.error(e) });
         }
-        return ({ id: getIdFromTweetUrl(String(t.tweet_url)), ast: JSON.parse(String(t.ast)) })
+        return ({ id: tweetId, ast: JSON.parse(String(t.ast)) })
     }))))
 }
 
