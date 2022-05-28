@@ -1,4 +1,5 @@
 export const talks = [
+    { name: "BeJS", url: "https://youtu.be/liwC7W-uWnY" }
     { name: "Serverless in the Park", url: "https://www.youtube.com/watch?v=0qK2_wi4t3k&t=19570s" },
     { name: "OSCAFest22", url: "https://youtu.be/7jYvy4SFG1w?t=6100 " },
     { name: "ReactConf AU", url: "https://www.youtube.com/watch?v=9xL0a6YJIQU" },
