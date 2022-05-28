@@ -59,7 +59,7 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
         />
         <meta
           property="og:image"
-          content="https://tej.as/img/talks-og-image.png"
+          content="https://tej.as/img/talks-og-image.jpg"
         />
         <title>Talks : Tejas Kumar | Speaker, Engineer, JavaScript, Love</title>
         <link rel="canonical" href="https://tej.as/talks"></link>
