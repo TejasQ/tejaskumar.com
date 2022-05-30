@@ -76,8 +76,10 @@ const Talks: FC<Props> = ({ initialTestimonials, talks }) => {
       <Title length={50}>Talks</Title>
       <h2>
         So far, I've spoken at{" "}
-        <strong>{talks.length} conferences and meetups over 10 years</strong>.
-        Scroll down to see what people are saying. Scroll sideways to see more
+        <strong>
+          {talks.length} conferences, meetups, and podcasts over 10 years
+        </strong>
+        . Scroll down to see what people are saying. Scroll sideways to see more
         conferences.
       </h2>
       <Button
