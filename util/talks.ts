@@ -1,6 +1,6 @@
 export const talks = [
-    { name: "LogRocket Podcast", url: "https://www.youtube.com/watch?v=9S0hCRhodN8" },
     { name: "BeJS", url: "https://youtu.be/liwC7W-uWnY" },
+    { name: "LogRocket Podcast", url: "https://www.youtube.com/watch?v=9S0hCRhodN8" },
     { name: "Serverless in the Park", url: "https://www.youtube.com/watch?v=0qK2_wi4t3k&t=19570s" },
     { name: "React Miami", url: "https://www.youtube.com/watch?v=7meVjMOgw8A" },
     { name: "OSCAFest22", url: "https://youtu.be/7jYvy4SFG1w?t=6100 " },
