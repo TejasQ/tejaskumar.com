@@ -30,6 +30,7 @@ export const talks = [
 ]
 
 export const testimonials = [
+"https://twitter.com/anjanavakil/status/1532270926062141440",
     "https://twitter.com/mattpocockuk/status/1531188050436493314", // jsconfbp
     "https://twitter.com/bejs_/status/1525091340933111811",
     "https://twitter.com/batsouelef/status/1525091492401930246",
