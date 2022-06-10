@@ -30,6 +30,7 @@ export const talks = [
 ]
 
 export const testimonials = [
+"https://twitter.com/lisi_linhart/status/1535207457504784384", // workerconf
     "https://twitter.com/Banun2k/status/1534631453086076928",
     "https://twitter.com/tristan_guest/status/1534630487871873024",
     "https://twitter.com/opagani/status/1534627510813614081", // serverless workshop, reactsummit 2022
