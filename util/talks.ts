@@ -1,4 +1,5 @@
 export const talks = [
+    { name: "WorkerConf", url: "https://www.youtube.com/watch?v=L4n3JDw5m_g" },
     { name: "BeJS", url: "https://youtu.be/liwC7W-uWnY" },
     { name: "LogRocket Podcast", url: "https://www.youtube.com/watch?v=9S0hCRhodN8" },
     { name: "Serverless in the Park", url: "https://www.youtube.com/watch?v=0qK2_wi4t3k&t=19570s" },
@@ -30,6 +31,10 @@ export const talks = [
 ]
 
 export const testimonials = [
+    "https://twitter.com/puruvjdev/status/1534938792934592512",
+    "https://twitter.com/kevmodrome/status/1534907597798707203", // sveltesummit
+"https://twitter.com/tomsvogel/status/1535173724055523328",
+"https://twitter.com/workerconf/status/1535159041181327360",
 "https://twitter.com/lisi_linhart/status/1535207457504784384", // workerconf
     "https://twitter.com/Banun2k/status/1534631453086076928",
     "https://twitter.com/tristan_guest/status/1534630487871873024",
