@@ -31,6 +31,7 @@ export const talks = [
 ]
 
 export const testimonials = [
+    "https://twitter.com/marcelcutts/status/1537803408824061953",
     "https://twitter.com/oliviernt/status/1537769656475340800",
     "https://twitter.com/Stamontweeter/status/1537768480539385857", 
     "https://twitter.com/hdjirdeh/status/1537762935510077442", // react summit
