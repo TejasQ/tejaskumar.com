@@ -31,13 +31,13 @@ export const talks = [
 ]
 
 export const testimonials = [
-    "https://twitter.com/thejoriedel/status/1565051073336791040?s=21&t=VCrLTICuWX9BrrG12agK4Q", // CascadiaJS 22 
-    "https://twitter.com/jlengstorf/status/1565044548589752320?s=21&t=TIaVCdeShO6NCYoTf-gEbA",
-    "https://twitter.com/jlengstorf/status/1565043642204823552?s=21&t=YQDKKGSB1sDztpWRjJTEjg",
-    "https://twitter.com/brianleroux/status/1565046643933982720?s=21&t=TIaVCdeShO6NCYoTf-gEbA",
-    "https://twitter.com/nikemaatwork/status/1565046732643532804?s=21&t=bY9OtglWEpwxYbi2K5IcrQ",
-    "https://twitter.com/anjanavakil/status/1565043813697351680?s=21&t=TIaVCdeShO6NCYoTf-gEbA",
-    "https://twitter.com/joshuakgoldberg/status/1565043316663922688?s=21&t=YQDKKGSB1sDztpWRjJTEjg",
+    "https://twitter.com/thejoriedel/status/1565051073336791040", // CascadiaJS 2022
+    "https://twitter.com/jlengstorf/status/1565044548589752320",
+    "https://twitter.com/jlengstorf/status/1565043642204823552",
+    "https://twitter.com/brianleroux/status/1565046643933982720",
+    "https://twitter.com/nikemaatwork/status/1565046732643532804",
+    "https://twitter.com/anjanavakil/status/1565043813697351680",
+    "https://twitter.com/joshuakgoldberg/status/1565043316663922688",
     "https://twitter.com/felixmokross/status/1538079910190800896",
     "https://twitter.com/marcelcutts/status/1537803408824061953",
     "https://twitter.com/oliviernt/status/1537769656475340800",
