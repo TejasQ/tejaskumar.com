@@ -40,7 +40,7 @@ Of course, thankfully there's medicine for it. Of course, the world is a messed 
 
 <iframe width="100%" style="aspect-ratio: 16/9; min-height: 300px;" src="https://www.youtube.com/embed/TUIcTl9Hto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-See, I have _the worst kind of hemophilia_: severe hemophilia A. That means, at any given time, unmedicated, my blood contains a concentration of <1% of clotting factor. A normal range of this is 50%-150%. Your body increases it to 150% when you have an injury, and maintains a lower level when you're sedentary. All of this is magically maintained by your healthy body. All of this is impossible for mine.
+I have _the worst kind of hemophilia_: severe hemophilia A. That means, at any given time, unmedicated, my blood contains a concentration of <1% of clotting factor. A normal range of this is 50%-150%. Your body increases it to 150% when you have an injury, and maintains a lower level when you're sedentary. All of this is magically maintained by your healthy body. All of this is impossible for mine.
 
 ### Born in 🇮🇳 India, Raised in 🇶🇦 Qatar
 
@@ -52,7 +52,7 @@ This was an incredible thing and a total game changer. My life was saved, but _j
 
 You see, **human beings bleed internally all the time**. Like literally _all the time_. When you walk up some stairs, tiny blood vessels near your knees rupture and start trickling blood into your knee cavity. This stops in a matter of seconds for you though, and you never even notice. 
 
-For me, walking to a grocery store would present a very real possibility of being bedridden the next day, because my knee would eventually fill up with blood such that the blood would pull the ball away from the socket in the joint and it would be in a pseudo-dislocated position which was quite painful, which required emergency medication. From _walking_. Yeah.
+For me, walking to a grocery store would present a very real possibility of being bedridden the next day, because my knee would eventually fill up with blood such that the blood would pull the ball away from the socket in the joint and it would be in a pseudo-dislocated position which was quite painful, which required emergency medication. From _walking_. Yeah. Similar things happened with other joints, like elbows (from opening heavy doors) and ankles (also from walking).
 
 With this, 18 years of my life between the ages of 4 and 22 were lived on a pendulum: 
 
@@ -93,7 +93,7 @@ I stayed like this for a while +/- a few pounds until, yet again, I was very unc
 
 ## Moving to Germany
 
-Qatar is no stranger to [international](https://www.business-humanrights.org/en/latest-news/indian-workers-suicide-in-qatar-raises-concern-over-stranded-migrants/) [controversy](https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies#:~:text=There%20have%20been%20numerous%20allegations,and%20ex%2Dpresident%20Sepp%20Blatter.). While I'm not going to throw shade at them for what I'm about to say, it definitely inconvenienced me a great deal. At the time, I had spent most of my life in Qatar, benefitting off the free emergency healthcare, bouncing between the ER and my house for 18 years. This was about to stop.
+Qatar is no stranger to [international](https://www.business-humanrights.org/en/latest-news/indian-workers-suicide-in-qatar-raises-concern-over-stranded-migrants/) [controversy](https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies#:~:text=There%20have%20been%20numerous%20allegations,and%20ex%2Dpresident%20Sepp%20Blatter.). While I'm not going to throw shade at them for what I'm about to say, it definitely inconvenienced me a great deal. At the time, I had spent most of my life in Qatar, benefitting from the free emergency healthcare, bouncing between the ER and my house for 18 years. This was about to stop.
 
 The law in Qatar is such that when the head of a family turns 60, they have to take their family and go back to their country of origin. [Qatar does not issue visas for people over 60 years old](https://www.dohaguides.com/qatar-family-visit-visa-requirements/#:~:text=Currently%2C%20there%20is%20an%20age,for%20a%20visa%20on%20arrival.). To me, this is basically a death sentence since there's no way we can afford the expensive medication I require to stay alive in India.
 
@@ -171,7 +171,7 @@ This is a consequence of a literal lifelong struggle with myself: from being bor
 
 #### How: Losing Weight
 
-I am able to lose weight at-will consistently using things that my dad's doctor told him earlier and building on it: I eat [keto](https://www.healthline.com/nutrition/ketogenic-diet-101), avoiding any carbohydrates I can. In the absence of carbohydrates, the body turns to fat for energy: both dietary fat (that is, fat that you eat from food), and stored fat (that is, fat on your body). We need energy for literally everything, _even sleeping_ and chilling. 
+I am able to lose weight at will consistently using things that my dad's doctor told him earlier and building on it: I eat [keto](https://www.healthline.com/nutrition/ketogenic-diet-101), avoiding any carbohydrates I can. In the absence of carbohydrates, the body turns to fat for energy: both dietary fat (that is, fat that you eat from food), and stored fat (that is, fat on your body). We need energy for literally everything, _even sleeping_ and chilling. 
 
 There's an adjustment period when eliminating rice, bread, pasta, and all carbs from my diet but after it, I don't even miss these things if I'm being honest.
 
@@ -191,7 +191,7 @@ At very low levels of body fat, fasting can also be _fatal_: if there's no fat l
 
 It's important to make a distinction here: this is a _lifestyle_, not a _diet_. Diets, especially crash diets, rarely ever work. They don't work because the basic principle around them is _deprivation_, which eventually leads to _binging_ and a bunch of other problems. The result? You often put the weight right back on after you lose it. 
 
-This is different: keto and intermittent fasting are things I _enjoy_. There are [multiple benefits of keto](https://pubmed.ncbi.nlm.nih.gov/35036220/) in the science. Some that I experience are:
+This is different: keto and intermittent fasting are things I _enjoy_. There are [multiple benefits to keto](https://pubmed.ncbi.nlm.nih.gov/35036220/) in the science. Some that I experience are:
 
 - Reduced brain fog, increased focus.
 - Consistent energy levels, no sugar crashes.
@@ -204,7 +204,7 @@ This makes it a lifestyle I want to adopt, regardless of how it affects my physi
 
 There's no denying it—industrial farming is destroying the planet, and keto involves eating animal fat. That said, I think it's quite important to do grass-fed organic responsibly sourced meat if able. Keto is also not _only a lot of meat_, and green leafy vegetables have their place.
 
-Additional [research](https://www.annualreviews.org/doi/10.1146/annurev-animal-022516-022943) proves that human beings _need_ certain bioavailable essential amino acids (the building blocks of proteins, the building blocks of muscles) that our bodies cannot produce through our dietary intake that is only available through animal proteins. That said, I'll stop here before the vegan army comes for me.
+Additional [research](https://www.annualreviews.org/doi/10.1146/annurev-animal-022516-022943) proves that human beings _need_ certain bioavailable essential amino acids (the building blocks of proteins, the building blocks of muscles) that our bodies cannot produce through our dietary intake that are only available through animal proteins. That said, I'll stop here before the vegan army comes for me.
 
 A reminder, I'm not interested in giving anyone advice and am only sharing what works for me.
 
@@ -234,7 +234,7 @@ My science-based strength protocol is based largely on self-compassion: I leave 
 
 While it's hard to come up with a magic number for everyone since everyone's different, my weight training routines usually have 10-20 _hard sets_ per muscle group per week of any number of reps I'm comfortable with: the sets just have to feel difficult. That's it. 
 
-I go by feel, and optimize for **progressive overload**: I try to do a little more each time. That is, I increase at least 1 of 3 fundamental variables to strength training over time. These variables are:
+I go by feel, and optimize for **progressive overload**: I try to do a little more each time, so that my body gets enough physical stress that it adapts and gets stronger. Concretely, I increase at least 1 of 3 fundamental variables to strength training over time. These variables are:
 
 - **Intensity:** how heavy the weight is.
 - **Volume:** how many times I lift it (reps/sets).
@@ -246,16 +246,16 @@ What about soreness? Should I be sore after every session? The [science](https:/
 
 In other words, you could lift heavy and never be sore while still growing muscle if you consistently lift heavy and the heaviness is not _new_. You could also lift something not-as-heavy for the first time and be sore the next day. The science lends itself to the idea that **novelty leads to soreness, not stress**. 
 
-This reassures me that if I'm not sore after a workout, it doesn't really matter. Muscle will still grow with enough stress, ketones, calories, rest, and protein because I'm placing stress on my body's muscles, and my body will appropriately adapt to the challenging environment I'm providing it. _That's what bodies do_: they have literally _one job_, and that is to adapt to whatever environment they're in (whatever environment you give it) and adapt to ensure your survival. If you consistently stress your muscles and help your body recover well and adapt, you _will_ get stronger. It's nature's way.
+This reassures me that if I'm not sore after a workout, it doesn't really matter. My body will appropriately adapt to the challenging environment I'm providing it. _That's what bodies do_: they have literally _one job_, and that is to adapt to whatever environment they're in (whatever environment you give them) and adapt to ensure your survival. If you consistently stress your muscles and help your body recover well and adapt, you _will_ get stronger. It's nature's way.
 
 So yeah, here's my training protocol in a nutshell:
 
 - 10-20 hard sets per muscle group per week.
   - Divided up into 4-7 sets, 3x per week.
-- No rep ranges, but I lift things that are heavy enough to lift <10 times in a given set and no more.
+- No rep ranges, but I lift things that are heavy enough to lift <10 times in a given set and no more, leaving as few reps in reserve (RIR) as I can comfortably.
 - Prioritized progressive overload and increasing at least 1 fundamental variable.
 - Muscles grow during recovery not during training, so plenty of sleep and food.
-- Self-compassion covers all: if I can't perform, then I can't perform. It's fine. I'll perform next time.
+- Self-compassion covers all: if I can't perform, then I can't perform. It's fine. I'll perform next time. Enjoyment and consistency over time is more important than a single performance.
 
 Okay, enough gym bro-ing out. Let's wrap this up.
 
@@ -263,7 +263,7 @@ Okay, enough gym bro-ing out. Let's wrap this up.
 
 So today, I'm pretty satisfied with what I've accomplished so far—especially in the context of my disease and circumstances. I feel lighter, stronger, happier. Reflecting on being born with hemophilia and all that drama, how can I not be thankful? Even though there's still quite a bit of work to do and I'm not "perfect", it's incredibly satisfying. It's a little heartbreaking that people do treat me differently now and are more accepting of me because I supposedly look more "attractive", but I suppose it's a human tendency to treat people we perceive as more attractive better. I'm not sure what to do about that, but it does bother me a little bit.
 
-One thing to note at my current state is that the goal keeps moving: at a lower level of body fat and more muscle, I _should_ be happy with what I have, but I also tend to notice more imperfections and have a moving goal. This is why **I prioritize the journey instead of the destination**: because the destination likely is unreachable, unrealistic, and generally unreliable. In the meanwhile, I'll just enjoy my steak salad and barbells.
+One thing to note at my current state is that the goal keeps moving: at a lower level of body fat and more muscle, I _should_ be happy with what I have, but I also tend to notice more imperfections. This is why **I prioritize the journey instead of the destination**: because the destination likely is unreachable, unrealistic, and generally unreliable. In the meanwhile, I'll just enjoy my steak salad and barbells.
 
 I also am keeping a close eye on my minerals, electrolytes, and mental state, being hyper-vigilant to prevent any eating disorders from developing. To me, **the focus is peak health, well-being, and quality of life.** Nothing more, nothing less. This is more than just shallow, vain aesthetics, but a pursuit of _health_. In fact, I believe **we get healthy, then lose weight and build muscle** instead of losing weight, building muscle, and then being called "healthy".
 
