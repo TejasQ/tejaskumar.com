@@ -175,7 +175,7 @@ I lose quite a bit of weight just doing keto on its own. The thing is, when I st
 
 Because of this, I practice [**intermittent fasting**](https://www.hopkinsmedicine.org/health/wellness-and-prevention/intermittent-fasting-what-is-it-and-how-does-it-work) (IF). I fast for 16-20 hours per day every day, and only eat between an 8-4 hour window. There's a common myth that when you're not eating you're not eating. The truth is that our bodies are _always_ eating: either from the outside (food), or from the inside ([autophagy](https://www.healthline.com/health/autophagy)). Managing this with a little discipline, even when traveling for work, has served me well. 
 
-Keto + IF also makes devrel work extremely convenient: I don't have to think about food as much, and when I do, it's easy: something without starch/sugar. Steak, cheese, whatever. Green, leafy vegetables are also keto, so I could literally just eat a bowl of nice fresh lettuce, broccoli, and other healthy goodies. You ever look at a menu and panic because you don't know what to get? The constraints I have help me decide on meals faster, which also improves my quality of life.
+Keto + IF also makes devrel work extremely convenient. I don't have to think about food as much, and when I do, it's easy: something without starch/sugar. Steak, cheese, whatever. Green, leafy vegetables are also keto, so I could literally just eat a bowl of nice fresh lettuce, broccoli, and other healthy goodies. You ever look at a menu and panic because you don't know what to get? The constraints I have help me decide on meals faster, which also improves my quality of life.
 
 ##### Fasting Considered Harmful
 
