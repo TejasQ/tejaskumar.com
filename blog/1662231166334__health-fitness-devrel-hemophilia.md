@@ -109,7 +109,7 @@ Instead of responding to emergency situations, they placed me on a **preventativ
 
 I would later find out about the wonder of a functioning healthcare system: the entire population pays a fee towards insurance, even if they never go to the doctor. The insurance system collects all this money and redistributes it to people who go to the doctor a lot and who need expensive medicine: people like me. **Thank you for paying your health insurance premiums**.
 
-With this treatment plan, I could finally live a little bit and travel freely: taking my medicine with me on flights and injecting myself on schedule, even in remote locations. This opened up literally the entire world to me. 😍
+With this treatment plan, I could finally live a little bit and travel freely, taking my medicine with me on flights and injecting myself on schedule, even in remote locations. This opened up literally the entire world to me. 😍
 
 ## Enter Developer Relations (DevRel)
 
