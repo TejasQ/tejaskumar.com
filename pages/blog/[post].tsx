@@ -1,3 +1,4 @@
+import rehypeRaw from "rehype-raw";
 import { title } from "case";
 import fs from "fs";
 import { GetStaticPaths, GetStaticProps } from "next";
@@ -72,6 +73,7 @@ const BlogPostPage = ({
           <ReadingTime text={body} />
         </BlogMeta>
         <ReactMarkdown
+          rehypePlugins={[rehypeRaw]}
           className={styles.postContent}
           components={{
             a: props => (
