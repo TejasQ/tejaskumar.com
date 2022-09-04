@@ -48,7 +48,7 @@ $22,770 a week? In India? Lol, you must be joking. Not only is the median income
 
 Yeah, so India's a no-go. At about age 4, my dad miraculously got a job that moved us to [Qatar](https://en.wikipedia.org/wiki/Qatar). After a near-death experience (maybe a blog post for another time), we learned that the treatment at the time in Qatar—only in case of emergencies—was free for like everyone, even expats.
 
-This was an incredible thing and a total game changer. My life was saved, but _just in case of emergencies_. This led to me going about my life as usual, but then having to go to the emergency hospital (ER) every time I did some basic movement, like carrying a backpack, opening a door, or _walking_. 
+This was an incredible thing and a total game changer. My life was saved, but _just in case of emergencies_. This led to me going about my life as usual, but then having to go to the emergency hospital (ER) every time I did some basic physical activity, like carrying a backpack, opening a door, or _walking_. 
 
 With this, 18 years of my life between the ages of 4 and 22 were lived on a pendulum: 
 
