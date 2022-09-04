@@ -148,14 +148,14 @@ In late 2020, I was invited to participate in the clinical trial of a newer and 
 
 After being on this drug for a while, we found out its impact on quality of life is _major_. **Someone with my disease had a full hip replacement surgery** and didn't need much medicine to fully recover. Previously, this would be out of the question because it would either be fatal, or require too much clotting factor. Wild!
 
-This new drug made me feel like I experienced rebirth or evolution: my world got way bigger because I became way stronger and far more resilient. Keep in mind, in reality I'm just getting closer to people like probably you: people without hemophilia. Anyway, with this _"super-soldier serum"_, I figured it's time to give the gym more than I could have in the past.
+This new drug made me feel like I experienced rebirth or evolution: my world got way bigger because I became way stronger and far more resilient. Keep in mind, in reality I'm just getting closer to people without hemophilia, probably like you. Anyway, with this _"super-soldier serum"_, I figured it's time to give the gym more than I could have in the past.
 
 ## Today(ish)'s Results
 
 A little over a year later, these are the results. Keep in mind: I work in devrel and constantly travel so maintaining a consistent routine is hard if not impossible. Warning: **these may be NSFW.** I'm not nude, but I'm shirtless—which, depending on your convictions might be too much. Open it at your own risk.
 
 <details>
-    <summary style="color: #cc0000; cursor: pointer;">Show me</summary>
+    <summary style="font-weight:bold; cursor: pointer;">Show me</summary>
     <img alt="Tejas' progress from January 2022 until August 2022" src="/img/blog/health-fitness-devrel-hemophilia/transformation.jpg">
 </details>
 
