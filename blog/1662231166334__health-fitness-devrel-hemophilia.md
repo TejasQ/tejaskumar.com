@@ -140,7 +140,7 @@ As a disclaimer, I get that this can sound very "first world problems". I am ext
 
 ## A New Drug
 
-In late 2020, I was invited to participate in a clinical trial of a newer and more experimental clotting factor: one that lasts longer than the standard at the time. This would mean that instead of my usual 3000IU 3x per week, I'd switch to 4000IU 1x per week. I'd go from injecting stuff into my veins 3x per week to once. Heck yeah! I accepted immediately.
+In late 2020, I was invited to participate in a clinical trial of a newer and more experimental clotting agent: one that lasts longer than the standard at the time. This would mean that instead of my usual 3000IU 3x per week, I'd switch to 4000IU 1x per week. I'd go from injecting stuff into my veins 3x per week to once. Heck yeah! I accepted immediately.
 
 After being on this drug for a while, we found out its impact on quality of life is _major_. **Someone with my disease had a full hip replacement surgery** and didn't need much medicine to fully recover. Previously, this would be out of the question because it would either be fatal, or require too much clotting factor. Wild!
 
