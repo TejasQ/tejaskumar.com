@@ -123,7 +123,7 @@ A few years later, I'd go on to speak at [my first ever tech conference](https:/
 
 ### DevRel: The Scary Parts
 
-While a devrel is an incredible type of job with a ton of opportunities and good vibes, things are seldom _perfect_. Writing docs, creating content, looking after the community are extremely rewarding. However, devrel _can_ include attending a large number of events.
+While a devrel role is an incredible type of job with a ton of opportunities and good vibes, things are seldom _perfect_. Writing docs, creating content, looking after the community are extremely rewarding. However, devrel _can_ include attending a large number of events.
 
 The events themselves are wonderful. When they accumulate, they can take a toll:
 
