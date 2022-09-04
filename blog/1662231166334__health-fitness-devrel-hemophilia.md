@@ -14,7 +14,7 @@ While I've spent most of my life in hospitals with doctors (more on that later),
 
 ### 2. You're Probably Fine
 
-We're our own worst critics, and can be pretty harsh on ourselves. I'm here to tell you that even if you're feeling not-as-fit, or if you've got a few extra pounds, or whatever it may be—you're probably fine. Allow me to be the counter voice to your inner critic: you're probably fine.
+We're our own worst critics, and can be pretty hard on ourselves. I'm here to tell you that even if you're feeling not-as-fit, or if you've got a few extra pounds, or whatever it may be—you're probably fine. Allow me to be the counter voice to your inner critic: you're probably fine.
 
 Now, if there's real health impact where you're [having trouble breathing while sleeping](https://www.mayoclinic.org/diseases-conditions/sleep-apnea/symptoms-causes/syc-20377631) or are at higher risk of injury or death, then there's work to be done and I hope you're able to do it. I'd even be willing to help! Generally though, the difference between what our inner critic tells us and reality is pretty wild. Again, you're probably fine.
 
