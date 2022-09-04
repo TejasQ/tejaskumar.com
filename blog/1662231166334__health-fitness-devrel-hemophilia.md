@@ -30,7 +30,7 @@ I fully recognize that I was privileged enough to have the stars align in my fav
 
 Similarly, there are others with _way_ more privilege than me just by virtue of something as trivial as _where they spawned on the planet_. Inequality's an unfortunate thing. My strategy is to work hard to eliminate it, while also not resenting those more privileged than I am.
 
-Whew, okay. Lots of disclaimers. Let's get into the meat of this thing.
+Whew, okay. Lots of disclaimers. Let's get into the meat of this thing. (Pun intended, but it'll probably only make sense after you've read further)
 
 ## Context 
 
