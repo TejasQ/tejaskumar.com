@@ -91,7 +91,7 @@ I stayed like this for a while +/- a few pounds until, yet again, I was very unc
 
 Qatar is no stranger to [international](https://www.business-humanrights.org/en/latest-news/indian-workers-suicide-in-qatar-raises-concern-over-stranded-migrants/) [controversy](https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_controversies#:~:text=There%20have%20been%20numerous%20allegations,and%20ex%2Dpresident%20Sepp%20Blatter.). While I'm not going to throw shade at them for what I'm about to say, it definitely inconvenienced me a great deal. At the time, I had spent most of my life in Qatar, benefitting off the free emergency healthcare, bouncing between the ER and my house for 18 years. This was about to stop.
 
-The law in Qatar is such that when the head of a family turns 60, they have to take their family and go back to their country of origin. [Qatar does not issue visas for people over 60 years old](https://www.dohaguides.com/qatar-family-visit-visa-requirements/#:~:text=Currently%2C%20there%20is%20an%20age,for%20a%20visa%20on%20arrival.). To me, this is basically a death sentence since there's no way we can afford the expensive medication I require to stay alive.
+The law in Qatar is such that when the head of a family turns 60, they have to take their family and go back to their country of origin. [Qatar does not issue visas for people over 60 years old](https://www.dohaguides.com/qatar-family-visit-visa-requirements/#:~:text=Currently%2C%20there%20is%20an%20age,for%20a%20visa%20on%20arrival.). To me, this is basically a death sentence since there's no way we can afford the expensive medication I require to stay alive in India.
 
 After panicking a little bit, I decided to try and find a job in some _white people country_ with a good healthcare system that would meet my needs (so, not the United States). I found a job in Germany as a Front-end Engineer (tbh after BS-ing my way through interviews because I _needed_ the healthcare), and then I moved.
 
@@ -148,7 +148,7 @@ This new drug made me feel like I experienced rebirth or evolution: my world got
 
 ## Today(ish)'s Results
 
-A little over a year later, these are the results. Keep in mind: I work in devrel and constantly travel so maintaining a consitent routine is hard if not impossible. Warning: **these may be NSFW.** I'm not nude, but I'm shirtless—which, depending on your convictions might be too much. Open it at your own risk.
+A little over a year later, these are the results. Keep in mind: I work in devrel and constantly travel so maintaining a consistent routine is hard if not impossible. Warning: **these may be NSFW.** I'm not nude, but I'm shirtless—which, depending on your convictions might be too much. Open it at your own risk.
 
 <details>
     <summary style="color: #cc0000; cursor: pointer;">Show me</summary>
