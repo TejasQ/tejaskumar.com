@@ -144,7 +144,7 @@ In late 2020, I was invited to participate in a clinical trial of a newer and mo
 
 After being on this drug for a while, we found out its impact on quality of life is _major_. **Someone with my disease had a full hip replacement surgery** and didn't need much medicine to fully recover. Previously, this would be out of the question because it would either be fatal, or require too much clotting factor. Wild!
 
-This new drug made me feel like I experienced rebirth or evolution: my world got way bigger because I became way stronger/resilient. Keep in mind, in reality I'm just getting closer to people like probably you: people without hemophilia. Anyway, with this _"super-soldier serum"_, I figured it's time to give the gym more than I could have in the past.
+This new drug made me feel like I experienced rebirth or evolution: my world got way bigger because I became way stronger and far more resilient. Keep in mind, in reality I'm just getting closer to people like probably you: people without hemophilia. Anyway, with this _"super-soldier serum"_, I figured it's time to give the gym more than I could have in the past.
 
 ## Today(ish)'s Results
 
