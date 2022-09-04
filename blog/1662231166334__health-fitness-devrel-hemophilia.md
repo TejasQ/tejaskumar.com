@@ -200,7 +200,7 @@ This makes it a lifestyle I want to adopt, regardless of how it affects my physi
 
 There's no denying it—industrial farming is destroying the planet, and keto involves eating animal fat. That said, I think it's quite important to do grass-fed organic when one can. Keto is also not _only a lot of meat_, and green leafy vegetables have their place.
 
-I also read [research](https://www.annualreviews.org/doi/10.1146/annurev-animal-022516-022943) that proves that human beings _need_ certain bioavailable essential amino acids that our bodies cannot produce through our dietary intake that is only available through animal proteins. That said, I'll stop here before the vegan army comes for me.
+Additional [research](https://www.annualreviews.org/doi/10.1146/annurev-animal-022516-022943) proves that human beings _need_ certain bioavailable essential amino acids that our bodies cannot produce through our dietary intake that is only available through animal proteins. That said, I'll stop here before the vegan army comes for me.
 
 A reminder, I'm not interested in giving anyone advice and am only sharing what works for me.
 
