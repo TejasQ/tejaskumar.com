@@ -113,13 +113,13 @@ With this treatment plan, I could finally live a little bit and travel freely, t
 
 ## Enter Developer Relations (DevRel)
 
-After living in Berlin for a couple of years, I had the opportunity to attend [ZEIT Day Berlin](https://www.yld.io/blog/zeit-day-berlin/) where I hung out with [Guillermo](https://twitter.com/rauchg), [Ives from Codesandbox](https://twitter.com/CompuIves), [Dan Abramov](https://twitter.com/dan_abramov), and the beautiful community. It was a really great conference. I learned a lot, and also learned that tech conferences were a thing.
+After living in Berlin for a couple of years, I had the opportunity to attend [ZEIT Day Berlin](https://www.yld.io/blog/zeit-day-berlin/) where I hung out with [Guillermo](https://twitter.com/rauchg), [Ives from CodeSandbox](https://twitter.com/CompuIves), [Dan Abramov](https://twitter.com/dan_abramov), and the beautiful community. It was a really great conference. I learned a lot, and also learned that tech conferences were a thing.
 
 ![Nice people at ZEIT day Berlin.](/img/blog/health-fitness-devrel-hemophilia/zeitday1.jpg)
 
 ![The setup at ZEIT day Berlin.](/img/blog/health-fitness-devrel-hemophilia/zeitday2.jpg)
 
-A few years later, I'd go on to speak at [my first ever tech conference](https://www.youtube.com/watch?v=ONlLvZWXv1Y) largely thanks to a blind call-for-papers (CFP) process and a lack of racial bias. This talk was pretty well received, and I'd continue speaking at conferences to this day while enjoying it and trying to bless the community as much as I am able.
+A few years later, I'd go on to speak at [my first ever tech conference](https://www.youtube.com/watch?v=ONlLvZWXv1Y) largely thanks to an anonymous call-for-papers (CFP) process and a lack of racial bias. This talk was pretty well received, and I'd continue speaking at conferences to this day while enjoying it and trying to bless the community as much as I am able.
 
 ### DevRel: The Scary Parts
 
