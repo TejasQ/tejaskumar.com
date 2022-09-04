@@ -20,7 +20,7 @@ Now, if there's real health impact where you're [having trouble breathing while 
 
 ### 3. Comparison is a Trap
 
-I'm going to be talking about my health and fitness journey, and I _might_ talk about it in a way that's could make some feel bad about themselves or like they're not doing enough or something. We naturally compare because [we evolved to](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4222713/), but again—you're probably fine. 
+I'm going to be talking about my health and fitness journey, and I _might_ talk about it in a way that could make some feel bad about themselves or like they're not doing enough or something. We naturally compare because [we evolved to](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4222713/), but again—you're probably fine. 
 
 I believe the only one worth comparing myself with is my past self. If I compare myself to a beast like [Nader Dabit](https://twitter.com/dabit3), I'd probably consistently feel awful and unmotivated. But if I compare myself to my past self, I can see how far I've come and how much I've improved. That's a much more positive and motivating comparison.
 
@@ -36,7 +36,7 @@ Whew, okay. Lots of disclaimers. Let's get into the meat of this thing. (Pun int
 
 Just kidding! We need to establish some context first. You see, my life is quite different from most because **I have a rare genetic disease that affects about 1 in 20,000 people in the United States**. Pretty sure that can be considered _"rare"_. It's called [hemophilia](https://www.mayoclinic.org/diseases-conditions/hemophilia/symptoms-causes/syc-20373327) and is _the literal worst_. The TL;DR of it is that when I start bleeding (both _internally_ and _externally_), I cannot stop: my body is unable to produce [factor 8](https://pubmed.ncbi.nlm.nih.gov/6424437/), a clotting factor responsible for stopping bleeding. 
 
-Of course, thankfully there's medicine for it. Of course, the world is a messed up and unequal place, so this medicine is [ridiculously expensive](https://www.statista.com/statistics/1089192/price-of-factor-viii-by-country/). The drug I need (called **Recombinant Factor VIII (rFVIII)**) costs about $2.53 per International Unit (IU). For optimal treatment, I need about 3000 IU, 3 times a week. That's about $22,770 _a week_. **If I don't take this, my risk of death is and remains very high**.
+Of course, thankfully there's medicine for it. Of course, the world is a messed up and unequal place, so this medicine is [ridiculously expensive](https://www.statista.com/statistics/1089192/price-of-factor-viii-by-country/). The drug I need (called **Recombinant Factor VIII**) costs about $2.53 per International Unit (IU). For optimal treatment, I need about 3000 IU, 3 times a week. That's about $22,770 _a week_. **If I don't take this, my risk of death is and remains very high**.
 
 <iframe width="100%" style="aspect-ratio: 16/9; min-height: 300px;" src="https://www.youtube.com/embed/TUIcTl9Hto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -46,9 +46,13 @@ See, I have _the worst kind of hemophilia_: severe hemophilia A. That means, at 
 
 $22,770 a week? In India? Lol, you must be joking. Not only is the median income of India like $2,500 US, but I was also born into not a rich family. What's the alternative? You either die, or you hope for "the cheap stuff". My grandpa also had my disease (it's genetic). He lived his whole life in India. He took the cheap stuff, which _gave him AIDS_, which he ended up dying from (wtf, right?!).
 
-Yeah, so India's a no-go. At about age 4, my dad miraculously got a job that moved us to [Qatar](https://en.wikipedia.org/wiki/Qatar). After a near-death experience (maybe a blog post for another time), we learned that the treatment at the time in Qatar—only in case of emergencies—was free for like everyone, even expats.
+Yeah, so India's a no-go. At about age 4, my dad miraculously got a job that moved us to [Qatar](https://en.wikipedia.org/wiki/Qatar). After a near-death experience (maybe a blog post for another time), we learned that the treatment at the time in Qatar—only in case of emergencies—was free for all, even expats.
 
 This was an incredible thing and a total game changer. My life was saved, but _just in case of emergencies_. This led to me going about my life as usual, but then having to go to the emergency hospital (ER) every time I did some basic physical activity, like carrying a backpack, opening a door, or _walking_. 
+
+You see, **human beings bleed internally all the time**. Like literally _all the time_. When you walk up some stairs, tiny blood vessels near your knees rupture and start trickling blood into your knee cavity. This stops in a matter of seconds for you though, and you never even notice. 
+
+For me, walking to a grocery store would present a very real possibility of being bedridden the next day, because my knee would eventually fill up with blood such that the blood would pull the ball away from the socket in the joint and it would be in a pseudo-dislocated position which was quite painful, which required emergency medication. From _walking_. Yeah.
 
 With this, 18 years of my life between the ages of 4 and 22 were lived on a pendulum: 
 
@@ -67,7 +71,7 @@ Being frustrated with this disgraceful existence I was born into as a young chil
 
 ### I was Overweight
 
-I was a large child: weighing in around 80kg or 180lbs at age 13. On the few days I went to school, I was bullied pretty heavily both physically and verbally: people would hit/kick me, and I'd bruise and nearly die the next day. Of course, they didn't see me bleed internally and they didn't understand the gravity of it. I had to deal with it all the same. **I bet there's a parallel here for people saying mean things on the internet because they're not exposed to the consequences and impact.** Anyway, my nickname was "fat mushroom" because I had a bowl haircut for a while, which made me look like a fat mushroom.
+I was a large child: weighing in around 80kg or 180lbs at age 13. On the few days I went to school, I was bullied pretty heavily both physically and verbally: people would hit/kick me, and I'd bruise and nearly die the next day. Of course, they didn't see me bleed internally and they didn't understand the gravity of it. I had to deal with it all the same. **I bet there's a parallel here for people saying mean things on the internet because they're not exposed to the consequences and impact of their attacks.** Anyway, my nickname was "fat mushroom" because I had a bowl haircut for a while, which made me look like a fat mushroom.
 
 ![Images of younger Tejas.](/img/blog/health-fitness-devrel-hemophilia/fatejas.jpg)
 
@@ -136,11 +140,11 @@ What this leads to—if we're not careful—is a lifestyle of constant socializi
 
 I slowly started to unravel after traveling a lot for devrel and needed to find a solution. Thankfully, I did (keep reading). 
 
-As a disclaimer, I get that this can sound very "first world problems". I am extremely thankful for my privileged and wonderful position in devrel. There's a lot of great parts to it. We live in this culture though where we show off the highlights on Instagram and leave off the rest. I'd like to be able to be transparent about the trade-offs here.
+As a disclaimer, I get that this can sound very "first world problems". I am extremely thankful for my privileged and wonderful position in devrel. There are a lot of great parts to it. We live in this culture though where we show off the highlights on Instagram and leave off the rest. I'd like to be able to be transparent about the trade-offs here.
 
 ## A New Drug
 
-In late 2020, I was invited to participate in a clinical trial of a newer and more experimental clotting agent: one that lasts longer than the standard at the time. This would mean that instead of my usual 3000IU 3x per week, I'd switch to 4000IU 1x per week. I'd go from injecting stuff into my veins 3x per week to once. Heck yeah! I accepted immediately.
+In late 2020, I was invited to participate in the clinical trial of a newer and more experimental clotting agent: one that lasts longer than the standard at the time. This would mean that instead of my usual 3000IU 3x per week, I'd switch to 4000IU 1x per week. I'd go from injecting stuff into my veins 3x per week to once. Heck yeah! I accepted immediately.
 
 After being on this drug for a while, we found out its impact on quality of life is _major_. **Someone with my disease had a full hip replacement surgery** and didn't need much medicine to fully recover. Previously, this would be out of the question because it would either be fatal, or require too much clotting factor. Wild!
 
@@ -181,13 +185,13 @@ Keto + IF also makes devrel work extremely convenient. I don't have to think abo
 
 While fasting can have [very good results](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2495396/), it can be dangerous if not managed well. When fasting, you can create deficiencies in multiple essential minerals, vitamins, and electrolytes. To combat this, I supplement these carefully while also consuming a bit of salt occasionally while fasting (a powerful electrolyte).
 
-At very low levels of body fat, fasting can also be _fatal_: if there's no fat left to consume, [your body _will_ turn to consuming muscle tissue for energy](https://pubmed.ncbi.nlm.nih.gov/2243122/). Your heart is a muscle. Do the math. It's not worth it. If you're thinking about it, please, _please_ think critically and count the costs first, preferably consulting with an _actual_ doctor.
+At very low levels of body fat, fasting can also be _fatal_: if there's no fat left to consume, [your body _will_ turn to consuming muscle tissue for energy](https://pubmed.ncbi.nlm.nih.gov/2243122/) in the absence of alternative energy sources like carbs. Your heart is a muscle. Do the math. It's not worth it. If you're thinking about it, please, _please_ think critically and count the costs first, preferably consulting with an _actual_ doctor.
 
 ##### Lifestyle, not Diet
 
 It's important to make a distinction here: this is a _lifestyle_, not a _diet_. Diets, especially crash diets, rarely ever work. They don't work because the basic principle around them is _deprivation_, which eventually leads to _binging_ and a bunch of other problems. The result? You often put the weight right back on after you lose it. 
 
-This is different: keto and intermittent fasting is something I _enjoy_. There are [multiple benefits of keto](https://pubmed.ncbi.nlm.nih.gov/35036220/) in the science. Some that I experience are:
+This is different: keto and intermittent fasting are things I _enjoy_. There are [multiple benefits of keto](https://pubmed.ncbi.nlm.nih.gov/35036220/) in the science. Some that I experience are:
 
 - Reduced brain fog, increased focus.
 - Consistent energy levels, no sugar crashes.
@@ -198,9 +202,9 @@ This makes it a lifestyle I want to adopt, regardless of how it affects my physi
 
 ##### Veganism & Climate Impact
 
-There's no denying it—industrial farming is destroying the planet, and keto involves eating animal fat. That said, I think it's quite important to do grass-fed organic when one can. Keto is also not _only a lot of meat_, and green leafy vegetables have their place.
+There's no denying it—industrial farming is destroying the planet, and keto involves eating animal fat. That said, I think it's quite important to do grass-fed organic responsibly sourced meat if able. Keto is also not _only a lot of meat_, and green leafy vegetables have their place.
 
-Additional [research](https://www.annualreviews.org/doi/10.1146/annurev-animal-022516-022943) proves that human beings _need_ certain bioavailable essential amino acids that our bodies cannot produce through our dietary intake that is only available through animal proteins. That said, I'll stop here before the vegan army comes for me.
+Additional [research](https://www.annualreviews.org/doi/10.1146/annurev-animal-022516-022943) proves that human beings _need_ certain bioavailable essential amino acids (the building blocks of proteins, the building blocks of muscles) that our bodies cannot produce through our dietary intake that is only available through animal proteins. That said, I'll stop here before the vegan army comes for me.
 
 A reminder, I'm not interested in giving anyone advice and am only sharing what works for me.
 
@@ -210,9 +214,50 @@ I've also grown a bit of muscle compared to earlier through consistent weight/re
 
 [![Me talking about my new hobby: science-based fitness.](/img/blog/health-fitness-devrel-hemophilia/sciencebased.jpg)](https://twitter.com/TejasKumar_/status/1407590318065680384)
 
-That's literally it: consistent weight training. This works even when doing devrel work because most hotels have gyms. No gym? I use [resistance bands](https://www.amazon.com/Fit-Simplify-Resistance-Exercise-Instruction/dp/B09MJKJYLQ) and work out in the room. What's even better is now that I'm lighter, calisthenics and body-weight exercises like pushups and pull-ups are more accessible and more fun. Weight loss before muscle gain has been helpful for me because I have a wider variety of exercises to choose from. I'd be happy to share more details about growing muscle to anyone interested. Also, I need to be clear **there are no steroids here**: this is fully natural. I did consider steroids a lot as an easy way out, but in the end decided that it would present more problems than benefits. I'm thankful my friends talked me out of it.
+That's literally it: consistent weight training. This works even when doing devrel work because most hotels have gyms. No gym? I use [resistance bands](https://www.amazon.com/Fit-Simplify-Resistance-Exercise-Instruction/dp/B09MJKJYLQ) and work out in the room. 
+
+What's even better is now that I'm lighter, calisthenics and body-weight exercises like pushups and pull-ups are more accessible and more fun. Weight loss before muscle gain has been helpful for me because I have a wider variety of exercises to choose from.
 
 But wait—if I don't eat as much with intermittent fasting and keto, how do I grow muscle? From my experience, it would seem that being in the state of ketosis and consistently training is enough to sustain and grow muscle given an energy (caloric) surplus and adequate protein intake. Ketones [do make things grow](https://www.youtube.com/watch?v=pfgM6nfWU-I&t=4m1s), so there may be something here. Take this with a grain of salt though, because this is a pretty weak experiment I've done on myself where n=1.
+
+##### Self-Compassion and Bro Science
+
+Early in my weight training days, I've heard a lot of things that confused me and didn't seem to make any sense:
+
+- I bought into the "go hard or go home" philosophy, often leading to poor form and injury.
+- I heard arbitrary rules like "you must do 4 sets of 10 reps" without anyone ever talking about how much weight and why.
+- I heard that unless I was sore after every workout, workouts were ineffective.
+
+Thankfully, the science has shown me that **bro science is a bunch of bullshit**, and the true gains come from knowing thyself and from being kind to your body. "Go hard or go home" leads to [major problems](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3435910/) in the science, including increased cortisol (the stress hormone) which can short-circuit muscle growth.
+
+My science-based strength protocol is based largely on self-compassion: I leave my ego at the door when I enter the gym and do whatever my body feels comfortable doing. To speak science, I use a method called "RIR (Reps in Reserve) training" that I learned from [this paper by Eric Helms and co.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4961270/) that is basically self-compassion-driven weight training. The TL;DR of it is that you lift as much as you comfortably can, until you can't. It's totally fine to stop just short of muscle failure, and you don't _need_ to hit failure every time.
+
+While it's hard to come up with a magic number for everyone since everyone's different, my weight training routines usually have 10-20 _hard sets_ per muscle group per week of any number of reps I'm comfortable with: the sets just have to feel difficult. That's it. 
+
+I go by feel, and optimize for **progressive overload**: I try to do a little more each time. That is, I increase at least 1 of 3 fundamental variables to strength training over time. These variables are:
+
+- **Intensity:** how heavy the weight is.
+- **Volume:** how many times I lift it (reps/sets).
+- **Frequency:** how often I work the muscle (2-3x per week).
+
+Sometimes if I don't sleep enough or something, I regress. That's fine. It's just a day in an otherwise continuous flow of progressive, consistent overload. It's okay, I'll increase a variable next time. **Self-compassion is what leads to gains, while pressure makes me quit.**
+
+What about soreness? Should I be sore after every session? The [science](https://pubmed.ncbi.nlm.nih.gov/3521903/) shows on multiple occasions that while DOMS (Delayed Onset Muscle Soreness) needs to be understood a little more with research, soreness is usually triggered by _novel stimulus_ (that is, some new exercise), and not necessarily overly strenuous exercise.
+
+In other words, you could lift heavy and never be sore while still growing muscle if you consistently lift heavy and the heaviness is not _new_. You could also lift something not-as-heavy for the first time and be sore the next day. The science lends itself to the idea that **novelty leads to soreness, not stress**. 
+
+This reassures me that if I'm not sore after a workout, it doesn't really matter. Muscle will still grow with enough stress, ketones, calories, rest, and protein because I'm placing stress on my body's muscles, and my body will appropriately adapt to the challenging environment I'm providing it. _That's what bodies do_: they have literally _one job_, and that is to adapt to whatever environment they're in (whatever environment you give it) and adapt to ensure your survival. If you consistently stress your muscles and help your body recover well and adapt, you _will_ get stronger. It's nature's way.
+
+So yeah, here's my training protocol in a nutshell:
+
+- 10-20 hard sets per muscle group per week.
+  - Divided up into 4-7 sets, 3x per week.
+- No rep ranges, but I lift things that are heavy enough to lift <10 times in a given set and no more.
+- Prioritized progressive overload and increasing at least 1 fundamental variable.
+- Muscles grow during recovery not during training, so plenty of sleep and food.
+- Self-compassion covers all: if I can't perform, then I can't perform. It's fine. I'll perform next time.
+
+Okay, enough gym bro-ing out. Let's wrap this up.
 
 ## What’s Next?
 
