@@ -36,7 +36,7 @@ Whew, okay. Lots of disclaimers. Let's get into the meat of this thing.
 
 Just kidding! We need to establish some context first. You see, my life is quite different from most because **I have a rare genetic disease that affects about 1 in 20,000 people in the United States**. Pretty sure that can be considered _"rare"_. It's called [hemophilia](https://www.mayoclinic.org/diseases-conditions/hemophilia/symptoms-causes/syc-20373327) and is _the literal worst_. The TL;DR of it is that when I start bleeding (both _internally_ and _externally_), I cannot stop: my body is unable to produce [factor 8](https://pubmed.ncbi.nlm.nih.gov/6424437/), a protein responsible to stop bleeding. 
 
-Of course, thankfully there's medicine for it. Of course, the world is a messed up and unequal place, so this medicine is [ridiculously expensive](https://www.statista.com/statistics/1089192/price-of-factor-viii-by-country/). The drug I need (called **Recombinant Factor VIII (rFVIII)**) costs about $2.53 per International Unit (IU). For optimal treatment, I need about 3000 IU, 3 times a week. That's about $22,770 a month. **If I don't take this, my risk of death is and remains very high**.
+Of course, thankfully there's medicine for it. Of course, the world is a messed up and unequal place, so this medicine is [ridiculously expensive](https://www.statista.com/statistics/1089192/price-of-factor-viii-by-country/). The drug I need (called **Recombinant Factor VIII (rFVIII)**) costs about $2.53 per International Unit (IU). For optimal treatment, I need about 3000 IU, 3 times a week. That's about $22,770 _a week_. **If I don't take this, my risk of death is and remains very high**.
 
 <iframe width="100%" style="aspect-ratio: 16/9; min-height: 300px;" src="https://www.youtube.com/embed/TUIcTl9Hto4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -44,7 +44,7 @@ See, I have _the worst kind of hemophilia_: severe hemophilia A. That means, at 
 
 ### Born in 🇮🇳 India, Raised in 🇶🇦 Qatar
 
-$22,770 a month? In India? Lol, you must be joking. Not only is the median income of India like $2,500 US, but I was also born into not a rich family. What's the alternative? You either die, or you hope for "the cheap stuff". My grandpa also had my disease (it's genetic). He lived his whole life in India. He took the cheap stuff, which _gave him AIDS_, which he ended up dying from (wtf, right?!).
+$22,770 a week? In India? Lol, you must be joking. Not only is the median income of India like $2,500 US, but I was also born into not a rich family. What's the alternative? You either die, or you hope for "the cheap stuff". My grandpa also had my disease (it's genetic). He lived his whole life in India. He took the cheap stuff, which _gave him AIDS_, which he ended up dying from (wtf, right?!).
 
 Yeah, so India's a no-go. At about age 4, my dad miraculously got a job that moved us to [Qatar](https://en.wikipedia.org/wiki/Qatar). After a near-death experience (maybe a blog post for another time), we learned that the treatment at the time in Qatar—only in case of emergencies—was free for like everyone, even expats.
 
