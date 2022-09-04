@@ -10,7 +10,7 @@ Before we get started, I need to make a few things clear:
 
 ### 1. This Isn't Medical Advice
 
-While I've spent most of my life in hospitals with doctors (more on that later), I'm not a doctor and the things I'm saying here are not to be considered medical advice. Heck, they're not supposed to be considered _any_ advice—this is just a personal experience. I hate unsolicited advice so far be it from me to give it.
+While I've spent most of my life in hospitals with doctors (more on that later), I'm not a doctor and the things I'm saying here are not to be considered medical advice. Heck, they're not supposed to be considered _any_ advice—this is just personal experience. I hate unsolicited advice, so far be it from me to give it.
 
 ### 2. You're Probably Fine
 
