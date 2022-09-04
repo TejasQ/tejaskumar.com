@@ -175,13 +175,34 @@ I lose quite a bit of weight just doing keto on its own. The thing is, when I st
 
 Because of this, I practice [**intermittent fasting**](https://www.hopkinsmedicine.org/health/wellness-and-prevention/intermittent-fasting-what-is-it-and-how-does-it-work) (IF). I fast for 16-20 hours per day every day, and only eat between an 8-4 hour window. There's a common myth that when you're not eating you're not eating. The truth is that our bodies are _always_ eating: either from the outside (food), or from the inside ([autophagy](https://www.healthline.com/health/autophagy)). Managing this with a little discipline, even when traveling for work, has served me well. 
 
-Keto + IF also makes devrel work extremely convenient: I don't have to think about food as much, and when I do, it's easy: something without starch/sugar. Steak, cheese, whatever. You ever look at a menu and panic because you don't know what to get? The constraints I have help me decide on meals faster, which also improves my quality of life.
+Keto + IF also makes devrel work extremely convenient: I don't have to think about food as much, and when I do, it's easy: something without starch/sugar. Steak, cheese, whatever. Green, leafy vegetables are also keto, so I could literally just eat a bowl of nice fresh lettuce, broccoli, and other healthy goodies. You ever look at a menu and panic because you don't know what to get? The constraints I have help me decide on meals faster, which also improves my quality of life.
 
 ##### Fasting Considered Harmful
 
 While fasting can have [very good results](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2495396/), it can be dangerous if not managed well. When fasting, you can create deficiencies in multiple essential minerals, vitamins, and electrolytes. To combat this, I supplement these carefully while also consuming a bit of salt occasionally while fasting (a powerful electrolyte).
 
 At very low levels of body fat, fasting can also be _fatal_: if there's no fat left to consume, [your body _will_ turn to consuming muscle tissue for energy](https://pubmed.ncbi.nlm.nih.gov/2243122/). Your heart is a muscle. Do the math. It's not worth it. If you're thinking about it, please, _please_ think critically and count the costs first, preferably consulting with an _actual_ doctor.
+
+##### Lifestyle, not Diet
+
+It's important to make a distinction here: this is a _lifestyle_, not a _diet_. Diets, especially crash diets, rarely ever work. They don't work because the basic principle around them is _deprivation_, which eventually leads to _binging_ and a bunch of other problems. The result? You often put the weight right back on after you lose it. 
+
+This is different: keto and intermittent fasting is something I _enjoy_. There are [multiple benefits of keto](https://pubmed.ncbi.nlm.nih.gov/35036220/) in the science. Some that I experience are:
+
+- Reduced brain fog, increased focus.
+- Consistent energy levels, no sugar crashes.
+- Fat-first metabolism.
+- Improved insulin sensitivity.
+
+This makes it a lifestyle I want to adopt, regardless of how it affects my physical appearance. I believe this is a huge key to achieving the results I enjoy, and I'm convinced a simple crash diet would fail me. 
+
+##### Veganism & Climate Impact
+
+There's no denying it—industrial farming is destroying the planet, and keto involves eating animal fat. That said, I think it's quite important to do grass-fed organic when one can. Keto is also not _only a lot of meat_, and green leafy vegetables have their place.
+
+I also read [research](https://www.annualreviews.org/doi/10.1146/annurev-animal-022516-022943) that proves that human beings _need_ certain bioavailable essential amino acids that our bodies cannot produce through our dietary intake that is only available through animal proteins. That said, I'll stop here before the vegan army comes for me.
+
+A reminder, I'm not interested in giving anyone advice and am only sharing what works for me.
 
 #### How: Growing Muscle
 
@@ -197,7 +218,7 @@ But wait—if I don't eat as much with intermittent fasting and keto, how do I g
 
 So today, I'm pretty satisfied with what I've accomplished so far—especially in the context of my disease and circumstances. I feel lighter, stronger, happier. Reflecting on being born with hemophilia and all that drama, how can I not be thankful? Even though there's still quite a bit of work to do and I'm not "perfect", it's incredibly satisfying. It's a little heartbreaking that people do treat me differently now and are more accepting of me because I supposedly look more "attractive", but I suppose it's a human tendency to treat people we perceive as more attractive better. I'm not sure what to do about that, but it does bother me a little bit.
 
-One thing to note at my current state is that the goal keeps moving: at a lower level of body fat and more muscle, I _should_ be happy with what I have, but I also tend to notice more imperfections and have a moving goal. This is why **I prioritize the journey instead of the destination**: because the destination likely is unreachable, unrealistic, and generally unreliable. In the meanwhile, I'll just enjoy my steak and barbells.
+One thing to note at my current state is that the goal keeps moving: at a lower level of body fat and more muscle, I _should_ be happy with what I have, but I also tend to notice more imperfections and have a moving goal. This is why **I prioritize the journey instead of the destination**: because the destination likely is unreachable, unrealistic, and generally unreliable. In the meanwhile, I'll just enjoy my steak salad and barbells.
 
 I also am keeping a close eye on my minerals, electrolytes, and mental state, being hyper-vigilant to prevent any eating disorders from developing. To me, **the focus is peak health, well-being, and quality of life.** Nothing more, nothing less. This is more than just shallow, vain aesthetics, but a pursuit of _health_. In fact, I believe **we get healthy, then lose weight and build muscle** instead of losing weight, building muscle, and then being called "healthy".
 
