@@ -136,7 +136,7 @@ What this leads to—if we're not careful—is a lifestyle of constant socializi
 
 I slowly started to unravel after traveling a lot for devrel and needed to find a solution. Thankfully, I did (keep reading). 
 
-As a disclaimer, I get that this can sound very "first world problems". I am extremely thankful for my privileged and wonderful position in devrel. There's a lot of great parts to it. We live in this culture though were we show off the highlights on Instagram and leave off the rest. I'd like to be able to be transparent about the trade-offs here.
+As a disclaimer, I get that this can sound very "first world problems". I am extremely thankful for my privileged and wonderful position in devrel. There's a lot of great parts to it. We live in this culture though where we show off the highlights on Instagram and leave off the rest. I'd like to be able to be transparent about the trade-offs here.
 
 ## A New Drug
 
