@@ -214,7 +214,7 @@ I've also grown a bit of muscle compared to earlier through consistent weight/re
 
 [![Me talking about my new hobby: science-based fitness.](/img/blog/health-fitness-devrel-hemophilia/sciencebased.jpg)](https://twitter.com/TejasKumar_/status/1407590318065680384)
 
-That's literally it: consistent weight training. This works even when doing devrel work because most hotels have gyms. No gym? I use [resistance bands](https://www.amazon.com/Fit-Simplify-Resistance-Exercise-Instruction/dp/B09MJKJYLQ) and work out in the room. 
+That's literally it: consistent weight training. This works even when doing devrel work because most hotels have gyms. No gym? I use [resistance bands](https://www.amazon.com/Fit-Simplify-Resistance-Exercise-Instruction/dp/B09MJKJYLQ) and work out in the room. Your muscles don't care if you use dumbbells or barbells or bands–they just need stimuli and stress. 
 
 What's even better is now that I'm lighter, calisthenics and body-weight exercises like pushups and pull-ups are more accessible and more fun. Weight loss before muscle gain has been helpful for me because I have a wider variety of exercises to choose from.
 
@@ -236,11 +236,11 @@ While it's hard to come up with a magic number for everyone since everyone's dif
 
 I go by feel, and optimize for **progressive overload**: I try to do a little more each time, so that my body gets enough physical stress that it adapts and gets stronger. Concretely, I increase at least 1 of 3 fundamental variables to strength training over time. These variables are:
 
-- **Intensity:** how heavy the weight is.
-- **Volume:** how many times I lift it (reps/sets).
-- **Frequency:** how often I work the muscle (2-3x per week).
+1. **Intensity:** how heavy the weight is.
+1. **Volume:** how many times I lift it (reps/sets).
+1. **Frequency:** how often I work the muscle (2-3x per week).
 
-Sometimes if I don't sleep enough or something, I regress. That's fine. It's just a day in an otherwise continuous flow of progressive, consistent overload. It's okay, I'll increase a variable next time. **Self-compassion is what leads to gains, while pressure makes me quit.**
+Sometimes if I don't sleep enough or something, I regress. That's fine. It's just a day in an otherwise continuous flow of progressive, consistent overload. It's okay, I'll increase a variable next time. **Self-compassion is what leads to gains and consistency, while pressure makes me quit.**
 
 What about soreness? Should I be sore after every session? The [science](https://pubmed.ncbi.nlm.nih.gov/3521903/) shows on multiple occasions that while DOMS (Delayed Onset Muscle Soreness) needs to be understood a little more with research, soreness is usually triggered by _novel stimulus_ (that is, some new exercise), and not necessarily overly strenuous exercise.
 
