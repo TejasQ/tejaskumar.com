@@ -1,6 +1,8 @@
 # Health, Fitness, DevRel, and Hemophilia
 
-[Brené Brown](https://www.youtube.com/watch?v=iCvmsMzlF7o) told me to be vulnerable, so here's an attempt. This is a deeply personal post that will give you quite the insight into me as a person. I'm literally laying it all out there. This may affect the way you see me, and might make some relationships awkward or something, but I don't really care: vulnerability and the positive results that follow are worth it. With that, let's kick this off.
+This is a deeply personal post that will give you quite the insight into me as a person and my health journey so far. I'm literally laying it all out there. This may affect the way you see me, and might make some relationships awkward or something, but I don't really care: vulnerability and the positive results that follow are worth it. With that, let's kick this off.
+
+[Brené Brown](https://www.youtube.com/watch?v=iCvmsMzlF7o) told me to be vulnerable, so here's an attempt. 
 
 ## Prerequisites
 
