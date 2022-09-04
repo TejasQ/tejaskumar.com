@@ -28,7 +28,7 @@ I believe the only one worth comparing myself with is my past self. If I compare
 
 I fully recognize that I was privileged enough to have the stars align in my favor. We'll talk more about that later in this post, but for now—I'm aware that not everybody has the opportunities and the privilege that I have today that makes the wins I'm about to share possible. This motivates me to work even harder to help others who don't have the same opportunities.
 
-Similarly, there are others with _way_ more privilege and health than me just by virtue of something as trivial as _where they spawned on the planet_. Inequality's an unfortunate thing. My strategy is to work hard to eliminate it, while also not resenting those more privileged than I am.
+Similarly, there are others with _way_ more privilege than me just by virtue of something as trivial as _where they spawned on the planet_. Inequality's an unfortunate thing. My strategy is to work hard to eliminate it, while also not resenting those more privileged than I am.
 
 Whew, okay. Lots of disclaimers. Let's get into the meat of this thing.
 
