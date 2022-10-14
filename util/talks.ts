@@ -103,6 +103,7 @@ export const testimonials = Array.from(new Set([
 "https://twitter.com/bhuvanakotees1/status/1573197090364493824",
 "https://twitter.com/tanishaaa03/status/1573196032196120576",
     "https://twitter.com/metamehr/status/1580830339370749952", // React Brussels
+"https://twitter.com/martialhabimana/status/1580841301330706432",
     "https://twitter.com/Kod__Man/status/1580827989096673280",
     "https://twitter.com/FloorDrees/status/1580823930335825920",
     "https://twitter.com/thmsldx/status/1580820974211325952",
