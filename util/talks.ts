@@ -34,6 +34,7 @@ export const talks = [
 ]
 
 export const testimonials = Array.from(new Set([
+"https://twitter.com/miracle_404/status/1580957480527736833",
 "https://twitter.com/michellebakels/status/1580941924567248902",
     "https://twitter.com/ReactNorway/status/1529042539256373249", // React Norway
     
