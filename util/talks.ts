@@ -1,4 +1,7 @@
 export const talks = [
+    { name: "CascadiaJS", url: "https://www.youtube.com/watch?v=f2_aj1y3zO8" },
+    { name: "React Norway", url: "https://www.youtube.com/watch?v=AQRlDs92XFA&t=6h38m05s" },
+    { name: "React Summit", url: "https://www.youtube.com/watch?v=7Urm4xbw4RA" },
     { name: "WorkerConf", url: "https://www.youtube.com/watch?v=L4n3JDw5m_g" },
     { name: "BeJS", url: "https://youtu.be/liwC7W-uWnY" },
     { name: "LogRocket Podcast", url: "https://www.youtube.com/watch?v=9S0hCRhodN8" },
