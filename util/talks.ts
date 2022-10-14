@@ -33,7 +33,7 @@ export const talks = [
     { name: "TEDxYouth@Doha", url: 'https://www.youtube.com/watch?v=TUIcTl9Hto4' }
 ]
 
-export const testimonials = [
+export const testimonials = Array.from(new Set([
     "https://twitter.com/ReactNorway/status/1529042539256373249", // React Norway
     
 "https://twitter.com/bejs_/status/1525091340933111811", // BeJS
@@ -318,4 +318,4 @@ export const testimonials = [
     'https://twitter.com/DavidKPiano/status/1235897302117736449',
     'https://twitter.com/DavidKPiano/status/1522906499365969920',
     'https://twitter.com/threepointone/status/1188274285434916866',
-    'https://twitter.com/swyx/status/1177331196528738305',]
+    'https://twitter.com/swyx/status/1177331196528738305',]))
