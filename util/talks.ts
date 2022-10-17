@@ -1,4 +1,5 @@
 export const talks = [
+{ name: "React Brussels", url: "https://youtu.be/uZnXwuhYZBc" },
     { name: "CascadiaJS", url: "https://www.youtube.com/watch?v=f2_aj1y3zO8" },
     { name: "React Norway", url: "https://www.youtube.com/watch?v=AQRlDs92XFA&t=6h38m05s" },
     { name: "React Summit", url: "https://www.youtube.com/watch?v=7Urm4xbw4RA" },
