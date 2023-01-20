@@ -65,6 +65,10 @@ const BirthdayPage = () => {
           We will look at the Bible together openly and respectfully to figure
           stuff out. If that's offputting to you, feel free to skip this one.
         </li>
+        <li>
+          This is a one-off experiment, and if people like it, we might
+          regularize it.
+        </li>
       </ul>
       <h2>The Schedule</h2>
       <table>
