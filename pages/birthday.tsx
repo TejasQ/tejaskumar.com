@@ -47,9 +47,9 @@ const BirthdayPage = () => {
           , and you'll get the time by email if you sign up below.
         </li>
         <li>
-          This is <em>not</em> religious. Religion has caused many problems
-          around the world including wars and genocide, and has been abused for
-          fear and control.
+          This is <em>not</em> religious. I hate religion. Religion has caused
+          many problems around the world including wars and genocide, and has
+          been abused for fear and control.
         </li>
         <li>
           This is really just an exploration of life, meaning, and purpose
