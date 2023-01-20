@@ -20,9 +20,13 @@ const BirthdayPage = () => {
       </Head>
       <h1>You're Invited!</h1>
       <p>
-        This year as I turn 30, I'm hosting a church service to celebrate my
-        birthday. This is not just for Christians, but for open-minded everyday
-        thinking people. Berlin is one of the{" "}
+        I used to be a Christian pastor a loooooong time ago. It was a vibe once
+        you removed all of the religious nonsense. This year as I turn 30, I'm
+        hosting a birthday party themed after a church service. This is not just
+        for Christians, but for open-minded everyday people.
+      </p>
+      <p>
+        Why? Because Berlin is one of the{" "}
         <a
           href="https://www.dw.com/en/berlin-capital-of-loneliness/a-50867492"
           target="_blank"
@@ -31,7 +35,8 @@ const BirthdayPage = () => {
         </a>{" "}
         cities on the planet, and the goal is to create a thriving community
         where people from all backgrounds and lifestyles can respectfully
-        connect, discuss, learn, grow, and have fun together.
+        connect, discuss, learn, grow, and have fun together&mdash;even if just
+        for one day.
       </p>
       <h2>Good to Know</h2>
       <ul>
@@ -60,7 +65,10 @@ const BirthdayPage = () => {
           </span>
           ".{" "}
         </li>
-        <li>This is for literally everyone. Feel free to invite 10 friends.</li>
+        <li>
+          This is for literally everyone. Feel free to send this link to 12
+          friends.
+        </li>
         <li>
           We will look at the Bible together openly and respectfully to figure
           stuff out. If that's offputting to you, feel free to skip this one.
@@ -89,10 +97,10 @@ const BirthdayPage = () => {
             <em>15 min</em>
           </td>
           <td>
-            ~15 minute talk from me
+            Talk from me
             <br />
             <span className="meta">
-              about the past 30 years and this church idea
+              about the past 30 years and my hatred for religion
             </span>
           </td>
         </tr>
