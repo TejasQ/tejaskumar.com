@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { BirthdayForm } from "../components/BirthdayForm";
 
 const BirthdayPage = () => {
@@ -14,6 +15,9 @@ const BirthdayPage = () => {
         alignItems: "center",
       }}
     >
+      <Head>
+        <meta name="robots" content="noindex,nofollow" />
+      </Head>
       <h1>You're Invited!</h1>
       <p>
         This year as I turn 30, I'm hosting a church service to celebrate my
