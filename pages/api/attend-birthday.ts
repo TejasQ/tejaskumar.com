@@ -8,7 +8,7 @@ const client = new XataClient();
 
 const handler: NextApiHandler = async (req, res) => {
     const { email } = req.body;
-    await client.db.church_invites.create({ email })
+    await client.db.church_invites.create({ email, createdAt: new Date() })
     res.end();
 }
 

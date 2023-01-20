@@ -18,7 +18,10 @@ const tables = [
   },
   {
     name: "church_invites",
-    columns: [{ name: "email", type: "email", unique: true }],
+    columns: [
+      { name: "email", type: "email", unique: true },
+      { name: "createdAt", type: "datetime" },
+    ],
   },
 ] as const;
 
