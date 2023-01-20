@@ -3,17 +3,23 @@
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   background: black;
   color: white;
   border-radius: 0.25rem;
   cursor: pointer;
   transition: 0.3s transform ease;
 
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
   @media (min-width: 1024px) {
-    &:hover {
+    &:hover:not(:disabled) {
       transform: scale(1.1);
     }
-    &:active {
+    &:active:not(:disabled) {
       transform: scale(0.9);
     }
   }

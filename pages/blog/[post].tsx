@@ -13,7 +13,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 import ContentSeparator from "../../components/ContentSeparator";
 import ImageContainer from "../../components/ImageContainer";
 import ReadingTime from "../../components/ReadingTime";
-import styles from "../../styles/blog.module.css";
+import styles from "../../styles/blog.module.scss";
 
 type Post = {
   content: string;

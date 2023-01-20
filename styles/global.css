@@ -14,11 +14,16 @@ body {
 
 a:link,
 a:visited {
+  text-decoration: none;
   color: #0076c5;
-  font-weight: bold;
-  text-decoration: underline;
 }
 
+p a:link,
+p a:visited {
+  font-weight: bold;
+}
+
+p a:hover,
 a:hover {
   color: #e00028;
 }
@@ -56,10 +61,17 @@ li {
     color: white;
   }
   a:link,
-  a:visited {
+  a:visited,
+  p a:link,
+  p a:visited {
     color: #8ec1ec;
   }
-  a:hover {
+  a:hover,
+  p a:hover {
     color: #f8a5b4;
   }
+}
+
+nav {
+  font-weight: bold;
 }

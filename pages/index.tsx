@@ -122,10 +122,8 @@ const App = ({
                   <p>{firstPost.excerpt}</p>
                 </Card>
               </Link>
-
               <Link href={`/blog`}>
                 <Card center>
-                  <h2>🚀</h2>
                   <h2>MOAR BLOG POSTS</h2>
                 </Card>
               </Link>

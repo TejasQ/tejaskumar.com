@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://tejas-o860q2.eu-west-1.xata.sh/db/tejaskumar-com",
+  "codegen": {
+    "output": "./util/xata.ts"
+  }
+}

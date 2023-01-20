@@ -7,7 +7,7 @@ import BlogMeta from "../components/BlogMeta";
 import Card from "../components/Card";
 import ReadingTime from "../components/ReadingTime";
 import Title from "../components/Title";
-import styles from "../styles/blog.module.css";
+import styles from "../styles/blog.module.scss";
 import { getInitialBlogPosts, Post } from "../util/getInitialBlogPosts";
 
 const Blog = ({ posts }: { posts: Post[] }) => (
@@ -20,7 +20,11 @@ const Blog = ({ posts }: { posts: Post[] }) => (
       />
     </Head>
     <Title
-      style={{ position: "absolute", transform: "translateY(-50%)" }}
+      style={{
+        zIndex: -1,
+        position: "absolute",
+        transform: "translateY(-50%)",
+      }}
       color="#0002"
       length={4}
     >
@@ -40,7 +44,9 @@ const Blog = ({ posts }: { posts: Post[] }) => (
                 <ReadingTime text={post.body} />
               </BlogMeta>
               <ReactMarkdown>{post.excerpt}</ReactMarkdown>
-              <a href={`/blog/${encodeURI(post.slug)}`}>Keep reading... 👉🏾</a>
+              <p>
+                <a href={`/blog/${encodeURI(post.slug)}`}>Keep reading... 👉🏾</a>
+              </p>
             </Card>
           </Link>
         ))}

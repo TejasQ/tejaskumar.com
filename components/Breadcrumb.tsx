@@ -15,9 +15,7 @@ const Breadcrumb: FC<React.DetailedHTMLProps<
       {path.map((part, index) =>
         "link" in part ? (
           <Fragment key={part.link}>
-            <Link href={part.link}>
-              <a>{part.label}</a>
-            </Link>
+            <Link href={part.link}>{part.label}</Link>
             {index < path.length - 1 && (
               <span className={styles.separator}>/</span>
             )}
