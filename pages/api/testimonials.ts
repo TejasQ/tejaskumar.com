@@ -14,7 +14,7 @@ const handler: NextApiHandler = async (req, res) => {
 
     const testimonials = await client.db.testimonials
         .sort("followers", "desc")
-        .getMany({ page: { size: 25, offset: parseFloat(String(from)) } });
+        .getMany({ pagination: { size: 25, offset: parseFloat(String(from)) } });
 
     res.end(JSON.stringify(randomizeArray(testimonials.map(t => {
         const tweetId = getIdFromTweetUrl(String(t.tweet_url));

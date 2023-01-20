@@ -129,7 +129,7 @@ const client = new XataClient();
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const testimonials = await client.db.testimonials
     .sort("followers", "desc")
-    .getMany({ page: { size: 25 } });
+    .getMany({ pagination: { size: 25 } });
 
   const tweetIds = testimonials.map(t => {
     const id = getIdFromTweetUrl(String(t.tweet_url));
