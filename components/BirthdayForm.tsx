@@ -9,6 +9,7 @@ export const BirthdayForm = () => {
   >("initial");
 
   const submit = () => {
+    setSendingState("sending");
     fetch("/api/attend-birthday", {
       method: "POST",
       body: JSON.stringify({ email, okToContact }),
