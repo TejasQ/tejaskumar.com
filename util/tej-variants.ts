@@ -7,7 +7,6 @@ export default [
   /* TEJ */ "ANITOR",
   /* TEJ */ "UICE",
   /* TEJ */ "U",
-  /* TEJ */ "AREDPALMER",
   /* TEJ */ "AX",
   /* TEJ */ "ASCRIPT",
   /* TEJ */ "स कुमार",
