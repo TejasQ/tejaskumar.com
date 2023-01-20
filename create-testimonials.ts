@@ -66,7 +66,7 @@ const main = async () => {
                     ast = await fetchTweetAst(id) ?? '';
                 } catch { }
 
-                return client.db.testimonials.filter({ tweet_url: testimonials[userIndex] }).getOne().then(d => client.db.testimonials.update(d?.id ?? '', { ast: JSON.stringify(ast), followers: u[0].followers_count }));
+                return client.db.testimonials.filter({ tweet_url: testimonials[userIndex] }).getFirst().then(d => client.db.testimonials.update(d?.id ?? '', { ast: JSON.stringify(ast), followers: u[0].followers_count }));
             }).then(() => console.log(`Updated ${users[userIndex]}.`))
         }
 
