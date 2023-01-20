@@ -123,9 +123,8 @@ const BirthdayPage = () => {
       </table>
       <h2>Wanna Join?</h2>
       <p>
-        We'd love to have you celebrate and explore with us! We will be looking
-        at/talking about the Christian bible and that can be off-putting to
-        some. If you're comfortable, RSVP below!
+        We'd love to have you celebrate and explore with us! If you'd like to
+        join, RSVP below!
       </p>
       <BirthdayForm />
       <style jsx>
