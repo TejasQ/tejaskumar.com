@@ -4,7 +4,9 @@ import { Button } from "./Button";
 export const BirthdayForm = () => {
   const [email, setEmail] = React.useState("");
   const [okToContact, setOkToContact] = React.useState(false);
-  const [sent, setSent] = useState(false);
+  const [sendingState, setSendingState] = useState<
+    "initial" | "sending" | "sent" | "failed"
+  >("initial");
 
   const submit = () => {
     fetch("/api/attend-birthday", {
@@ -14,7 +16,7 @@ export const BirthdayForm = () => {
         "Content-Type": "application/json",
       },
     }).then(() => {
-      setSent(true);
+      setSendingState("sent");
       alert(
         "Thanks for RSVPing! We'll be in touch closer to the date. See you soon!"
       );
@@ -48,14 +50,18 @@ export const BirthdayForm = () => {
       </label>
       <Button
         disabled={
-          sent ||
+          sendingState !== "initial" ||
           !(
             okToContact &&
             /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
           )
         }
       >
-        {sent ? "See you there!" : "Sign me up!"}
+        {sendingState === "sent"
+          ? "See you there!"
+          : sendingState === "sending"
+          ? "One sec..."
+          : "Sign me up!"}
       </Button>
       <style jsx>
         {`
