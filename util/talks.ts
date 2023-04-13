@@ -38,6 +38,9 @@ export const talks = [
 ]
 
 export const testimonials = Array.from(new Set([
+"https://twitter.com/michelerivacode/status/1646420506541785092", // jsday verona
+"https://twitter.com/hayatrachi/status/1646421134739374080",
+"https://twitter.com/loige/status/1646430525651812354",
 "https://twitter.com/meeroslav/status/1628669718994223106", // agentconf 
 "https://twitter.com/reactnorway/status/1620724659007397891", // ad-hoc
     "https://twitter.com/olanetsoft/status/1603024911764791296", //devrel mentorship
