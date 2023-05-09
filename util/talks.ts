@@ -38,6 +38,16 @@ export const talks = [
 ]
 
 export const testimonials = Array.from(new Set([
+
+"https://twitter.com/aroblesdevelop/status/1655937996938678280",
+"https://twitter.com/alegueden/status/1655930894442479616",
+"https://twitter.com/v4n3ss4ms/status/1655918351598616577",
+"https://twitter.com/nlucky_nkosi/status/1655918941800103937",
+"https://twitter.com/liran_tal/status/1655915524738482176",
+"https://twitter.com/mind_of_ac/status/1655914590905958404",
+"https://twitter.com/sofisdev/status/1655914429341487105",
+"https://twitter.com/andronikaja/status/1655913995839188995",
+"https://twitter.com/stanimiravlaeva/status/1655913774384021507", // codemotion milan
 "https://twitter.com/gahrzdev/status/1646438008009228290",
 "https://twitter.com/michelerivacode/status/1646420506541785092", // jsday verona
 "https://twitter.com/hayatrachi/status/1646421134739374080",
