@@ -38,7 +38,25 @@ export const talks = [
 ]
 
 export const testimonials = Array.from(new Set([
-
+    "https://twitter.com/HamatoYogi/status/1673589961658970113",
+    "https://twitter.com/DanShappir/status/1673586632438554624",
+    "https://twitter.com/meeroslav/status/1673578496138924034", // ReactNext
+    "https://twitter.com/programira/status/1669619033207963654",
+    "https://twitter.com/danieljcafonso/status/1669609185934209026",
+    "https://twitter.com/0lpeh/status/1669608455290724352", // ReactNorway
+    "https://twitter.com/ishandeveloper/status/1666405550966595586", 
+    "https://twitter.com/JoshWComeau/status/1664392445004587009",
+    "https://twitter.com/namans_26/status/1664388960507019269",
+    "https://twitter.com/AdamRackis/status/1664385673762045952",
+    "https://twitter.com/flybayer/status/1664383550320246785", // RenderATL
+    "https://twitter.com/goyoregalado/status/1662754355806715904", 
+    "https://twitter.com/DanielRamosAcos/status/1662417964958662656", 
+    "https://twitter.com/eleazar_bhp/status/1662402080491880449",
+    "https://twitter.com/lolarufino/status/1662395771948265473",
+    "https://twitter.com/jmlweb/status/1662389996882391040", 
+    "https://twitter.com/cesalberca/status/1662385282828623872" // JSDay Canarias
+    "https://twitter.com/thmsldx/status/1657072752128294914",
+"https://twitter.com/hasparus/status/1656924390796193793", // BeJS
 "https://twitter.com/liran_tal/status/1656038613073707010",
 "https://twitter.com/aroblesdevelop/status/1655937996938678280",
 "https://twitter.com/alegueden/status/1655930894442479616",
