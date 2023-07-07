@@ -38,6 +38,22 @@ export const talks = [
 ]
 
 export const testimonials = Array.from(new Set([
+    "https://twitter.com/manoharglm/status/1677180259626803200",
+    "https://twitter.com/ksridhar02/status/1677179998527188994",
+    "https://twitter.com/inikhilkumaran/status/1677177769585946624",
+    "https://twitter.com/ksridhar02/status/1677177340328316929",
+    "https://twitter.com/md_zubairahmed/status/1677177244358418432",
+    "https://twitter.com/gupta_shivs/status/1677176530034741248",
+    "https://twitter.com/khanashaana/status/1677175620953055232",
+    "https://twitter.com/reactnexus/status/1677174416051146752",
+    "https://twitter.com/khareapurv/status/1677173371069698048",
+    "https://twitter.com/dani_akash_/status/1677170061424074755",
+    "https://twitter.com/yomeshgupta/status/1677170014821163009",
+    "https://twitter.com/mohsinulhaq/status/1677169587710996480",
+    "https://twitter.com/anjanesh/status/1677168591651864576",
+    "https://twitter.com/irakeshpurohit/status/1677168218136547328",
+    "https://twitter.com/dani_akash_/status/1677168134082658305",
+    "https://twitter.com/hetu_n/status/1677167836052226050", // React Nexus
     "https://twitter.com/HamatoYogi/status/1673589961658970113",
     "https://twitter.com/DanShappir/status/1673586632438554624",
     "https://twitter.com/meeroslav/status/1673578496138924034", // ReactNext
