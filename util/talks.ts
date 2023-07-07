@@ -38,6 +38,8 @@ export const talks = [
 ]
 
 export const testimonials = Array.from(new Set([
+    
+    "https://twitter.com/0xgauravv/status/1677190841381818368",
     "https://twitter.com/manoharglm/status/1677180259626803200",
     "https://twitter.com/ksridhar02/status/1677179998527188994",
     "https://twitter.com/inikhilkumaran/status/1677177769585946624",
