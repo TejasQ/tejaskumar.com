@@ -1,43 +1,95 @@
 export const talks = [
-    { name: "Next.js Conf", url: "https://www.youtube.com/watch?v=3TVkTrZFizo" },
-    { name: "React Advanced London", url: "https://youtu.be/GzombuX2tS0?t=2728" },
-    { name: "React India", url: "https://www.youtube.com/watch?v=KWb7U9p4h2U" },
-    { name: "React Brussels", url: "https://youtu.be/uZnXwuhYZBc" },
-    { name: "CascadiaJS", url: "https://www.youtube.com/watch?v=f2_aj1y3zO8" },
-    { name: "React Norway", url: "https://www.youtube.com/watch?v=AQRlDs92XFA&t=6h38m05s" },
-    { name: "React Summit", url: "https://www.youtube.com/watch?v=7Urm4xbw4RA" },
-    { name: "WorkerConf", url: "https://www.youtube.com/watch?v=L4n3JDw5m_g" },
-    { name: "BeJS", url: "https://youtu.be/liwC7W-uWnY" },
-    { name: "LogRocket Podcast", url: "https://www.youtube.com/watch?v=9S0hCRhodN8" },
-    { name: "Serverless in the Park", url: "https://www.youtube.com/watch?v=0qK2_wi4t3k&t=19570s" },
-    { name: "React Miami", url: "https://www.youtube.com/watch?v=7meVjMOgw8A" },
-    { name: "OSCAFest22", url: "https://youtu.be/7jYvy4SFG1w?t=6100 " },
-    { name: "GOTO 2021", url: "https://www.youtube.com/watch?v=KTkyQ3z7M8w" },
-    { name: "NodeCongress", url: "https://www.youtube.com/watch?v=_CTTRcEARTA" },
-    { name: "Deconstructing React", url: "https://www.youtube.com/watch?v=f2mMOiCSj5c" },
-    { name: "ReactConf AU", url: "https://www.youtube.com/watch?v=9xL0a6YJIQU" },
-    { name: "React Day Berlin", url: "https://m.youtube.com/watch?v=CWO6U7jaO20" },
-    { name: "JSConf Armenia", url: "https://www.youtube.com/watch?v=ejEVdbyEVnc" },
-    { name: "JSConf EU (Lightning Talk)", url: "https://www.youtube.com/watch?v=ipyy-FdHY-0" },
-    { name: "TypeScript Berlin Meetup", url: "https://www.youtube.com/watch?v=LUHecE-kO9s" },
-    { name: "React Berlin Meetup", url: "https://www.youtube.com/watch?v=JHtKhLPBqxw" },
-    { name: "ReactConf 2019", url: "https://www.youtube.com/watch?v=cdsnzfJUqm0" },
-    { name: "WebCamp Zagreb", url: "https://www.youtube.com/watch?v=XBh8ywUU0mw" },
-    { name: "View-source conf", url: "https://www.youtube.com/watch?v=L-qALpMzcz8" },
-    { name: "JSConf Budapest", url: "https://www.youtube.com/watch?v=RluWQ8Lfyg8" },
-    { name: "JSCamp Romania", url: "https://www.youtube.com/watch?v=AY-jBg-8Ofw" },
-    { name: "DinosaurJS", url: "https://www.youtube.com/watch?v=9jNu1k4Bwa8" },
-    { name: "ReactFinland", url: "https://www.youtube.com/watch?v=ZsBW4S8hYMU" },
-    { name: "dotJS (Lightning Talk)", url: "https://www.youtube.com/watch?v=IPEzwWt4adY" },
-    { name: "React Boston", url: "https://www.youtube.com/watch?v=lKG3nYpPgtM " },
-    { name: "UtahJS Conf", url: "https://www.youtube.com/watch?v=71pKrWWOE0k" },
-    { name: "ConFrontJS", url: "https://www.youtube.com/watch?v=rdiUFma8QJU" },
-    { name: "JSConf Armenia", url: "https://www.youtube.com/watch?v=bs4vsji1GZ0" },
-    { name: "JSConf EU", url: "https://www.youtube.com/watch?v=ONlLvZWXv1Y" },
-    { name: "TEDxYouth@Doha", url: 'https://www.youtube.com/watch?v=TUIcTl9Hto4' }
-]
+  { name: "Next.js Conf", url: "https://www.youtube.com/watch?v=3TVkTrZFizo" },
+  { name: "React Advanced London", url: "https://youtu.be/GzombuX2tS0?t=2728" },
+  { name: "React India", url: "https://www.youtube.com/watch?v=KWb7U9p4h2U" },
+  { name: "React Brussels", url: "https://youtu.be/uZnXwuhYZBc" },
+  { name: "CascadiaJS", url: "https://www.youtube.com/watch?v=f2_aj1y3zO8" },
+  {
+    name: "React Norway",
+    url: "https://www.youtube.com/watch?v=AQRlDs92XFA&t=6h38m05s",
+  },
+  { name: "React Summit", url: "https://www.youtube.com/watch?v=7Urm4xbw4RA" },
+  { name: "WorkerConf", url: "https://www.youtube.com/watch?v=L4n3JDw5m_g" },
+  { name: "BeJS", url: "https://youtu.be/liwC7W-uWnY" },
+  {
+    name: "LogRocket Podcast",
+    url: "https://www.youtube.com/watch?v=9S0hCRhodN8",
+  },
+  {
+    name: "Serverless in the Park",
+    url: "https://www.youtube.com/watch?v=0qK2_wi4t3k&t=19570s",
+  },
+  { name: "React Miami", url: "https://www.youtube.com/watch?v=7meVjMOgw8A" },
+  { name: "OSCAFest22", url: "https://youtu.be/7jYvy4SFG1w?t=6100 " },
+  { name: "GOTO 2021", url: "https://www.youtube.com/watch?v=KTkyQ3z7M8w" },
+  { name: "NodeCongress", url: "https://www.youtube.com/watch?v=_CTTRcEARTA" },
+  {
+    name: "Deconstructing React",
+    url: "https://www.youtube.com/watch?v=f2mMOiCSj5c",
+  },
+  { name: "ReactConf AU", url: "https://www.youtube.com/watch?v=9xL0a6YJIQU" },
+  {
+    name: "React Day Berlin",
+    url: "https://m.youtube.com/watch?v=CWO6U7jaO20",
+  },
+  {
+    name: "JSConf Armenia",
+    url: "https://www.youtube.com/watch?v=ejEVdbyEVnc",
+  },
+  {
+    name: "JSConf EU (Lightning Talk)",
+    url: "https://www.youtube.com/watch?v=ipyy-FdHY-0",
+  },
+  {
+    name: "TypeScript Berlin Meetup",
+    url: "https://www.youtube.com/watch?v=LUHecE-kO9s",
+  },
+  {
+    name: "React Berlin Meetup",
+    url: "https://www.youtube.com/watch?v=JHtKhLPBqxw",
+  },
+  {
+    name: "ReactConf 2019",
+    url: "https://www.youtube.com/watch?v=cdsnzfJUqm0",
+  },
+  {
+    name: "WebCamp Zagreb",
+    url: "https://www.youtube.com/watch?v=XBh8ywUU0mw",
+  },
+  {
+    name: "View-source conf",
+    url: "https://www.youtube.com/watch?v=L-qALpMzcz8",
+  },
+  {
+    name: "JSConf Budapest",
+    url: "https://www.youtube.com/watch?v=RluWQ8Lfyg8",
+  },
+  {
+    name: "JSCamp Romania",
+    url: "https://www.youtube.com/watch?v=AY-jBg-8Ofw",
+  },
+  { name: "DinosaurJS", url: "https://www.youtube.com/watch?v=9jNu1k4Bwa8" },
+  { name: "ReactFinland", url: "https://www.youtube.com/watch?v=ZsBW4S8hYMU" },
+  {
+    name: "dotJS (Lightning Talk)",
+    url: "https://www.youtube.com/watch?v=IPEzwWt4adY",
+  },
+  { name: "React Boston", url: "https://www.youtube.com/watch?v=lKG3nYpPgtM " },
+  { name: "UtahJS Conf", url: "https://www.youtube.com/watch?v=71pKrWWOE0k" },
+  { name: "ConFrontJS", url: "https://www.youtube.com/watch?v=rdiUFma8QJU" },
+  {
+    name: "JSConf Armenia",
+    url: "https://www.youtube.com/watch?v=bs4vsji1GZ0",
+  },
+  { name: "JSConf EU", url: "https://www.youtube.com/watch?v=ONlLvZWXv1Y" },
+  {
+    name: "TEDxYouth@Doha",
+    url: "https://www.youtube.com/watch?v=TUIcTl9Hto4",
+  },
+];
 
-export const testimonials = Array.from(new Set([
+export const testimonials = Array.from(
+  new Set([
     "https://twitter.com/prasanthnvp/status/1677731558973927425",
     "https://twitter.com/aqsacodes/status/1677335330968551427",
     "https://twitter.com/inikhilkumaran/status/1677330672938098688",
@@ -72,35 +124,35 @@ export const testimonials = Array.from(new Set([
     "https://twitter.com/programira/status/1669619033207963654",
     "https://twitter.com/danieljcafonso/status/1669609185934209026",
     "https://twitter.com/0lpeh/status/1669608455290724352", // ReactNorway
-    "https://twitter.com/ishandeveloper/status/1666405550966595586", 
+    "https://twitter.com/ishandeveloper/status/1666405550966595586",
     "https://twitter.com/JoshWComeau/status/1664392445004587009",
     "https://twitter.com/namans_26/status/1664388960507019269",
     "https://twitter.com/AdamRackis/status/1664385673762045952",
     "https://twitter.com/flybayer/status/1664383550320246785", // RenderATL
-    "https://twitter.com/goyoregalado/status/1662754355806715904", 
-    "https://twitter.com/DanielRamosAcos/status/1662417964958662656", 
+    "https://twitter.com/goyoregalado/status/1662754355806715904",
+    "https://twitter.com/DanielRamosAcos/status/1662417964958662656",
     "https://twitter.com/eleazar_bhp/status/1662402080491880449",
     "https://twitter.com/lolarufino/status/1662395771948265473",
-    "https://twitter.com/jmlweb/status/1662389996882391040", 
-    "https://twitter.com/cesalberca/status/1662385282828623872" // JSDay Canarias
+    "https://twitter.com/jmlweb/status/1662389996882391040",
+    "https://twitter.com/cesalberca/status/1662385282828623872", // JSDay Canarias
     "https://twitter.com/thmsldx/status/1657072752128294914",
-"https://twitter.com/hasparus/status/1656924390796193793", // BeJS
-"https://twitter.com/liran_tal/status/1656038613073707010",
-"https://twitter.com/aroblesdevelop/status/1655937996938678280",
-"https://twitter.com/alegueden/status/1655930894442479616",
-"https://twitter.com/v4n3ss4ms/status/1655918351598616577",
-"https://twitter.com/nlucky_nkosi/status/1655918941800103937",
-"https://twitter.com/liran_tal/status/1655915524738482176",
-"https://twitter.com/mind_of_ac/status/1655914590905958404",
-"https://twitter.com/sofisdev/status/1655914429341487105",
-"https://twitter.com/andronikaja/status/1655913995839188995",
-"https://twitter.com/stanimiravlaeva/status/1655913774384021507", // codemotion milan
-"https://twitter.com/gahrzdev/status/1646438008009228290",
-"https://twitter.com/michelerivacode/status/1646420506541785092", // jsday verona
-"https://twitter.com/hayatrachi/status/1646421134739374080",
-"https://twitter.com/loige/status/1646430525651812354",
-"https://twitter.com/meeroslav/status/1628669718994223106", // agentconf 
-"https://twitter.com/reactnorway/status/1620724659007397891", // ad-hoc
+    "https://twitter.com/hasparus/status/1656924390796193793", // BeJS
+    "https://twitter.com/liran_tal/status/1656038613073707010",
+    "https://twitter.com/aroblesdevelop/status/1655937996938678280",
+    "https://twitter.com/alegueden/status/1655930894442479616",
+    "https://twitter.com/v4n3ss4ms/status/1655918351598616577",
+    "https://twitter.com/nlucky_nkosi/status/1655918941800103937",
+    "https://twitter.com/liran_tal/status/1655915524738482176",
+    "https://twitter.com/mind_of_ac/status/1655914590905958404",
+    "https://twitter.com/sofisdev/status/1655914429341487105",
+    "https://twitter.com/andronikaja/status/1655913995839188995",
+    "https://twitter.com/stanimiravlaeva/status/1655913774384021507", // codemotion milan
+    "https://twitter.com/gahrzdev/status/1646438008009228290",
+    "https://twitter.com/michelerivacode/status/1646420506541785092", // jsday verona
+    "https://twitter.com/hayatrachi/status/1646421134739374080",
+    "https://twitter.com/loige/status/1646430525651812354",
+    "https://twitter.com/meeroslav/status/1628669718994223106", // agentconf
+    "https://twitter.com/reactnorway/status/1620724659007397891", // ad-hoc
     "https://twitter.com/olanetsoft/status/1603024911764791296", //devrel mentorship
     "https://twitter.com/_khadeeejah/status/1603025004379127809",
     "https://twitter.com/ifeoma__n/status/1603025348676943872",
@@ -415,7 +467,9 @@ export const testimonials = Array.from(new Set([
     "https://twitter.com/shriramcs/status/1499633199604928512",
     "https://twitter.com/markus306/status/1498969006103044100",
     "https://twitter.com/manuelbieh/status/1230203259501056001",
-    'https://twitter.com/DavidKPiano/status/1235897302117736449',
-    'https://twitter.com/DavidKPiano/status/1522906499365969920',
-    'https://twitter.com/threepointone/status/1188274285434916866',
-    'https://twitter.com/swyx/status/1177331196528738305',]))
+    "https://twitter.com/DavidKPiano/status/1235897302117736449",
+    "https://twitter.com/DavidKPiano/status/1522906499365969920",
+    "https://twitter.com/threepointone/status/1188274285434916866",
+    "https://twitter.com/swyx/status/1177331196528738305",
+  ])
+);
